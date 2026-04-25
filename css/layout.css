@@ -1,0 +1,117 @@
+/* ========================================
+   布局文件 - 页面整体布局框架
+   
+   【用途说明】
+   这个文件负责：
+   - 整体容器布局（侧边栏 + 主内容区）
+   - 全屏模式的布局调整
+   - 页面头部区域
+   - 页面内容切换
+   
+   【修改指南】
+   - 修改侧边栏宽度：调整.sidebar的width
+   - 修改内容区间距：调整.main-content的padding
+   - 修改全屏模式行为：调整.container.fullscreen相关样式
+   
+   【注意事项】
+   - 布局修改会影响所有页面
+   - 注意保持响应式适配
+   ======================================== */
+
+/* ========================================
+   主容器布局
+   说明：使用flex布局实现侧边栏+主内容区结构
+   ======================================== */
+.container {
+    display: flex;
+    min-height: 100vh;
+    transition: all var(--transition-normal);
+}
+
+/* ========================================
+   主内容区域
+   说明：主内容区会自动填充剩余空间
+   ======================================== */
+.main-content {
+    flex: 1;
+    margin-left: 220px;      /* 与侧边栏宽度对应 */
+    padding: var(--space-6);
+    min-height: 100vh;
+    transition: margin-left var(--transition-normal), padding var(--transition-normal);
+    display: flex;
+    gap: 25px;
+}
+
+/* ========================================
+   全屏模式
+   说明：隐藏侧边栏时，主内容区占满宽度
+   ======================================== */
+.container.fullscreen .sidebar {
+    transform: translateX(-100%);
+}
+
+.container.fullscreen .main-content {
+    margin-left: 0;
+    padding: 0;
+}
+
+/* ========================================
+   页面头部
+   ======================================== */
+.top-header {
+    margin-bottom: var(--space-6);
+}
+
+.top-header h2 {
+    color: var(--hive-white);
+    font-size: 26px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+/* ========================================
+   页面内容切换
+   说明：用于多页面切换时隐藏非活动页面
+   ======================================== */
+.page-content {
+    width: 100%;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.page-content.hidden {
+    display: none;
+}
+
+/* ========================================
+   页面头部（带返回按钮）
+   ======================================== */
+.page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-5);
+    gap: var(--space-4);
+}
+
+.page-header h2 {
+    color: var(--text-secondary);
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* ========================================
+   响应式布局适配
+   ======================================== */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_02",
+  "totalSentences": 60,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:30:54.993191",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.14,
+      "endTime": 1.44,
+      "sentence": "How did you meet mom",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者询问的是什么信息？",
+          "options": [
+            {
+              "text": "询问对方如何与母亲相识",
+              "correct": true
+            },
+            {
+              "text": "询问对方何时与母亲见面",
+              "correct": false
+            },
+            {
+              "text": "询问对方为何要见母亲",
+              "correct": false
+            },
+            {
+              "text": "询问对方是否喜欢母亲",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者询问对方什么信息？",
+          "options": [
+            {
+              "text": "对方与母亲相识的方式",
+              "correct": true
+            },
+            {
+              "text": "对方与母亲见面的时间",
+              "correct": false
+            },
+            {
+              "text": "对方对母亲的看法",
+              "correct": false
+            },
+            {
+              "text": "对方是否想念母亲",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者询问的是关于什么的信息？",
+          "options": [
+            {
+              "text": "说话者询问对方如何与母亲相识",
+              "correct": true
+            },
+            {
+              "text": "说话者询问对方与母亲的相处方式",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方母亲的健康状况",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方母亲的工作情况",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 5.52,
+      "endTime": 7.82,
+      "sentence": "Back when dinosaurs roamed the land",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "这句话描述的是什么时候？",
+          "options": [
+            {
+              "text": "恐龙在地球上生活的时期",
+              "correct": true
+            },
+            {
+              "text": "人类开始驯养动物的时代",
+              "correct": false
+            },
+            {
+              "text": "现代城市刚刚建立的年代",
+              "correct": false
+            },
+            {
+              "text": "工业革命发生后的时期",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "这句话描述的是什么时候？",
+          "options": [
+            {
+              "text": "恐龙在地球上漫步的时期",
+              "correct": true
+            },
+            {
+              "text": "人类开始驯养动物的时代",
+              "correct": false
+            },
+            {
+              "text": "现代科技快速发展的阶段",
+              "correct": false
+            },
+            {
+              "text": "海洋生物统治地球的纪元",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "这句话描述的是什么时期？",
+          "options": [
+            {
+              "text": "恐龙在地球上漫步的时代",
+              "correct": true
+            },
+            {
+              "text": "人类文明刚刚开始的阶段",
+              "correct": false
+            },
+            {
+              "text": "海洋生物占据主导的时期",
+              "correct": false
+            },
+            {
+              "text": "现代科技迅速发展的年代",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 8,
+      "startTime": 15.99,
+      "endTime": 17.69,
+      "sentence": "And she didn't find that creepy",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为她对什么的态度？",
+          "options": [
+            {
+              "text": "她觉得那件事不令人毛骨悚然",
+              "correct": true
+            },
+            {
+              "text": "她认为那件事非常有趣",
+              "correct": false
+            },
+            {
+              "text": "她发现那件事很令人不安",
+              "correct": false
+            },
+            {
+              "text": "她对那件事感到害怕",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者认为她对什么的态度是怎样的？",
+          "options": [
+            {
+              "text": "她觉得那件事很可怕",
+              "correct": false
+            },
+            {
+              "text": "她认为那件事很正常",
+              "correct": true
+            },
+            {
+              "text": "她发现那件事很诡异",
+              "correct": false
+            },
+            {
+              "text": "她对那件事感到不安",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，她对这个情况的态度是什么？",
+          "options": [
+            {
+              "text": "她觉得这很令人不安",
+              "correct": false
+            },
+            {
+              "text": "她认为这很正常",
+              "correct": true
+            },
+            {
+              "text": "她对此感到非常兴奋",
+              "correct": false
+            },
+            {
+              "text": "她觉得这很无聊",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 14,
+      "startTime": 24.82,
+      "endTime": 26.38,
+      "sentence": "Oh no , she knew it was who is from",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者意识到什么？",
+          "options": [
+            {
+              "text": "她知道了那个人的身份",
+              "correct": true
+            },
+            {
+              "text": "她忘记了那个人的名字",
+              "correct": false
+            },
+            {
+              "text": "她不确定那个人是谁",
+              "correct": false
+            },
+            {
+              "text": "她认错了那个人",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者主要表达了什么？",
+          "options": [
+            {
+              "text": "她意识到自己认出了某人的身份",
+              "correct": true
+            },
+            {
+              "text": "她不知道那个人来自哪里",
+              "correct": false
+            },
+            {
+              "text": "她忘记了那个人的名字",
+              "correct": false
+            },
+            {
+              "text": "她不确定那个人是谁",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者意识到什么？",
+          "options": [
+            {
+              "text": "她知道了对方的身份",
+              "correct": true
+            },
+            {
+              "text": "她忘记了约会的时间",
+              "correct": false
+            },
+            {
+              "text": "她弄丢了重要的文件",
+              "correct": false
+            },
+            {
+              "text": "她错过了公交车",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 19,
+      "startTime": 35.47,
+      "endTime": 37.43,
+      "sentence": "After that she couldn't get pregnant",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，关于她发生了什么？",
+          "options": [
+            {
+              "text": "她后来无法怀孕",
+              "correct": true
+            },
+            {
+              "text": "她后来不想怀孕",
+              "correct": false
+            },
+            {
+              "text": "她后来成功怀孕了",
+              "correct": false
+            },
+            {
+              "text": "她后来决定不生孩子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，关于她发生了什么？",
+          "options": [
+            {
+              "text": "她后来无法怀孕了",
+              "correct": true
+            },
+            {
+              "text": "她后来不想怀孕了",
+              "correct": false
+            },
+            {
+              "text": "她后来成功怀孕了",
+              "correct": false
+            },
+            {
+              "text": "她后来决定不生孩子了",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，关于她发生了什么？",
+          "options": [
+            {
+              "text": "她后来无法怀孕了",
+              "correct": true
+            },
+            {
+              "text": "她后来不想怀孕了",
+              "correct": false
+            },
+            {
+              "text": "她后来怀孕成功了",
+              "correct": false
+            },
+            {
+              "text": "她后来决定领养孩子",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 24,
+      "startTime": 47.37,
+      "endTime": 49.71,
+      "sentence": "Well , but no , i mean he turned out to be both",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者最终对“他”有什么看法？",
+          "options": [
+            {
+              "text": "他最终表现出两种不同的特质",
+              "correct": true
+            },
+            {
+              "text": "他最终被证明是错的",
+              "correct": false
+            },
+            {
+              "text": "他最终改变了主意",
+              "correct": false
+            },
+            {
+              "text": "他最终没有出现",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者最终对\"他\"的评价是什么？",
+          "options": [
+            {
+              "text": "他最终被证明是两者兼具",
+              "correct": true
+            },
+            {
+              "text": "他最终被证明是两者都不是",
+              "correct": false
+            },
+            {
+              "text": "他最终被证明是其中一种",
+              "correct": false
+            },
+            {
+              "text": "他最终被证明是难以判断的",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为他最终是怎样的？",
+          "options": [
+            {
+              "text": "他最终证明了自己是两者兼备的",
+              "correct": true
+            },
+            {
+              "text": "他最终只展现了一方面的特质",
+              "correct": false
+            },
+            {
+              "text": "他最终完全不符合预期",
+              "correct": false
+            },
+            {
+              "text": "他最终表现得犹豫不决",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 28,
+      "startTime": 55.61,
+      "endTime": 57.41,
+      "sentence": "Little child huang see , very strong",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，小黄孩有什么特点？",
+          "options": [
+            {
+              "text": "非常强壮",
+              "correct": true
+            },
+            {
+              "text": "非常聪明",
+              "correct": false
+            },
+            {
+              "text": "非常可爱",
+              "correct": false
+            },
+            {
+              "text": "非常高大",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据句子，小黄孩怎么样？",
+          "options": [
+            {
+              "text": "小黄孩看起来很强壮",
+              "correct": true
+            },
+            {
+              "text": "小黄孩正在跑步",
+              "correct": false
+            },
+            {
+              "text": "小黄孩很聪明",
+              "correct": false
+            },
+            {
+              "text": "小黄孩在吃东西",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，关于小黄，我们可以推断出什么？",
+          "options": [
+            {
+              "text": "小黄是一个身体强壮的小孩",
+              "correct": true
+            },
+            {
+              "text": "小黄是一个喜欢运动的小孩",
+              "correct": false
+            },
+            {
+              "text": "小黄是一个性格开朗的小孩",
+              "correct": false
+            },
+            {
+              "text": "小黄是一个学习优秀的小孩",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 34,
+      "startTime": 67.84,
+      "endTime": 70.04,
+      "sentence": "In chinese adoptions and in the chinese culture",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据句子，说话者可能在讨论什么话题？",
+          "options": [
+            {
+              "text": "中国的收养习俗和文化背景",
+              "correct": true
+            },
+            {
+              "text": "中国的地理位置和历史事件",
+              "correct": false
+            },
+            {
+              "text": "中国的经济发展和科技成就",
+              "correct": false
+            },
+            {
+              "text": "中国的语言学习和教育体系",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "这句话主要讨论的是什么主题？",
+          "options": [
+            {
+              "text": "中国收养制度和文化背景",
+              "correct": true
+            },
+            {
+              "text": "国际收养的法律程序",
+              "correct": false
+            },
+            {
+              "text": "中国文化的历史演变",
+              "correct": false
+            },
+            {
+              "text": "收养儿童的年龄限制",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者可能在讨论什么？",
+          "options": [
+            {
+              "text": "中国的收养制度和文化背景",
+              "correct": true
+            },
+            {
+              "text": "中国的教育体系和传统习俗",
+              "correct": false
+            },
+            {
+              "text": "中国的经济政策和历史发展",
+              "correct": false
+            },
+            {
+              "text": "中国的法律体系和宗教信仰",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 41,
+      "startTime": 95.26,
+      "endTime": 99.57,
+      "sentence": "We're following up fifteen years from the last time that we recorded",
+      "wordCount": 13,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者是在什么情况下进行这次录音的？",
+          "options": [
+            {
+              "text": "这是他们第一次录音",
+              "correct": false
+            },
+            {
+              "text": "他们上次录音是在十五年前",
+              "correct": true
+            },
+            {
+              "text": "他们每隔五年就会录音一次",
+              "correct": false
+            },
+            {
+              "text": "他们正在准备第一次录音",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到的时间间隔是多少？",
+          "options": [
+            {
+              "text": "距离上次录制已经过去了十五年",
+              "correct": true
+            },
+            {
+              "text": "距离上次录制已经过去了五年",
+              "correct": false
+            },
+            {
+              "text": "距离上次录制已经过去了五十年",
+              "correct": false
+            },
+            {
+              "text": "距离上次录制已经过去了十个月",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者是在什么情况下进行这次录音的？",
+          "options": [
+            {
+              "text": "这是他们第一次尝试录音",
+              "correct": false
+            },
+            {
+              "text": "距离上次录音已经过去了十五年",
+              "correct": true
+            },
+            {
+              "text": "他们正在录制第十五张专辑",
+              "correct": false
+            },
+            {
+              "text": "他们每隔十五年就会录音一次",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 45,
+      "startTime": 110.91,
+      "endTime": 112.78,
+      "sentence": "Rt you know , i've just gotten older",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者主要想表达什么？",
+          "options": [
+            {
+              "text": "说话者刚刚变老了",
+              "correct": true
+            },
+            {
+              "text": "说话者不知道对方年龄",
+              "correct": false
+            },
+            {
+              "text": "说话者想变得更年轻",
+              "correct": false
+            },
+            {
+              "text": "说话者刚刚过完生日",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者主要想表达什么？",
+          "options": [
+            {
+              "text": "说话者刚刚变老了",
+              "correct": true
+            },
+            {
+              "text": "说话者不知道自己的年龄",
+              "correct": false
+            },
+            {
+              "text": "说话者想变得更年轻",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方的年龄",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者主要想表达什么？",
+          "options": [
+            {
+              "text": "说话者刚刚变老了",
+              "correct": true
+            },
+            {
+              "text": "说话者刚刚变年轻了",
+              "correct": false
+            },
+            {
+              "text": "说话者刚刚变高了",
+              "correct": false
+            },
+            {
+              "text": "说话者刚刚变矮了",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 51,
+      "startTime": 121.37,
+      "endTime": 122.93,
+      "sentence": "I could become the biker",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者表达了什么？",
+          "options": [
+            {
+              "text": "说话者可能成为骑自行车的人",
+              "correct": true
+            },
+            {
+              "text": "说话者正在骑自行车",
+              "correct": false
+            },
+            {
+              "text": "说话者不喜欢骑自行车",
+              "correct": false
+            },
+            {
+              "text": "说话者教别人骑自行车",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了什么可能性？",
+          "options": [
+            {
+              "text": "他可能成为一名骑自行车的人",
+              "correct": true
+            },
+            {
+              "text": "他曾经是一名骑自行车的人",
+              "correct": false
+            },
+            {
+              "text": "他正在骑自行车",
+              "correct": false
+            },
+            {
+              "text": "他不想成为骑自行车的人",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者表达的是什么？",
+          "options": [
+            {
+              "text": "说话者可能成为骑自行车的人",
+              "correct": true
+            },
+            {
+              "text": "说话者正在骑自行车",
+              "correct": false
+            },
+            {
+              "text": "说话者曾经是骑自行车的人",
+              "correct": false
+            },
+            {
+              "text": "说话者不想成为骑自行车的人",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 55,
+      "startTime": 134.88,
+      "endTime": 138.4,
+      "sentence": "And really gave me an opportunity to be strong",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为这个机会主要带来了什么？",
+          "options": [
+            {
+              "text": "让他变得更强壮",
+              "correct": true
+            },
+            {
+              "text": "让他获得更多财富",
+              "correct": false
+            },
+            {
+              "text": "让他学会放松休息",
+              "correct": false
+            },
+            {
+              "text": "让他认识更多朋友",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为这个经历的主要影响是什么？",
+          "options": [
+            {
+              "text": "让他有机会变得坚强",
+              "correct": true
+            },
+            {
+              "text": "让他感到非常疲惫",
+              "correct": false
+            },
+            {
+              "text": "让他失去了工作机会",
+              "correct": false
+            },
+            {
+              "text": "让他变得非常富有",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为这个机会带来了什么？",
+          "options": [
+            {
+              "text": "让他变得坚强",
+              "correct": true
+            },
+            {
+              "text": "让他感到快乐",
+              "correct": false
+            },
+            {
+              "text": "让他获得成功",
+              "correct": false
+            },
+            {
+              "text": "让他学会合作",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

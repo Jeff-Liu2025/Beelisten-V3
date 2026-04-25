@@ -1,0 +1,908 @@
+{
+  "resourceId": "[StoryCorps] A Fire Took Everything, But She Gained a Frie",
+  "totalSentences": 49,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T01:11:33.020189",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.0,
+      "endTime": 2.44,
+      "sentence": "It was only about a two minute drive from my house",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话人的家到某个地方的距离如何？",
+          "options": [
+            {
+              "text": "开车大约需要两分钟",
+              "correct": true
+            },
+            {
+              "text": "步行大约需要两分钟",
+              "correct": false
+            },
+            {
+              "text": "开车大约需要十分钟",
+              "correct": false
+            },
+            {
+              "text": "距离非常遥远",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话人想表达什么？",
+          "options": [
+            {
+              "text": "从说话人的家开车过去只需要大约两分钟",
+              "correct": true
+            },
+            {
+              "text": "说话人步行到目的地需要两分钟",
+              "correct": false
+            },
+            {
+              "text": "说话人的家离目的地很远",
+              "correct": false
+            },
+            {
+              "text": "说话人开车去朋友家需要两小时",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话人想表达什么？",
+          "options": [
+            {
+              "text": "从说话人的家开车过去大约需要两分钟",
+              "correct": true
+            },
+            {
+              "text": "说话人开车回家需要两分钟",
+              "correct": false
+            },
+            {
+              "text": "说话人步行两分钟就能到家",
+              "correct": false
+            },
+            {
+              "text": "说话人开车去朋友家需要两分钟",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 5.48,
+      "endTime": 8.81,
+      "sentence": "Except parts of a couple of walls",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，关于墙壁的情况，以下哪项描述是正确的？",
+          "options": [
+            {
+              "text": "只有少数几面墙的部分还保留着",
+              "correct": true
+            },
+            {
+              "text": "所有墙壁都完好无损",
+              "correct": false
+            },
+            {
+              "text": "墙壁已经完全倒塌了",
+              "correct": false
+            },
+            {
+              "text": "只有一面墙还保留着",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，关于墙壁的情况，以下哪项描述是正确的？",
+          "options": [
+            {
+              "text": "只有几堵墙的某些部分被保留下来",
+              "correct": true
+            },
+            {
+              "text": "所有墙壁都完好无损",
+              "correct": false
+            },
+            {
+              "text": "只有一堵墙完全被拆除",
+              "correct": false
+            },
+            {
+              "text": "所有墙壁都只剩下部分结构",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，关于墙壁的情况，以下哪项描述是正确的？",
+          "options": [
+            {
+              "text": "大部分墙壁都保存完好",
+              "correct": false
+            },
+            {
+              "text": "只有少数墙壁的部分结构还在",
+              "correct": true
+            },
+            {
+              "text": "所有墙壁都完全倒塌了",
+              "correct": false
+            },
+            {
+              "text": "墙壁被全部重新修建过",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 8,
+      "startTime": 19.34,
+      "endTime": 20.48,
+      "sentence": "It was like , all right",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者对刚才发生的事情持什么态度？",
+          "options": [
+            {
+              "text": "表示勉强接受或同意",
+              "correct": true
+            },
+            {
+              "text": "感到非常兴奋和满意",
+              "correct": false
+            },
+            {
+              "text": "完全反对并拒绝",
+              "correct": false
+            },
+            {
+              "text": "表示困惑和不确定",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者对某事的态度是什么？",
+          "options": [
+            {
+              "text": "勉强接受或同意",
+              "correct": true
+            },
+            {
+              "text": "非常兴奋和期待",
+              "correct": false
+            },
+            {
+              "text": "坚决反对和拒绝",
+              "correct": false
+            },
+            {
+              "text": "完全困惑和不解",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者说\"It was like, all right\"时，最可能表达什么态度？",
+          "options": [
+            {
+              "text": "表示勉强接受或同意",
+              "correct": true
+            },
+            {
+              "text": "表达强烈的反对意见",
+              "correct": false
+            },
+            {
+              "text": "询问对方是否准备好",
+              "correct": false
+            },
+            {
+              "text": "描述某个事物的外观",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 12,
+      "startTime": 25.98,
+      "endTime": 27.62,
+      "sentence": "That's where my concern was",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话人主要表达的是什么？",
+          "options": [
+            {
+              "text": "说话人担心的是某个地方",
+              "correct": true
+            },
+            {
+              "text": "说话人关心的是某个时间",
+              "correct": false
+            },
+            {
+              "text": "说话人关注的是某个原因",
+              "correct": false
+            },
+            {
+              "text": "说话人感兴趣的是某个行为",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者主要表达的是什么？",
+          "options": [
+            {
+              "text": "说话者担心的是某个地方",
+              "correct": true
+            },
+            {
+              "text": "说话者正在寻找一个地方",
+              "correct": false
+            },
+            {
+              "text": "说话者喜欢那个地方",
+              "correct": false
+            },
+            {
+              "text": "说话者已经解决了问题",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话人这句话主要表达的是什么？",
+          "options": [
+            {
+              "text": "说话人表达了自己的担忧所在",
+              "correct": true
+            },
+            {
+              "text": "说话人询问对方的担忧是什么",
+              "correct": false
+            },
+            {
+              "text": "说话人表示自己已经解决了问题",
+              "correct": false
+            },
+            {
+              "text": "说话人建议对方不要担心",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 17,
+      "startTime": 36.9,
+      "endTime": 38.98,
+      "sentence": "I said , have to start over again",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么？",
+          "options": [
+            {
+              "text": "他需要重新开始",
+              "correct": true
+            },
+            {
+              "text": "他刚刚完成了一项任务",
+              "correct": false
+            },
+            {
+              "text": "他正在询问别人的意见",
+              "correct": false
+            },
+            {
+              "text": "他决定放弃当前的工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了什么？",
+          "options": [
+            {
+              "text": "他必须重新开始",
+              "correct": true
+            },
+            {
+              "text": "他刚刚完成了一项任务",
+              "correct": false
+            },
+            {
+              "text": "他需要别人帮助他",
+              "correct": false
+            },
+            {
+              "text": "他决定放弃当前的工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者接下来需要做什么？",
+          "options": [
+            {
+              "text": "重新开始某个任务",
+              "correct": true
+            },
+            {
+              "text": "立即结束当前工作",
+              "correct": false
+            },
+            {
+              "text": "寻求他人的帮助",
+              "correct": false
+            },
+            {
+              "text": "继续之前的进度",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 19,
+      "startTime": 43.31,
+      "endTime": 46.15,
+      "sentence": "And it was you who came up to me",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，谁主动走向了说话者？",
+          "options": [
+            {
+              "text": "是说话者走向了对方",
+              "correct": false
+            },
+            {
+              "text": "是对方走向了说话者",
+              "correct": true
+            },
+            {
+              "text": "是第三方走向了说话者",
+              "correct": false
+            },
+            {
+              "text": "没有人走向说话者",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，谁主动走向了说话者？",
+          "options": [
+            {
+              "text": "是说话者走向了对方",
+              "correct": false
+            },
+            {
+              "text": "是对方走向了说话者",
+              "correct": true
+            },
+            {
+              "text": "是第三方走向了说话者",
+              "correct": false
+            },
+            {
+              "text": "是说话者和对方同时走向彼此",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，谁主动走向了说话者？",
+          "options": [
+            {
+              "text": "是说话者走向了对方",
+              "correct": false
+            },
+            {
+              "text": "是对方走向了说话者",
+              "correct": true
+            },
+            {
+              "text": "是第三方走向了说话者",
+              "correct": false
+            },
+            {
+              "text": "是说话者和对方同时走向彼此",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 24,
+      "startTime": 59.45,
+      "endTime": 61.65,
+      "sentence": "But then we didn't see each other for quite a while",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "他们后来很长一段时间没有见面",
+              "correct": true
+            },
+            {
+              "text": "他们经常见面但时间很短",
+              "correct": false
+            },
+            {
+              "text": "他们计划很快再次见面",
+              "correct": false
+            },
+            {
+              "text": "他们因为吵架而不再见面",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "他们后来很长一段时间没有见面",
+              "correct": true
+            },
+            {
+              "text": "他们经常见面但时间很短",
+              "correct": false
+            },
+            {
+              "text": "他们现在每天都见面",
+              "correct": false
+            },
+            {
+              "text": "他们从未见过面",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话人和对方的关系发生了什么变化？",
+          "options": [
+            {
+              "text": "他们最近经常见面",
+              "correct": false
+            },
+            {
+              "text": "他们有一段时间没见面了",
+              "correct": true
+            },
+            {
+              "text": "他们刚刚才分开",
+              "correct": false
+            },
+            {
+              "text": "他们从未见过面",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 28,
+      "startTime": 70.55,
+      "endTime": 75.69,
+      "sentence": "I just remember tapping on your shoulder and i'm like charlie it's brittney",
+      "wordCount": 15,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者回忆了什么具体行为？",
+          "options": [
+            {
+              "text": "说话者记得拍了拍对方的肩膀",
+              "correct": true
+            },
+            {
+              "text": "说话者记得拥抱了对方",
+              "correct": false
+            },
+            {
+              "text": "说话者记得给对方打了电话",
+              "correct": false
+            },
+            {
+              "text": "说话者记得向对方挥手致意",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者回忆了什么具体行为？",
+          "options": [
+            {
+              "text": "说话者记得拍了拍对方的肩膀",
+              "correct": true
+            },
+            {
+              "text": "说话者记得叫了对方的名字",
+              "correct": false
+            },
+            {
+              "text": "说话者记得拥抱了对方",
+              "correct": false
+            },
+            {
+              "text": "说话者记得向对方挥手",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者回忆了什么具体行为？",
+          "options": [
+            {
+              "text": "说话者记得拍了拍对方的肩膀",
+              "correct": true
+            },
+            {
+              "text": "说话者记得叫了对方的名字",
+              "correct": false
+            },
+            {
+              "text": "说话者记得拥抱了对方",
+              "correct": false
+            },
+            {
+              "text": "说话者记得向对方挥手",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 33,
+      "startTime": 82.98,
+      "endTime": 85.41,
+      "sentence": "I know i was so happy to see you again",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "对再次见面感到非常高兴",
+              "correct": true
+            },
+            {
+              "text": "对再次见面感到有些失望",
+              "correct": false
+            },
+            {
+              "text": "对即将见面感到期待",
+              "correct": false
+            },
+            {
+              "text": "对过去见面感到后悔",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者再次见到对方时的心情是怎样的？",
+          "options": [
+            {
+              "text": "感到非常高兴",
+              "correct": true
+            },
+            {
+              "text": "感到有些惊讶",
+              "correct": false
+            },
+            {
+              "text": "感到不太确定",
+              "correct": false
+            },
+            {
+              "text": "感到有点失望",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "对再次见面感到非常高兴",
+              "correct": true
+            },
+            {
+              "text": "对再次见面感到有些失望",
+              "correct": false
+            },
+            {
+              "text": "对即将见面感到期待",
+              "correct": false
+            },
+            {
+              "text": "对过去见面感到后悔",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 36,
+      "startTime": 89.5,
+      "endTime": 91.48,
+      "sentence": "I liked having you in my life",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "说话者现在仍然喜欢对方在自己生活中",
+              "correct": false
+            },
+            {
+              "text": "说话者过去喜欢对方在自己生活中",
+              "correct": true
+            },
+            {
+              "text": "说话者希望对方离开自己的生活",
+              "correct": false
+            },
+            {
+              "text": "说话者不确定是否喜欢对方在生活里",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者对对方的态度是什么？",
+          "options": [
+            {
+              "text": "说话者曾经很享受对方在自己生活中的存在",
+              "correct": true
+            },
+            {
+              "text": "说话者希望对方能继续留在自己生活中",
+              "correct": false
+            },
+            {
+              "text": "说话者现在仍然很喜欢对方在自己生活中",
+              "correct": false
+            },
+            {
+              "text": "说话者觉得对方在生活中很麻烦",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者对过去与对方的关系持什么态度？",
+          "options": [
+            {
+              "text": "他/她怀念与对方共度的时光",
+              "correct": true
+            },
+            {
+              "text": "他/她希望对方离开自己的生活",
+              "correct": false
+            },
+            {
+              "text": "他/她对这段关系感到后悔",
+              "correct": false
+            },
+            {
+              "text": "他/她认为对方是个负担",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 41,
+      "startTime": 98.64,
+      "endTime": 100.86,
+      "sentence": "My kids are all older than you",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话人的孩子和听话人相比年龄如何？",
+          "options": [
+            {
+              "text": "说话人的孩子都比听话人年轻",
+              "correct": false
+            },
+            {
+              "text": "说话人的孩子都比听话人年长",
+              "correct": true
+            },
+            {
+              "text": "说话人的孩子和听话人同龄",
+              "correct": false
+            },
+            {
+              "text": "说话人没有孩子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者的孩子与听话者的年龄关系是什么？",
+          "options": [
+            {
+              "text": "说话者的孩子都比听话者年轻",
+              "correct": false
+            },
+            {
+              "text": "说话者的孩子都比听话者年长",
+              "correct": true
+            },
+            {
+              "text": "说话者的孩子与听话者同龄",
+              "correct": false
+            },
+            {
+              "text": "说话者比听话者的孩子年长",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者的孩子和听话者之间是什么关系？",
+          "options": [
+            {
+              "text": "说话者的孩子比听话者年龄大",
+              "correct": true
+            },
+            {
+              "text": "说话者的孩子比听话者年龄小",
+              "correct": false
+            },
+            {
+              "text": "说话者和听话者是同龄人",
+              "correct": false
+            },
+            {
+              "text": "说话者的孩子和听话者是同学",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 47,
+      "startTime": 108.0,
+      "endTime": 111.04,
+      "sentence": "You know , you are someone so important to me",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者想表达什么？",
+          "options": [
+            {
+              "text": "说话者认为对方对自己很重要",
+              "correct": true
+            },
+            {
+              "text": "说话者想邀请对方参加活动",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方是否认识某人",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方改变计划",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者想表达什么？",
+          "options": [
+            {
+              "text": "说话者认为对方对自己很重要",
+              "correct": true
+            },
+            {
+              "text": "说话者想邀请对方参加活动",
+              "correct": false
+            },
+            {
+              "text": "说话者感谢对方的帮助",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方的意见",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者想表达什么？",
+          "options": [
+            {
+              "text": "说话者认为对方对自己很重要",
+              "correct": true
+            },
+            {
+              "text": "说话者想了解对方的身份",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方是否认识自己",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方做重要的事情",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

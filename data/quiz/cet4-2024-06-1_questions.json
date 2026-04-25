@@ -1,0 +1,380 @@
+{
+  "resourceId": "cet4-2024-06-1",
+  "title": "CET-4 2024年6月听力真题 (第1套)",
+  "passages": [
+    {
+      "passageId": "news-report-1",
+      "passageName": "News Report 1",
+      "section": "A",
+      "passageStartTime": 40.43,
+      "passageEndTime": 116.42,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "Why did the six residents have to find another place to stay?",
+          "questionTextZh": "为什么六位居民不得不另找住处？",
+          "options": [
+            { "label": "A", "text": "Due to a fire alarm in their apartments.", "correct": false },
+            { "label": "B", "text": "Because of the smoke and heat damage.", "correct": true },
+            { "label": "C", "text": "Due to the water used to extinguish the flames.", "correct": false },
+            { "label": "D", "text": "Because of the collapse of the three-story building.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "What does the news report say the Norwalk fire marshal is doing?",
+          "questionTextZh": "新闻报道说Norwalk消防局长正在做什么？",
+          "options": [
+            { "label": "A", "text": "Investigating the cause of the incident.", "correct": true },
+            { "label": "B", "text": "Helping search for the suspect of the crime.", "correct": false },
+            { "label": "C", "text": "Rescuing the businessmen trapped in the building.", "correct": false },
+            { "label": "D", "text": "Checking town records for the property developer.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-2",
+      "passageName": "News Report 2",
+      "section": "A",
+      "passageStartTime": 160.35,
+      "passageEndTime": 253.56,
+      "questions": [
+        {
+          "questionNumber": 3,
+          "questionText": "What have a number of past studies found about season of birth?",
+          "questionTextZh": "许多过去的研究发现了关于出生季节的什么？",
+          "options": [
+            { "label": "A", "text": "It plays a less important role in one's health than nutrient intake.", "correct": false },
+            { "label": "B", "text": "It impacts people's health to a lesser degree than sun exposure.", "correct": false },
+            { "label": "C", "text": "It is associated with people's mental health conditions.", "correct": true },
+            { "label": "D", "text": "It is linked with older adults' symptoms of depression.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What did the new study find about the relationship between participants' month of birth and symptoms of depression?",
+          "questionTextZh": "新研究发现了参与者的出生月份与抑郁症状之间有什么关系？",
+          "options": [
+            { "label": "A", "text": "It was indefinite.", "correct": false },
+            { "label": "B", "text": "It was systematic.", "correct": false },
+            { "label": "C", "text": "It was straightforward.", "correct": false },
+            { "label": "D", "text": "It was insignificant.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-3",
+      "passageName": "News Report 3",
+      "section": "A",
+      "passageStartTime": 276.74,
+      "passageEndTime": 374.52,
+      "questions": [
+        {
+          "questionNumber": 5,
+          "questionText": "What did the researchers' tests show about the cloned dog?",
+          "questionTextZh": "研究人员的测试显示克隆狗有什么特点？",
+          "options": [
+            { "label": "A", "text": "It has helped solve several murder cases.", "correct": false },
+            { "label": "B", "text": "It has become a star police dog in Beijing.", "correct": false },
+            { "label": "C", "text": "It has surpassed its mother in performance.", "correct": false },
+            { "label": "D", "text": "It has done better than naturally born dogs.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "What is the scientists' purpose in cloning police dogs?",
+          "questionTextZh": "科学家克隆警犬的目的是什么？",
+          "options": [
+            { "label": "A", "text": "To speed up investigation into criminal cases.", "correct": false },
+            { "label": "B", "text": "To test the feasibility of cloning technology.", "correct": false },
+            { "label": "C", "text": "To cut down training expenses.", "correct": false },
+            { "label": "D", "text": "To reduce their training time.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "Why does the news report say the scientists' goal is not yet possible?",
+          "questionTextZh": "为什么新闻报道说科学家的目标还不可能实现？",
+          "options": [
+            { "label": "A", "text": "Cloning is too complicated a process.", "correct": false },
+            { "label": "B", "text": "The technology is yet to be accepted.", "correct": false },
+            { "label": "C", "text": "Cloning is ethically controversial.", "correct": false },
+            { "label": "D", "text": "The technology is too expensive.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-1",
+      "passageName": "Conversation 1",
+      "section": "B",
+      "passageStartTime": 462.41,
+      "passageEndTime": 576.52,
+      "questions": [
+        {
+          "questionNumber": 8,
+          "questionText": "How did the man get to know about the book The Three-Body Problem?",
+          "questionTextZh": "男士是如何了解到《三体》这本书的？",
+          "options": [
+            { "label": "A", "text": "He read it somewhere online.", "correct": false },
+            { "label": "B", "text": "He heard about it from a coworker.", "correct": true },
+            { "label": "C", "text": "He read an article reviewing it.", "correct": false },
+            { "label": "D", "text": "He watched a TV series based on it.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "What does the woman say she can't remember about the book's author?",
+          "questionTextZh": "女士说她记不住关于这本书作者的什么信息？",
+          "options": [
+            { "label": "A", "text": "His publications.", "correct": false },
+            { "label": "B", "text": "His first book.", "correct": false },
+            { "label": "C", "text": "His address.", "correct": false },
+            { "label": "D", "text": "His name.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "What does the man have to do to finish his thesis?",
+          "questionTextZh": "男士必须做什么来完成他的论文？",
+          "options": [
+            { "label": "A", "text": "Collect a lot more data.", "correct": true },
+            { "label": "B", "text": "Relax a bit less often.", "correct": false },
+            { "label": "C", "text": "Clarify many new concepts.", "correct": false },
+            { "label": "D", "text": "Read more reference books.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "What will the man most probably do first after the conversation?",
+          "questionTextZh": "对话结束后男士最可能先做什么？",
+          "options": [
+            { "label": "A", "text": "Find out the show's most interesting episodes.", "correct": false },
+            { "label": "B", "text": "Watch the series together with the woman.", "correct": false },
+            { "label": "C", "text": "Get an e-copy of the book to read.", "correct": true },
+            { "label": "D", "text": "Check to see when the show starts.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-2",
+      "passageName": "Conversation 2",
+      "section": "B",
+      "passageStartTime": 642.18,
+      "passageEndTime": 822.24,
+      "questions": [
+        {
+          "questionNumber": 12,
+          "questionText": "Why does the woman call the man?",
+          "questionTextZh": "女士为什么给男士打电话？",
+          "options": [
+            { "label": "A", "text": "To check the prices of his farm produce.", "correct": false },
+            { "label": "B", "text": "To ask the way to the Newcastle City Hall.", "correct": false },
+            { "label": "C", "text": "To inquire about the vegetarian food festival.", "correct": true },
+            { "label": "D", "text": "To seek the man's help with her work on the farm.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "What is the man still looking for?",
+          "questionTextZh": "男士还在寻找什么？",
+          "options": [
+            { "label": "A", "text": "Bakers.", "correct": false },
+            { "label": "B", "text": "Vendors.", "correct": true },
+            { "label": "C", "text": "Vegetarians.", "correct": false },
+            { "label": "D", "text": "Organisers.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What does the man say they are getting close to?",
+          "questionTextZh": "男士说他们正在接近什么？",
+          "options": [
+            { "label": "A", "text": "The issuing of certificates to vendors.", "correct": false },
+            { "label": "B", "text": "The completion of the baking task.", "correct": false },
+            { "label": "C", "text": "The festival they are organising.", "correct": false },
+            { "label": "D", "text": "The deadline for application.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "What does the man finally ask the woman to remember?",
+          "questionTextZh": "男士最后请女士记住什么？",
+          "options": [
+            { "label": "A", "text": "The closing date of submission.", "correct": true },
+            { "label": "B", "text": "The website of his company.", "correct": false },
+            { "label": "C", "text": "The details of the ceremony.", "correct": false },
+            { "label": "D", "text": "The organiser's address.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-1",
+      "passageName": "Passage 1",
+      "section": "C",
+      "passageStartTime": 877.3,
+      "passageEndTime": 997.27,
+      "questions": [
+        {
+          "questionNumber": 16,
+          "questionText": "Why has wild camping become popular in the UK?",
+          "questionTextZh": "为什么野外露营在英国变得流行？",
+          "options": [
+            { "label": "A", "text": "Most scenic sites have been closed.", "correct": false },
+            { "label": "B", "text": "Access to official campsites is limited.", "correct": true },
+            { "label": "C", "text": "Health experts advise going outdoors.", "correct": false },
+            { "label": "D", "text": "People have more time during the summer.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 17,
+          "questionText": "Why is camping banned for part of the summer in public parks?",
+          "questionTextZh": "为什么夏季部分时间公园禁止露营？",
+          "options": [
+            { "label": "A", "text": "It is strongly opposed by nearby residents.", "correct": false },
+            { "label": "B", "text": "It leads to much waste of public money.", "correct": false },
+            { "label": "C", "text": "It has caused environmental concerns.", "correct": true },
+            { "label": "D", "text": "It has created conflicts among campers.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 18,
+          "questionText": "What does the speaker suggest campers do?",
+          "questionTextZh": "演讲者建议露营者做什么？",
+          "options": [
+            { "label": "A", "text": "Look for open land in Scotland.", "correct": false },
+            { "label": "B", "text": "Leave no trace of their camping.", "correct": true },
+            { "label": "C", "text": "Avoid getting close to wilderness.", "correct": false },
+            { "label": "D", "text": "Ask for permission from authorities.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "passageName": "Passage 2",
+      "section": "C",
+      "passageStartTime": 1020.35,
+      "passageEndTime": 1178.21,
+      "questions": [
+        {
+          "questionNumber": 19,
+          "questionText": "What does the passage say about pink dolphins?",
+          "questionTextZh": "关于粉色海豚，文章说了什么？",
+          "options": [
+            { "label": "A", "text": "They outcompete mythical creatures.", "correct": false },
+            { "label": "B", "text": "They usually mind their own business.", "correct": false },
+            { "label": "C", "text": "They truly exist in the Amazon region.", "correct": true },
+            { "label": "D", "text": "They resemble alarmingly large snakes.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 20,
+          "questionText": "What is the unusual coloring of pink dolphins believed to originate in?",
+          "questionTextZh": "粉色海豚不寻常的颜色被认为源于什么？",
+          "options": [
+            { "label": "A", "text": "Scar tissue from dolphins' fighting.", "correct": true },
+            { "label": "B", "text": "Skin infection from water pollution.", "correct": false },
+            { "label": "C", "text": "Unhealed wounds from snake bites.", "correct": false },
+            { "label": "D", "text": "Swimming along in seasonal floods.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 21,
+          "questionText": "What has become of the Amazon wetland system since 2018?",
+          "questionTextZh": "自2018年以来亚马逊湿地系统发生了什么？",
+          "options": [
+            { "label": "A", "text": "It has been shrinking at an astonishing pace.", "correct": false },
+            { "label": "B", "text": "It has been placed under international protection.", "correct": true },
+            { "label": "C", "text": "It has been appealing to both freshwater and sea dolphins.", "correct": false },
+            { "label": "D", "text": "It has been abandoned as a battleground for male dolphins.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "passageName": "Passage 3",
+      "section": "C",
+      "passageStartTime": 1194.66,
+      "passageEndTime": 1398.88,
+      "questions": [
+        {
+          "questionNumber": 22,
+          "questionText": "What do we learn from a new survey by Merrill Lynch Age Wave?",
+          "questionTextZh": "从美林证券Age Wave的新调查中我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "About 58% of young adults call parental support the new normal.", "correct": false },
+            { "label": "B", "text": "Most adult children enjoy increasing sources of financial support.", "correct": false },
+            { "label": "C", "text": "A full 70% of the young adults cannot afford to buy a car by themselves.", "correct": false },
+            { "label": "D", "text": "Most early adults cannot sustain their lifestyles without parental support.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 23,
+          "questionText": "Why did most young adults in the survey say financial support to children aged 25 to 34 is a bad thing?",
+          "questionTextZh": "为什么调查中大多数年轻人说对25至34岁子女的经济支持是坏事？",
+          "options": [
+            { "label": "A", "text": "It renders them dependent.", "correct": true },
+            { "label": "B", "text": "It causes them to lose dignity.", "correct": false },
+            { "label": "C", "text": "It makes them mentally immature.", "correct": false },
+            { "label": "D", "text": "It hinders them from getting ahead.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 24,
+          "questionText": "What did the respondents in the survey say regarding financial independence?",
+          "questionTextZh": "调查受访者关于经济独立说了什么？",
+          "options": [
+            { "label": "A", "text": "It challenges one's willpower.", "correct": false },
+            { "label": "B", "text": "It results from education.", "correct": false },
+            { "label": "C", "text": "It calls for due assistance.", "correct": false },
+            { "label": "D", "text": "It defines adulthood.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 25,
+          "questionText": "What is one big reason young adults are struggling?",
+          "questionTextZh": "年轻人挣扎的一个主要原因是什么？",
+          "options": [
+            { "label": "A", "text": "Current lifestyles.", "correct": false },
+            { "label": "B", "text": "Poor budgeting.", "correct": false },
+            { "label": "C", "text": "College loans.", "correct": true },
+            { "label": "D", "text": "Emergency expenses.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 25,
+  "generatedAt": "2025-04-24"
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>词块填空训练 - 选择资源 | BeeListen</title>
+    
+    <!-- CSS模块化引入 -->
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/training.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    
+    <!-- Phosphor Icons -->
+    <script defer src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <img src="../assets/images/英语学习 IP 形象设1计.png" alt="BeeListen Logo" class="logo-image">
+                    <h1 class="logo">BeeListen</h1>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-item" data-page="learn">
+                    <span class="menu-icon">🏠</span>
+                    <span class="menu-text">学习</span>
+                </div>
+                <div class="menu-item active" data-page="review">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">复习</span>
+                </div>
+                <div class="menu-item" data-page="task">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">任务</span>
+                </div>
+                <div class="menu-item" data-page="shop">
+                    <span class="menu-icon">🛒</span>
+                    <span class="menu-text">小店</span>
+                </div>
+                <div class="menu-item" data-page="profile">
+                    <span class="menu-icon">👤</span>
+                    <span class="menu-text">个人档案</span>
+                </div>
+                <div class="menu-item" data-page="test">
+                    <span class="menu-icon">🔧</span>
+                    <span class="menu-text">测试</span>
+                </div>
+                <div class="menu-item" data-page="more">
+                    <span class="menu-icon">⚙️</span>
+                    <span class="menu-text">更多</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 主内容区域 -->
+        <div class="main-content">
+            <div class="page-content" id="wordFillSelectPage">
+                <!-- 页面头部 -->
+                <div class="page-header">
+                    <button class="back-btn" onclick="window.location.href='index.html#page=review'">← 返回</button>
+                    <h2>✍️ 词块填空训练</h2>
+                </div>
+                
+                <!-- 训练说明 -->
+                <div class="training-intro">
+                    <div class="intro-card">
+                        <div class="intro-icon">🎯</div>
+                        <div class="intro-content">
+                            <h3>训练模式说明</h3>
+                            <p>1. 选择一个听力资源开始训练</p>
+                            <p>2. 系统会朗读句子后自动暂停</p>
+                            <p>3. 将词块拖入空白处完成填空</p>
+                            <p>4. 答对后自动播放下一句</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 资源选择区域 -->
+                <div class="resource-selection">
+                    <h3 class="section-title">选择训练资源</h3>
+                    <div class="resource-list" id="resourceList">
+                        <!-- 资源列表将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="../js/word-fill-select.js"></script>
+</body>
+</html>

@@ -1,0 +1,380 @@
+{
+  "resourceId": "cet4-2023-06-1",
+  "title": "CET-4 2023年6月听力真题 (第1套)",
+  "passages": [
+    {
+      "passageId": "news-report-1",
+      "passageName": "News Report 1",
+      "section": "A",
+      "passageStartTime": 34.55,
+      "passageEndTime": 96.5,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "What do we learn from the report about the fifty-five-year-old woman?",
+          "questionTextZh": "关于这位55岁女性，我们从报道中了解到什么？",
+          "options": [
+            { "label": "A", "text": "She was involved in a conflict with bird lovers.", "correct": false },
+            { "label": "B", "text": "She was charged with mistreating animals.", "correct": false },
+            { "label": "C", "text": "She was on bad terms with her neighbors.", "correct": false },
+            { "label": "D", "text": "She was accused of violating a city law.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "What did the director of the city administration say at the end of the news report?",
+          "questionTextZh": "市行政部门主管在新闻报道最后说了什么？",
+          "options": [
+            { "label": "A", "text": "It will take time to solve the rat problem.", "correct": true },
+            { "label": "B", "text": "All wild animals should be well protected.", "correct": false },
+            { "label": "C", "text": "The woman was not to blame for the situation.", "correct": false },
+            { "label": "D", "text": "No one should go unpunished for violating law.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-2",
+      "passageName": "News Report 2",
+      "section": "A",
+      "passageStartTime": 144.94,
+      "passageEndTime": 240.6,
+      "questions": [
+        {
+          "questionNumber": 3,
+          "questionText": "What does NASA require the paid volunteers to do?",
+          "questionTextZh": "NASA要求有偿志愿者做什么？",
+          "options": [
+            { "label": "A", "text": "Communicate with astronauts in Mars Dune Alpha.", "correct": false },
+            { "label": "B", "text": "Work in an environment resembling Mars.", "correct": true },
+            { "label": "C", "text": "Build a Martian habitat in Houston.", "correct": false },
+            { "label": "D", "text": "Send in applications before Friday.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What will the participants in the project eat?",
+          "questionTextZh": "项目参与者将吃什么？",
+          "options": [
+            { "label": "A", "text": "Ready-made food.", "correct": true },
+            { "label": "B", "text": "Food that is organic.", "correct": false },
+            { "label": "C", "text": "Food they grow.", "correct": false },
+            { "label": "D", "text": "Potatoes mostly.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-3",
+      "passageName": "News Report 3",
+      "section": "A",
+      "passageStartTime": 287.16,
+      "passageEndTime": 369.92,
+      "questions": [
+        {
+          "questionNumber": 5,
+          "questionText": "What does the news report say about the Japanese mayor Takashi Kawamura?",
+          "questionTextZh": "关于日本市长河村孝之，新闻报道说了什么？",
+          "options": [
+            { "label": "A", "text": "He apologized for scratching an athlete's gold medal.", "correct": false },
+            { "label": "B", "text": "He was asked to present a gold medal to Miu Goto.", "correct": false },
+            { "label": "C", "text": "He bit a softball player's Olympic gold medal.", "correct": true },
+            { "label": "D", "text": "He attracted public attention at a media event.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "What did Mayor Takashi Kawamura offer to do?",
+          "questionTextZh": "河村孝之市长主动提出做什么？",
+          "options": [
+            { "label": "A", "text": "Have another picture taken with the Olympic medalist.", "correct": false },
+            { "label": "B", "text": "Apologize to the International Olympic Committee.", "correct": false },
+            { "label": "C", "text": "Get the damaged medal repaired.", "correct": false },
+            { "label": "D", "text": "Pay for the cost of a new medal.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "What did some Olympians say they would do with their medals?",
+          "questionTextZh": "一些奥运选手说他们会如何对待他们的奖牌？",
+          "options": [
+            { "label": "A", "text": "Allow no one to touch them.", "correct": false },
+            { "label": "B", "text": "See them as symbols of honor.", "correct": false },
+            { "label": "C", "text": "Treat them as treasures.", "correct": true },
+            { "label": "D", "text": "Keep them in a safe place.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-1",
+      "passageName": "Conversation 1",
+      "section": "B",
+      "passageStartTime": 445.13,
+      "passageEndTime": 558.7,
+      "questions": [
+        {
+          "questionNumber": 8,
+          "questionText": "What did the woman do to her computer?",
+          "questionTextZh": "女士对她的电脑做了什么？",
+          "options": [
+            { "label": "A", "text": "She covered its screen with a plastic sheet.", "correct": true },
+            { "label": "B", "text": "She connected it with her smartphone.", "correct": false },
+            { "label": "C", "text": "She decorated it with colorful stickers.", "correct": false },
+            { "label": "D", "text": "She bought some new software for it.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "What does the woman say about blue light?",
+          "questionTextZh": "女士对蓝光有什么看法？",
+          "options": [
+            { "label": "A", "text": "It may not be simply blue.", "correct": false },
+            { "label": "B", "text": "It includes unnatural light.", "correct": true },
+            { "label": "C", "text": "It is more harmful to young people.", "correct": false },
+            { "label": "D", "text": "It induces people to fall asleep.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "Why does the man say he hasn't slept enough for months?",
+          "questionTextZh": "男士为什么说他几个月来睡眠不足？",
+          "options": [
+            { "label": "A", "text": "He has had much trouble falling asleep.", "correct": false },
+            { "label": "B", "text": "He has had some sort of health problems.", "correct": false },
+            { "label": "C", "text": "He has stayed up playing computer games.", "correct": false },
+            { "label": "D", "text": "He has been burdened with excessive work.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "What has the woman learned from the research she has read?",
+          "questionTextZh": "女士从她读到的研究中学到了什么？",
+          "options": [
+            { "label": "A", "text": "Exposure to blue light is the chief cause of obesity.", "correct": false },
+            { "label": "B", "text": "Sleep may be more important than people assumed.", "correct": true },
+            { "label": "C", "text": "Sleep may also be negatively affected by natural light.", "correct": false },
+            { "label": "D", "text": "Overuse of electronic devices may cause heart disease.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-2",
+      "passageName": "Conversation 2",
+      "section": "B",
+      "passageStartTime": 613.46,
+      "passageEndTime": 817.72,
+      "questions": [
+        {
+          "questionNumber": 12,
+          "questionText": "What question were both speakers fed up with when they were kids?",
+          "questionTextZh": "两位说话者小时候都对什么问题感到厌烦？",
+          "options": [
+            { "label": "A", "text": "What they wanted to be when grown up.", "correct": true },
+            { "label": "B", "text": "What their favorite cartoon character was.", "correct": false },
+            { "label": "C", "text": "What they learned from computer games.", "correct": false },
+            { "label": "D", "text": "What they liked to do most after school.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "What occupation do adults see as both sensible and ambitious according to the woman?",
+          "questionTextZh": "根据女士的说法，成年人认为什么职业既务实又有抱负？",
+          "options": [
+            { "label": "A", "text": "A stock broker.", "correct": false },
+            { "label": "B", "text": "A pop singer.", "correct": false },
+            { "label": "C", "text": "A mechanical engineer.", "correct": true },
+            { "label": "D", "text": "A basketball player.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What kind of goal setting does the woman like to see in children?",
+          "questionTextZh": "女士喜欢看到孩子们设定什么样的目标？",
+          "options": [
+            { "label": "A", "text": "Ambitious.", "correct": false },
+            { "label": "B", "text": "Sensible.", "correct": false },
+            { "label": "C", "text": "Imaginative.", "correct": true },
+            { "label": "D", "text": "Practical.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "What does the woman suggest adults should do?",
+          "questionTextZh": "女士建议成年人应该做什么？",
+          "options": [
+            { "label": "A", "text": "Relax their strict control of their kids.", "correct": false },
+            { "label": "B", "text": "Help their kids understand themselves.", "correct": true },
+            { "label": "C", "text": "Impose their own dreams on their kids.", "correct": false },
+            { "label": "D", "text": "Dismiss their high expectations of their kids.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-1",
+      "passageName": "Passage 1",
+      "section": "C",
+      "passageStartTime": 871.7,
+      "passageEndTime": 993.47,
+      "questions": [
+        {
+          "questionNumber": 16,
+          "questionText": "What are a number of phone companies trying to do in Africa?",
+          "questionTextZh": "许多手机公司在非洲试图做什么？",
+          "options": [
+            { "label": "A", "text": "Set up company branches.", "correct": false },
+            { "label": "B", "text": "Improve its infrastructure.", "correct": false },
+            { "label": "C", "text": "Introduce iPhones into its markets.", "correct": false },
+            { "label": "D", "text": "Promote Internet-ready phones.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 17,
+          "questionText": "How do KaiOS smartphones differ from smartphones of most other companies?",
+          "questionTextZh": "KaiOS智能手机与大多数其他公司的智能手机有何不同？",
+          "options": [
+            { "label": "A", "text": "They cater to Africans' needs.", "correct": true },
+            { "label": "B", "text": "They are more expensive models.", "correct": false },
+            { "label": "C", "text": "They are more powerful and capable.", "correct": false },
+            { "label": "D", "text": "They boast the longest battery life.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 18,
+          "questionText": "What are KaiOS smartphones equipped with?",
+          "questionTextZh": "KaiOS智能手机配备了什么？",
+          "options": [
+            { "label": "A", "text": "A large touchscreen.", "correct": false },
+            { "label": "B", "text": "An old-school keypad.", "correct": true },
+            { "label": "C", "text": "A voice-response device.", "correct": false },
+            { "label": "D", "text": "A digitally-designed system.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "passageName": "Passage 2",
+      "section": "C",
+      "passageStartTime": 1020.0,
+      "passageEndTime": 1176.56,
+      "questions": [
+        {
+          "questionNumber": 19,
+          "questionText": "What is said about using recycled plastic to make plastic products in the past?",
+          "questionTextZh": "关于过去使用回收塑料制造塑料制品，文章说了什么？",
+          "options": [
+            { "label": "A", "text": "It ensured sustainable economic growth.", "correct": false },
+            { "label": "B", "text": "It was strongly opposed by manufacturers.", "correct": false },
+            { "label": "C", "text": "It was cheaper than using fossil fuel plastic.", "correct": true },
+            { "label": "D", "text": "It satisfied consumer demands on the whole.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 20,
+          "questionText": "What has led to a more competitive price for new plastic?",
+          "questionTextZh": "什么导致了新塑料价格更具竞争力？",
+          "options": [
+            { "label": "A", "text": "The capacity to mass produce it.", "correct": false },
+            { "label": "B", "text": "The U.S. federal government's regulations.", "correct": false },
+            { "label": "C", "text": "A boom in market demand for clear plastic bottles.", "correct": false },
+            { "label": "D", "text": "A rapid increase in U.S. petroleum chemical production.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 21,
+          "questionText": "What does the UK government plan to do about plastic?",
+          "questionTextZh": "英国政府计划对塑料采取什么措施？",
+          "options": [
+            { "label": "A", "text": "Require companies to use 30% of new plastic.", "correct": false },
+            { "label": "B", "text": "Increase the supply of new plastic in the market.", "correct": false },
+            { "label": "C", "text": "Reduce the amount of plastic pollution in local areas.", "correct": false },
+            { "label": "D", "text": "Take measures to promote the use of recycled plastic.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "passageName": "Passage 3",
+      "section": "C",
+      "passageStartTime": 1210.06,
+      "passageEndTime": 1373.72,
+      "questions": [
+        {
+          "questionNumber": 22,
+          "questionText": "What do we learn about the Dreamery business in Manhattan?",
+          "questionTextZh": "关于曼哈顿的Dreamery业务，我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "It studies dreams.", "correct": false },
+            { "label": "B", "text": "It rents a place for nap-takers.", "correct": true },
+            { "label": "C", "text": "It is a hotel for business people.", "correct": false },
+            { "label": "D", "text": "It is a nap research institute.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 23,
+          "questionText": "Why does the speaker ask us to look at the world around us at 2:30 in the afternoon?",
+          "questionTextZh": "演讲者为什么让我们在下午2:30看看周围的世界？",
+          "options": [
+            { "label": "A", "text": "To find out creative people's work performance.", "correct": false },
+            { "label": "B", "text": "To see how many people can go without napping.", "correct": false },
+            { "label": "C", "text": "To understand the obvious importance of napping.", "correct": true },
+            { "label": "D", "text": "To feel how difficult it is to get his idea across.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 24,
+          "questionText": "What do we learn about the quantity and quality of the speaker's work?",
+          "questionTextZh": "关于演讲者工作的数量和质量，我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "They decline due to pointless meetings.", "correct": false },
+            { "label": "B", "text": "They depend on his ability to concentrate.", "correct": true },
+            { "label": "C", "text": "They enable him to enjoy a creative career.", "correct": false },
+            { "label": "D", "text": "They are affected by the overuse of social media.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 25,
+          "questionText": "What does the speaker say he finds odd?",
+          "questionTextZh": "演讲者说他觉得什么很奇怪？",
+          "options": [
+            { "label": "A", "text": "Some bosses associate napping with laziness.", "correct": true },
+            { "label": "B", "text": "Many office workers nap during work hours.", "correct": false },
+            { "label": "C", "text": "Some bosses can concentrate without napping.", "correct": false },
+            { "label": "D", "text": "Many of his friends daydream in the office.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 25,
+  "generatedAt": "2025-04-24"
+}

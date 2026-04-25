@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_11",
+  "totalSentences": 51,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T01:05:45.243488",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.08,
+      "endTime": 3.92,
+      "sentence": "My wife says if i donated vy sumable time to charity",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者的妻子建议他做什么？",
+          "options": [
+            {
+              "text": "为慈善事业捐赠一些时间",
+              "correct": true
+            },
+            {
+              "text": "为慈善事业捐赠一些金钱",
+              "correct": false
+            },
+            {
+              "text": "为家庭事务花费更多时间",
+              "correct": false
+            },
+            {
+              "text": "为妻子购买一件礼物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者的妻子建议他做什么？",
+          "options": [
+            {
+              "text": "为慈善事业捐赠一些时间",
+              "correct": true
+            },
+            {
+              "text": "为慈善事业捐赠一些金钱",
+              "correct": false
+            },
+            {
+              "text": "为慈善事业捐赠一些物品",
+              "correct": false
+            },
+            {
+              "text": "为慈善事业捐赠一些食物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者的妻子对他有什么建议？",
+          "options": [
+            {
+              "text": "妻子建议他多花时间陪伴家人",
+              "correct": false
+            },
+            {
+              "text": "妻子建议他把更多时间用于慈善事业",
+              "correct": true
+            },
+            {
+              "text": "妻子建议他减少工作时间",
+              "correct": false
+            },
+            {
+              "text": "妻子建议他培养新的兴趣爱好",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 4,
+      "startTime": 7.01,
+      "endTime": 11.06,
+      "sentence": "It's so thrilled to be able to say that this will be our sixtieth",
+      "wordCount": 15,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者为什么感到兴奋？",
+          "options": [
+            {
+              "text": "因为这是他们的第六十次活动",
+              "correct": true
+            },
+            {
+              "text": "因为他们即将开始新的项目",
+              "correct": false
+            },
+            {
+              "text": "因为他们刚刚完成重要任务",
+              "correct": false
+            },
+            {
+              "text": "因为他们获得了特殊荣誉",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达的主要情感是什么？",
+          "options": [
+            {
+              "text": "对即将到来的六十周年感到兴奋",
+              "correct": true
+            },
+            {
+              "text": "对过去六十年的成就感到自豪",
+              "correct": false
+            },
+            {
+              "text": "对未来的不确定性感到担忧",
+              "correct": false
+            },
+            {
+              "text": "对当前的处境感到失望",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者为什么感到兴奋？",
+          "options": [
+            {
+              "text": "因为这是他们的第六十次活动",
+              "correct": true
+            },
+            {
+              "text": "因为这是他们的第十六次活动",
+              "correct": false
+            },
+            {
+              "text": "因为这是他们的第六次活动",
+              "correct": false
+            },
+            {
+              "text": "因为这是他们的第十次活动",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 8,
+      "startTime": 19.75,
+      "endTime": 22.85,
+      "sentence": "We did some research and said yo legitimate",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者做了什么？",
+          "options": [
+            {
+              "text": "他们进行了一些研究并确认了合法性",
+              "correct": true
+            },
+            {
+              "text": "他们拒绝了一项研究提议",
+              "correct": false
+            },
+            {
+              "text": "他们批评了研究的合法性",
+              "correct": false
+            },
+            {
+              "text": "他们完成了研究但未得出结论",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者做了什么？",
+          "options": [
+            {
+              "text": "他们进行了一些研究并确认了合法性",
+              "correct": true
+            },
+            {
+              "text": "他们拒绝了一项研究并质疑其真实性",
+              "correct": false
+            },
+            {
+              "text": "他们完成了一项研究但未得出结论",
+              "correct": false
+            },
+            {
+              "text": "他们开始研究但中途放弃了",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者做了什么？",
+          "options": [
+            {
+              "text": "进行了研究并确认了合法性",
+              "correct": true
+            },
+            {
+              "text": "拒绝了研究并质疑合法性",
+              "correct": false
+            },
+            {
+              "text": "完成了研究但未提及合法性",
+              "correct": false
+            },
+            {
+              "text": "计划研究但尚未开始行动",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 12,
+      "startTime": 29.93,
+      "endTime": 33.17,
+      "sentence": "I still have the pictures of all of us together that day",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者现在拥有什么？",
+          "options": [
+            {
+              "text": "那天大家一起拍的照片",
+              "correct": true
+            },
+            {
+              "text": "那天大家一起写的日记",
+              "correct": false
+            },
+            {
+              "text": "那天大家一起录的视频",
+              "correct": false
+            },
+            {
+              "text": "那天大家一起画的画",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者现在有什么？",
+          "options": [
+            {
+              "text": "他们那天一起拍的照片",
+              "correct": true
+            },
+            {
+              "text": "他们那天一起写的日记",
+              "correct": false
+            },
+            {
+              "text": "他们那天一起买的礼物",
+              "correct": false
+            },
+            {
+              "text": "他们那天一起录的视频",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到那天他们一起拍的照片，现在这些照片怎么样了？",
+          "options": [
+            {
+              "text": "说话者已经删除了那些照片",
+              "correct": false
+            },
+            {
+              "text": "说话者仍然保留着那些照片",
+              "correct": true
+            },
+            {
+              "text": "说话者把照片送给了其他人",
+              "correct": false
+            },
+            {
+              "text": "说话者忘记了照片放在哪里",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 16,
+      "startTime": 45.92,
+      "endTime": 48.41,
+      "sentence": "Now i'd cry from where we are today",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者现在的心情是怎样的？",
+          "options": [
+            {
+              "text": "感到悲伤或难过",
+              "correct": true
+            },
+            {
+              "text": "感到非常高兴",
+              "correct": false
+            },
+            {
+              "text": "感到困惑不解",
+              "correct": false
+            },
+            {
+              "text": "感到愤怒不满",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者现在的心情如何？",
+          "options": [
+            {
+              "text": "感到悲伤想哭",
+              "correct": true
+            },
+            {
+              "text": "感到非常高兴",
+              "correct": false
+            },
+            {
+              "text": "感到困惑不解",
+              "correct": false
+            },
+            {
+              "text": "感到平静放松",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了对当前情况的什么态度？",
+          "options": [
+            {
+              "text": "感到非常悲伤",
+              "correct": true
+            },
+            {
+              "text": "感到非常兴奋",
+              "correct": false
+            },
+            {
+              "text": "感到非常困惑",
+              "correct": false
+            },
+            {
+              "text": "感到非常满意",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 22,
+      "startTime": 65.14,
+      "endTime": 67.42,
+      "sentence": "Did you ever come close to missing us",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者询问对方是否曾经差点错过什么？",
+          "options": [
+            {
+              "text": "差点错过说话者及其同伴",
+              "correct": true
+            },
+            {
+              "text": "差点错过一个重要会议",
+              "correct": false
+            },
+            {
+              "text": "差点错过回家的火车",
+              "correct": false
+            },
+            {
+              "text": "差点错过一部好电影",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者询问对方是否曾经差点错过什么？",
+          "options": [
+            {
+              "text": "差点错过说话者及其同伴",
+              "correct": true
+            },
+            {
+              "text": "差点错过一个重要会议",
+              "correct": false
+            },
+            {
+              "text": "差点错过回家的末班车",
+              "correct": false
+            },
+            {
+              "text": "差点错过一场精彩的演出",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者询问对方是否曾经差点错过什么？",
+          "options": [
+            {
+              "text": "差点错过说话者及其同伴",
+              "correct": true
+            },
+            {
+              "text": "差点错过一个重要会议",
+              "correct": false
+            },
+            {
+              "text": "差点错过回家的火车",
+              "correct": false
+            },
+            {
+              "text": "差点错过一部好电影",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 27,
+      "startTime": 79.24,
+      "endTime": 84.77,
+      "sentence": "Whoever fourth ticket at first they didn't believe that i'd never missed a super bowl",
+      "wordCount": 17,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到自己从未错过超级碗时，对方最初的反应是什么？",
+          "options": [
+            {
+              "text": "他们立即表示相信",
+              "correct": false
+            },
+            {
+              "text": "他们最初并不相信",
+              "correct": true
+            },
+            {
+              "text": "他们要求提供证据",
+              "correct": false
+            },
+            {
+              "text": "他们表示非常惊讶",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到别人最初不相信他的什么？",
+          "options": [
+            {
+              "text": "他从未错过任何一场超级碗比赛",
+              "correct": true
+            },
+            {
+              "text": "他买到了第四张门票",
+              "correct": false
+            },
+            {
+              "text": "他第一次参加超级碗比赛",
+              "correct": false
+            },
+            {
+              "text": "他相信别人会给他门票",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到自己从未错过超级碗时，对方最初的反应是什么？",
+          "options": [
+            {
+              "text": "他们立即表示相信并祝贺",
+              "correct": false
+            },
+            {
+              "text": "他们最初并不相信这个说法",
+              "correct": true
+            },
+            {
+              "text": "他们询问如何获得第四张票",
+              "correct": false
+            },
+            {
+              "text": "他们建议下次一起观看比赛",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 31,
+      "startTime": 90.33,
+      "endTime": 92.91,
+      "sentence": "I sat with them and there was one of the benefits",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "说话者与一些人坐在一起",
+              "correct": true
+            },
+            {
+              "text": "说话者独自一人坐着",
+              "correct": false
+            },
+            {
+              "text": "说话者站着与他们交谈",
+              "correct": false
+            },
+            {
+              "text": "说话者离开了他们",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "说话者与一些人坐在一起",
+              "correct": true
+            },
+            {
+              "text": "说话者独自一人坐着",
+              "correct": false
+            },
+            {
+              "text": "说话者正在谈论多个好处",
+              "correct": false
+            },
+            {
+              "text": "说话者没有提到任何好处",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到和某人坐在一起时，发生了什么？",
+          "options": [
+            {
+              "text": "他感到非常无聊",
+              "correct": false
+            },
+            {
+              "text": "他获得了一个好处",
+              "correct": true
+            },
+            {
+              "text": "他决定离开那里",
+              "correct": false
+            },
+            {
+              "text": "他遇到了一个老朋友",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 35,
+      "startTime": 104.89,
+      "endTime": 107.85,
+      "sentence": "And i thought that might prevent me for going",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者认为什么可能会影响他/她？",
+          "options": [
+            {
+              "text": "可能会阻止他/她前往某处",
+              "correct": true
+            },
+            {
+              "text": "可能会帮助他/她完成工作",
+              "correct": false
+            },
+            {
+              "text": "可能会让他/她感到非常高兴",
+              "correct": false
+            },
+            {
+              "text": "可能会改善他/她的健康状况",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为什么可能会影响他/她？",
+          "options": [
+            {
+              "text": "可能会阻止他/她前往某处",
+              "correct": true
+            },
+            {
+              "text": "可能会帮助他/她完成工作",
+              "correct": false
+            },
+            {
+              "text": "可能会让他/她感到非常高兴",
+              "correct": false
+            },
+            {
+              "text": "可能会改善他/她的健康状况",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为什么可能会影响他/她？",
+          "options": [
+            {
+              "text": "可能会阻止他/她前往某处",
+              "correct": true
+            },
+            {
+              "text": "可能会帮助他/她完成工作",
+              "correct": false
+            },
+            {
+              "text": "可能会让他/她感到非常高兴",
+              "correct": false
+            },
+            {
+              "text": "可能会让他/她获得更多时间",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 40,
+      "startTime": 118.34,
+      "endTime": 120.64,
+      "sentence": "I will always be a lion fan",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了对什么事物的长期态度？",
+          "options": [
+            {
+              "text": "他永远支持狮子队",
+              "correct": true
+            },
+            {
+              "text": "他曾经是狮子队的粉丝",
+              "correct": false
+            },
+            {
+              "text": "他喜欢看狮子表演",
+              "correct": false
+            },
+            {
+              "text": "他养了一只宠物狮子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了对什么事物的长期态度？",
+          "options": [
+            {
+              "text": "他永远支持狮子队",
+              "correct": true
+            },
+            {
+              "text": "他曾经是狮子队的粉丝",
+              "correct": false
+            },
+            {
+              "text": "他喜欢看狮子表演",
+              "correct": false
+            },
+            {
+              "text": "他养了一只狮子当宠物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了对什么的长期支持态度？",
+          "options": [
+            {
+              "text": "狮子队",
+              "correct": true
+            },
+            {
+              "text": "狮子这种动物",
+              "correct": false
+            },
+            {
+              "text": "狮子主题的电影",
+              "correct": false
+            },
+            {
+              "text": "狮子相关的艺术品",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 44,
+      "startTime": 128.85,
+      "endTime": 131.47,
+      "sentence": "We'll see it's pretty challenging",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者对即将发生的事情持什么态度？",
+          "options": [
+            {
+              "text": "认为它非常具有挑战性",
+              "correct": true
+            },
+            {
+              "text": "觉得它非常简单容易",
+              "correct": false
+            },
+            {
+              "text": "表示不确定是否会发生",
+              "correct": false
+            },
+            {
+              "text": "认为它毫无意义",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为这件事怎么样？",
+          "options": [
+            {
+              "text": "相当有挑战性",
+              "correct": true
+            },
+            {
+              "text": "非常简单",
+              "correct": false
+            },
+            {
+              "text": "完全不可能",
+              "correct": false
+            },
+            {
+              "text": "毫无意义",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者对即将发生的事情持什么态度？",
+          "options": [
+            {
+              "text": "认为它非常具有挑战性",
+              "correct": true
+            },
+            {
+              "text": "觉得它非常简单容易",
+              "correct": false
+            },
+            {
+              "text": "不确定它是否会发生",
+              "correct": false
+            },
+            {
+              "text": "认为它毫无意义",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 49,
+      "startTime": 143.68,
+      "endTime": 145.92,
+      "sentence": "Well don you a great human being",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者认为对方是什么样的人？",
+          "options": [
+            {
+              "text": "一个非常优秀的人",
+              "correct": true
+            },
+            {
+              "text": "一个普通的朋友",
+              "correct": false
+            },
+            {
+              "text": "一个需要帮助的人",
+              "correct": false
+            },
+            {
+              "text": "一个不太熟悉的人",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者对对方表达了什么态度？",
+          "options": [
+            {
+              "text": "说话者认为对方是一个伟大的人",
+              "correct": true
+            },
+            {
+              "text": "说话者在询问对方是否是人类",
+              "correct": false
+            },
+            {
+              "text": "说话者批评对方的行为不当",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方不要成为人类",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为对方是一个什么样的人？",
+          "options": [
+            {
+              "text": "一个优秀的人",
+              "correct": true
+            },
+            {
+              "text": "一个普通的人",
+              "correct": false
+            },
+            {
+              "text": "一个需要帮助的人",
+              "correct": false
+            },
+            {
+              "text": "一个令人失望的人",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

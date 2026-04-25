@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeeListen - 英语听力练习</title>
+    
+    <!-- ================================
+         CSS模块化引入（按顺序！）
+         variables.css 必须最先引入
+         ================================ -->
+    
+    <!-- 1. CSS变量（颜色、字体、间距等设计系统基础） -->
+    <link rel="stylesheet" href="../css/variables.css">
+    
+    <!-- 2. 重置样式（统一浏览器默认样式） -->
+    <link rel="stylesheet" href="../css/reset.css">
+    
+    <!-- 3. 布局框架（页面整体布局） -->
+    <link rel="stylesheet" href="../css/layout.css">
+    
+    <!-- 4. 侧边栏（导航菜单） -->
+    <link rel="stylesheet" href="../css/sidebar.css">
+    
+    <!-- 5. 播放器（音频播放器相关） -->
+    <link rel="stylesheet" href="../css/player.css">
+    
+    <!-- 6. 播客模块（播客列表和详情页） -->
+    <link rel="stylesheet" href="../css/podcast.css">
+    
+    <!-- 7. 训练模块（词汇训练、填空练习） -->
+    <link rel="stylesheet" href="../css/training.css">
+    
+    <!-- 8. 复习模块（复习页面、统计卡片） -->
+    <link rel="stylesheet" href="../css/review.css">
+    
+    <!-- 9. 通用组件（按钮、弹窗、卡片、搜索框） -->
+    <link rel="stylesheet" href="../css/components.css">
+    
+    <!-- 10. 动画和响应式（动画关键帧 + 媒体查询） -->
+    <link rel="stylesheet" href="../css/animations.css">
+    
+    <!-- Phosphor Icons - defer 异步加载，失败不影响功能 -->
+    <script defer src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+    <!-- ================================
+         主容器：侧边栏 + 主内容区
+         ================================ -->
+    <div class="container">
+        
+        <!-- ================================
+             左侧导航栏
+             样式文件: sidebar.css
+             ================================ -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <img src="../Beelisten ip形象/英语学习 IP 形象设1计.png" alt="BeeListen Logo" class="logo-image">
+                    <h1 class="logo">BeeListen</h1>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-item active" data-page="learn">
+                    <span class="menu-icon">🏠</span>
+                    <span class="menu-text">学习</span>
+                </div>
+                <div class="menu-item" data-page="review">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">复习</span>
+                </div>
+                <div class="menu-item" data-page="task">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">任务</span>
+                </div>
+                <div class="menu-item" data-page="shop">
+                    <span class="menu-icon">🛒</span>
+                    <span class="menu-text">小店</span>
+                </div>
+                <div class="menu-item" data-page="profile">
+                    <span class="menu-icon">👤</span>
+                    <span class="menu-text">个人档案</span>
+                </div>
+                <div class="menu-item" data-page="test">
+                    <span class="menu-icon">🔧</span>
+                    <span class="menu-text">测试</span>
+                </div>
+                <div class="menu-item" data-page="more">
+                    <span class="menu-icon">⚙️</span>
+                    <span class="menu-text">更多</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ================================
+             主内容区域
+             样式文件: layout.css
+             ================================ -->
+        <div class="main-content">
+            
+            <!-- ================================
+                 学习首页
+                 样式文件: components.css (搜索、分类、推荐)
+                 ================================ -->
+            <div class="page-content" id="learnPage">
+                <!-- 搜索区域 -->
+                <div class="search-section">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" class="search-input" placeholder="搜索听力资源...">
+                        <button class="search-btn">搜索</button>
+                    </div>
+                    <div class="hot-search">
+                        <span class="hot-label">热门搜索：</span>
+                        <span class="hot-tag">Friends</span>
+                        <span class="hot-tag">TED</span>
+                        <span class="hot-tag">BBC</span>
+                        <span class="hot-tag">VOA</span>
+                        <span class="hot-tag">雅思</span>
+                    </div>
+                </div>
+                
+                <!-- 分类导航 -->
+                <div class="category-section">
+                    <h2 class="section-title">分类导航</h2>
+                    <div class="category-grid">
+                        <div class="category-card" data-category="podcast">
+                            <div class="category-icon"><i class="ph ph-headphones"></i></div>
+                            <div class="category-name">播客</div>
+                            <div class="category-count">2个资源</div>
+                        </div>
+                        <div class="category-card" data-category="storycorps">
+                            <div class="category-icon"><i class="ph ph-microphone-stage"></i></div>
+                            <div class="category-name">StoryCorps</div>
+                            <div class="category-count">11个资源</div>
+                        </div>
+                        <div class="category-card" data-category="exam">
+                            <div class="category-icon"><i class="ph ph-exam"></i></div>
+                            <div class="category-name">考试真题</div>
+                            <div class="category-count">1个资源</div>
+                        </div>
+                        <div class="category-card" data-category="all">
+                            <div class="category-icon"><i class="ph ph-sound-high"></i></div>
+                            <div class="category-name">全部资源</div>
+                            <div class="category-count">14个资源</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 为你推荐 -->
+                <div class="recommend-section">
+                    <h2 class="section-title">为你推荐</h2>
+                    <div class="recommend-grid">
+                        <div class="recommend-card">
+                            <div class="recommend-cover"><i class="ph ph-headphones"></i></div>
+                            <div class="recommend-info">
+                                <div class="recommend-title">What are some tips in language learning?</div>
+                                <div class="recommend-meta">
+                                    <span class="recommend-category">播客</span>
+                                    <span class="recommend-duration">1:26</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recommend-card">
+                            <div class="recommend-cover"><i class="ph ph-film-strip"></i></div>
+                            <div class="recommend-info">
+                                <div class="recommend-title">Friends - S01E01 经典对话</div>
+                                <div class="recommend-meta">
+                                    <span class="recommend-category">电影片段</span>
+                                    <span class="recommend-duration">3:45</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recommend-card">
+                            <div class="recommend-cover"><i class="ph ph-microphone-stage"></i></div>
+                            <div class="recommend-info">
+                                <div class="recommend-title">TED: How to speak so that people want to listen</div>
+                                <div class="recommend-meta">
+                                    <span class="recommend-category">演讲</span>
+                                    <span class="recommend-duration">9:58</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recommend-card">
+                            <div class="recommend-cover"><i class="ph ph-newspaper"></i></div>
+                            <div class="recommend-info">
+                                <div class="recommend-title">BBC News - 科技前沿</div>
+                                <div class="recommend-meta">
+                                    <span class="recommend-category">新闻</span>
+                                    <span class="recommend-duration">2:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 播客列表页
+                 样式文件: podcast.css
+                 ================================ -->
+            <div class="page-content hidden" id="podcastPage">
+                <div class="page-header">
+                    <button class="back-btn" data-back="learn">← 返回</button>
+                    <h2>🎧 播客</h2>
+                </div>
+                
+                <!-- 播客列表 -->
+                <div class="podcast-list-section">
+                    <div class="podcast-list" id="podcastList">
+                        <!-- 播客列表项将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 播客详情页
+                 样式文件: podcast.css, player.css
+                 ================================ -->
+            <div class="page-content hidden" id="podcastDetailPage">
+                <div class="podcast-detail-header">
+                    <button class="back-btn" data-back="podcast">← 返回</button>
+                    <h2 class="podcast-detail-title" id="podcastDetailTitle">What are some tips in language learning?</h2>
+                    <div class="podcast-detail-actions">
+                        <button class="action-btn">⭐</button>
+                        <button class="action-btn">🔗</button>
+                        <div class="more-menu">
+                            <button class="action-btn more-btn">⋯</button>
+                            <div class="more-dropdown-menu">
+                                <button class="more-option">🎤 跟读原文</button>
+                                <button class="more-option" id="wordTrainBtn">📝 单词训练</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 音频播放器 -->
+                <div class="podcast-player">
+                    <audio id="podcastAudio"></audio>
+                    <div class="player-controls">
+                        <div class="first-row">
+                            <div class="control-buttons">
+                                <button id="podcastRewindBtn" class="control-btn">⏪</button>
+                                <button id="podcastPlayPauseBtn" class="control-btn play-btn">▶</button>
+                                <button id="podcastForwardBtn" class="control-btn">⏩</button>
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <div class="progress-section">
+                                <div class="time-display">
+                                    <span id="podcastCurrentTime">0:00</span>
+                                    <span>/</span>
+                                    <span id="podcastDuration">0:00</span>
+                                </div>
+                                <div class="progress-container">
+                                    <div class="progress-bar" id="podcastProgressBar">
+                                        <div class="progress-filled" id="podcastProgressFilled"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="speed-selector">
+                                <div class="speed-dropdown">
+                                    <button class="speed-dropdown-btn">
+                                        <span class="current-speed">1.0x</span>
+                                        <span class="dropdown-arrow">▼</span>
+                                    </button>
+                                    <div class="speed-dropdown-menu">
+                                        <button class="speed-option" data-speed="0.4">0.4x</button>
+                                        <button class="speed-option" data-speed="0.6">0.6x</button>
+                                        <button class="speed-option" data-speed="0.7">0.7x</button>
+                                        <button class="speed-option" data-speed="0.8">0.8x</button>
+                                        <button class="speed-option" data-speed="0.9">0.9x</button>
+                                        <button class="speed-option active" data-speed="1">1.0x</button>
+                                        <button class="speed-option" data-speed="1.2">1.2x</button>
+                                        <button class="speed-option" data-speed="1.4">1.4x</button>
+                                        <button class="speed-option" data-speed="1.6">1.6x</button>
+                                        <button class="speed-option" data-speed="1.8">1.8x</button>
+                                        <button class="speed-option" data-speed="2">2.0x</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="player-icons">
+                                <button class="icon-btn" id="volumeBtn">🔊</button>
+                                <div class="volume-control">
+                                    <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+                                </div>
+                                <button class="icon-btn">🔄</button>
+                                <button class="icon-btn">📋</button>
+                                <button class="icon-btn">✏️</button>
+                                <button class="icon-btn">⬇️</button>
+                                <button class="icon-btn">📍</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 字幕显示区 -->
+                <div class="podcast-subtitle-section">
+                    <div class="subtitle-header">
+                        <button class="subtitle-mode-btn active" data-mode="original">原文</button>
+                        <button class="subtitle-mode-btn" data-mode="translation">译文</button>
+                        <button class="subtitle-mode-btn" data-mode="both">双语</button>
+                    </div>
+                    <div class="subtitle-content" id="subtitleContent">
+                        <!-- 字幕内容将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+                
+                <!-- 单词训练区域（词块拖动练习） -->
+                <div class="word-train-section hidden" id="wordTrainSection">
+                    <div class="word-train-header">
+                        <div style="display: flex; align-items: center; gap: 20px;">
+                            <span class="word-train-title">✍️ 拖动单词填入空白处</span>
+                            <div class="difficulty-selector">
+                                <span style="font-size: 14px; color: #ffffff; margin-right: 8px;">难度:</span>
+                                <button class="difficulty-btn" data-difficulty="easy">简单</button>
+                                <button class="difficulty-btn active" data-difficulty="medium">中等</button>
+                                <button class="difficulty-btn" data-difficulty="hard">困难</button>
+                            </div>
+                        </div>
+                        <div class="word-train-buttons">
+                            <button id="startFillBtn" class="puzzle-btn">🎯 开始填空</button>
+                            <button id="checkFillBtn" class="puzzle-btn puzzle-btn-check">✅ 检查答案</button>
+                            <button id="resetFillBtn" class="puzzle-btn puzzle-btn-reset">🔄 重置</button>
+                            <button id="newFillBtn" class="puzzle-btn">🎲 新填空</button>
+                            <button id="closeWordTrainBtn" class="puzzle-btn">✕ 关闭</button>
+                        </div>
+                    </div>
+                    <div class="fill-sentence" id="fillSentence">
+                        <div class="puzzle-placeholder">点击"开始填空"开始练习</div>
+                    </div>
+                    <div class="fill-candidates" id="fillCandidates"></div>
+                    <div class="fill-result" id="fillResult"></div>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 复习页面
+                 样式文件: review.css
+                 ================================ -->
+            <div class="page-content hidden" id="reviewPage">
+                <div class="page-header">
+                    <h2>📚 复习中心</h2>
+                </div>
+                
+                <!-- 复习统计 -->
+                <div class="review-stats">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">📊</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="totalLearned">0</div>
+                                <div class="stat-label">已学词汇</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="todayReview">0</div>
+                                <div class="stat-label">今日待复习</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🔥</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="streakDays">0</div>
+                                <div class="stat-label">连续天数</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📈</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="accuracyRate">0%</div>
+                                <div class="stat-label">正确率</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 复习模式选择 -->
+                <div class="review-modes" id="reviewModes">
+                    <h3 class="section-title">复习模式</h3>
+                    <div class="mode-grid">
+                        <div class="mode-card" data-mode="word-fill">
+                            <div class="mode-icon">✍️</div>
+                            <div class="mode-name">词块填空</div>
+                            <div class="mode-desc">拖动单词填入空白处</div>
+                        </div>
+                        <div class="mode-card" data-mode="listening-fill">
+                            <div class="mode-icon">👂</div>
+                            <div class="mode-name">听力填空</div>
+                            <div class="mode-desc">听音频填写缺失单词</div>
+                        </div>
+                        <div class="mode-card" data-mode="word-match">
+                            <div class="mode-icon">🔄</div>
+                            <div class="mode-name">词汇匹配</div>
+                            <div class="mode-desc">单词与释义匹配</div>
+                        </div>
+                        <div class="mode-card" data-mode="listening-repeat">
+                            <div class="mode-icon">🎤</div>
+                            <div class="mode-name">听力复述</div>
+                            <div class="mode-desc">复述听到的内容</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 智能复习计划 -->
+                <div class="review-plan">
+                    <h3 class="section-title">智能复习计划</h3>
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <span class="plan-title">今日复习计划</span>
+                            <span class="plan-status" id="planStatus">待开始</span>
+                        </div>
+                        <div class="plan-content">
+                            <div class="plan-item">
+                                <span class="plan-item-icon">📝</span>
+                                <span class="plan-item-text">词块填空练习 - 10题</span>
+                                <span class="plan-item-status" id="fillStatus">未完成</span>
+                            </div>
+                            <div class="plan-item">
+                                <span class="plan-item-icon">👂</span>
+                                <span class="plan-item-text">听力填空练习 - 5题</span>
+                                <span class="plan-item-status" id="listenStatus">未完成</span>
+                            </div>
+                            <div class="plan-item">
+                                <span class="plan-item-icon">🔄</span>
+                                <span class="plan-item-text">词汇匹配练习 - 15题</span>
+                                <span class="plan-item-status" id="matchStatus">未完成</span>
+                            </div>
+                        </div>
+                        <div class="plan-footer">
+                            <button id="startPlanBtn" class="plan-btn">🚀 开始复习</button>
+                            <button id="resetPlanBtn" class="plan-btn plan-btn-secondary">🔄 重置计划</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 复习历史 -->
+                <div class="review-history">
+                    <h3 class="section-title">复习历史</h3>
+                    <div class="history-list" id="historyList">
+                        <div class="history-item">
+                            <div class="history-date">2026-03-12</div>
+                            <div class="history-content">
+                                <div class="history-activity">词块填空练习</div>
+                                <div class="history-stats">10题 | 正确率 80%</div>
+                            </div>
+                            <div class="history-status success">完成</div>
+                        </div>
+                        <div class="history-item">
+                            <div class="history-date">2026-03-11</div>
+                            <div class="history-content">
+                                <div class="history-activity">听力填空练习</div>
+                                <div class="history-stats">5题 | 正确率 60%</div>
+                            </div>
+                            <div class="history-status success">完成</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 复习练习区域 -->
+                <div class="review-exercise hidden" id="reviewExercise">
+                    <div class="exercise-header">
+                        <h3 id="exerciseTitle">词块填空练习</h3>
+                        <div class="exercise-progress">
+                            <span id="exerciseProgress">1/10</span>
+                            <button id="closeExerciseBtn" class="close-btn">✕</button>
+                        </div>
+                    </div>
+                    <div class="exercise-content">
+                        <div class="exercise-question" id="exerciseQuestion">
+                            <!-- 练习题目将通过JavaScript动态生成 -->
+                        </div>
+                        <div class="exercise-options" id="exerciseOptions">
+                            <!-- 练习选项将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+                    <div class="exercise-footer">
+                        <button id="prevExerciseBtn" class="exercise-btn">← 上一题</button>
+                        <button id="nextExerciseBtn" class="exercise-btn exercise-btn-primary">下一题 →</button>
+                        <button id="submitExerciseBtn" class="exercise-btn exercise-btn-success">提交答案</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 任务页面（开发中）
+                 ================================ -->
+            <div class="page-content hidden" id="taskPage">
+                <div class="page-header">
+                    <h2>📋 任务中心</h2>
+                </div>
+                <div class="coming-soon">
+                    <div class="coming-soon-icon">🚧</div>
+                    <h3>功能开发中</h3>
+                    <p>任务系统即将上线，敬请期待！</p>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 小店页面（开发中）
+                 ================================ -->
+            <div class="page-content hidden" id="shopPage">
+                <div class="page-header">
+                    <h2>🛒 小店</h2>
+                </div>
+                <div class="coming-soon">
+                    <div class="coming-soon-icon">🚧</div>
+                    <h3>功能开发中</h3>
+                    <p>积分商城即将上线，敬请期待！</p>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 个人档案页面（开发中）
+                 ================================ -->
+            <div class="page-content hidden" id="profilePage">
+                <div class="page-header">
+                    <h2>👤 个人档案</h2>
+                </div>
+                <div class="coming-soon">
+                    <div class="coming-soon-icon">🚧</div>
+                    <h3>功能开发中</h3>
+                    <p>个人档案功能即将上线，敬请期待！</p>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 更多页面（开发中）
+                 ================================ -->
+            <div class="page-content hidden" id="morePage">
+                <div class="page-header">
+                    <h2>⚙️ 更多</h2>
+                </div>
+                <div class="coming-soon">
+                    <div class="coming-soon-icon">🚧</div>
+                    <h3>功能开发中</h3>
+                    <p>设置功能即将上线，敬请期待！</p>
+                </div>
+            </div>
+            
+            <!-- ================================
+                 音频测试页面
+                 样式文件: podcast.css, player.css, training.css
+                 ================================ -->
+            <div class="page-content hidden" id="testPage">
+                <div class="podcast-detail-header">
+                    <button class="back-btn" data-back="podcast">← 返回</button>
+                    <h2 class="podcast-detail-title" id="testPodcastTitle">What are some tips in language learning?</h2>
+                    <div class="podcast-detail-actions">
+                        <button class="action-btn">⭐</button>
+                        <button class="action-btn">🔗</button>
+                        <div class="more-menu">
+                            <button class="action-btn more-btn">⋯</button>
+                            <div class="more-dropdown-menu">
+                                <button class="more-option">🎤 跟读原文</button>
+                                <button class="more-option" id="testWordTrainBtn">📝 单词训练</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 文件上传区域 -->
+                <div class="upload-section">
+                    <h2>📁 上传音频和字幕文件</h2>
+                    <div class="resource-status">
+                        <div class="status-empty">
+                            <span class="status-icon">ℹ️</span>
+                            <span class="status-text">点击左侧听力资源可自动加载，或手动上传文件</span>
+                        </div>
+                    </div>
+                    <div class="upload-group">
+                        <label for="testAudioFile">🎧 音频文件 (MP3/WAV):</label>
+                        <input type="file" id="testAudioFile" accept="audio/*">
+                    </div>
+                    <div class="upload-group">
+                        <label for="testSubtitleFile">📝 字幕文件 (SRT):</label>
+                        <input type="file" id="testSubtitleFile" accept=".srt">
+                    </div>
+                    <button id="loadTestFilesBtn" class="load-btn">🚀 加载文件并开始播放</button>
+                </div>
+                
+                <!-- 字幕模式切换 -->
+                <div class="subtitle-header">
+                    <button class="subtitle-mode-btn active" data-mode="original">原文</button>
+                    <button class="subtitle-mode-btn" data-mode="translation">译文</button>
+                    <button class="subtitle-mode-btn" data-mode="both">双语</button>
+                </div>
+                
+                <!-- 字幕区域 -->
+                <div class="subtitle-content">
+                    <div id="testSubtitlesList">
+                        <div class="empty-subtitles">
+                            <p>🎯 上传字幕文件后，这里会显示字幕</p>
+                            <p>点击字幕可以直接跳转到对应时间点</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 播放器控制栏 -->
+                <div class="podcast-player">
+                    <audio id="testAudio" controls style="display: none;"></audio>
+                    <div class="player-controls">
+                        <div class="first-row">
+                            <div class="control-buttons">
+                                <button id="testRewindBtn" class="control-btn">⏪</button>
+                                <button id="testPlayPauseBtn" class="control-btn play-btn">▶</button>
+                                <button id="testForwardBtn" class="control-btn">⏩</button>
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <div class="progress-section">
+                                <div class="time-display">
+                                    <span id="testCurrentTime">0:00</span>
+                                    <span>/</span>
+                                    <span id="testDuration">0:00</span>
+                                </div>
+                                <div class="progress-container" id="testProgressBar">
+                                    <div class="progress-bar">
+                                        <div class="progress-filled" id="testProgressFilled"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="speed-selector">
+                                <div class="speed-dropdown">
+                                    <button class="speed-dropdown-btn">
+                                        <span class="test-current-speed">1.0x</span>
+                                        <span class="dropdown-arrow">▼</span>
+                                    </button>
+                                    <div class="speed-dropdown-menu">
+                                        <button class="speed-option" data-speed="0.4">0.4x</button>
+                                        <button class="speed-option" data-speed="0.6">0.6x</button>
+                                        <button class="speed-option" data-speed="0.7">0.7x</button>
+                                        <button class="speed-option" data-speed="0.8">0.8x</button>
+                                        <button class="speed-option" data-speed="0.9">0.9x</button>
+                                        <button class="speed-option active" data-speed="1">1.0x</button>
+                                        <button class="speed-option" data-speed="1.2">1.2x</button>
+                                        <button class="speed-option" data-speed="1.4">1.4x</button>
+                                        <button class="speed-option" data-speed="1.6">1.6x</button>
+                                        <button class="speed-option" data-speed="1.8">1.8x</button>
+                                        <button class="speed-option" data-speed="2">2.0x</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="player-icons">
+                                <button class="icon-btn" id="testVolumeBtn">🔊</button>
+                                <div class="volume-control">
+                                    <input type="range" class="volume-slider" id="testVolumeSlider" min="0" max="1" step="0.1" value="1">
+                                </div>
+                                <button class="icon-btn">🔄</button>
+                                <button class="icon-btn">📋</button>
+                                <button class="icon-btn">✏️</button>
+                                <button class="icon-btn">⬇️</button>
+                                <button class="icon-btn">📍</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 单词训练区域（词块拖动练习） -->
+                <div class="word-train-section hidden" id="testWordTrainSection">
+                    <div class="word-train-header">
+                        <span class="word-train-title">✍️ 拖动单词填入空白处</span>
+                        <div class="word-train-buttons">
+                            <button id="testStartFillBtn" class="puzzle-btn">🎯 开始填空</button>
+                            <button id="testCheckFillBtn" class="puzzle-btn puzzle-btn-check">✅ 检查答案</button>
+                            <button id="testResetFillBtn" class="puzzle-btn puzzle-btn-reset">🔄 重置</button>
+                            <button id="testNewFillBtn" class="puzzle-btn">🎲 新填空</button>
+                            <button id="testCloseWordTrainBtn" class="puzzle-btn">✕ 关闭</button>
+                        </div>
+                    </div>
+                    <div class="fill-sentence" id="testFillSentence">
+                        <div class="puzzle-placeholder">点击"开始填空"开始练习</div>
+                    </div>
+                    <div class="fill-candidates" id="testFillCandidates"></div>
+                    <div class="fill-result" id="testFillResult"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ================================
+         单词查询浮动框
+         样式文件: components.css
+         ================================ -->
+    <div id="dictPopup" class="dict-popup">
+        <div class="dict-header">
+            <span class="dict-word" id="dictWord"></span>
+            <span class="dict-phonetic" id="dictPhonetic"></span>
+            <button class="dict-close" id="dictClose">×</button>
+        </div>
+        <div class="dict-content" id="dictContent"></div>
+    </div>
+    
+    <!-- ================================
+         JavaScript 引入（模块化）
+         ================================ -->
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>

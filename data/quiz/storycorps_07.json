@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_07",
+  "totalSentences": 51,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:50:03.846125",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.08,
+      "endTime": 5.38,
+      "sentence": "The storycorps silver trailer had come down to the tampa bay region",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，StoryCorps的银色拖车去了哪里？",
+          "options": [
+            {
+              "text": "它去了坦帕湾地区",
+              "correct": true
+            },
+            {
+              "text": "它离开了坦帕湾地区",
+              "correct": false
+            },
+            {
+              "text": "它去了纽约市",
+              "correct": false
+            },
+            {
+              "text": "它去了洛杉矶地区",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，StoryCorps的银色拖车去了哪里？",
+          "options": [
+            {
+              "text": "去了坦帕湾地区",
+              "correct": true
+            },
+            {
+              "text": "去了纽约市",
+              "correct": false
+            },
+            {
+              "text": "去了洛杉矶",
+              "correct": false
+            },
+            {
+              "text": "去了芝加哥",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，StoryCorps的银色拖车去了哪里？",
+          "options": [
+            {
+              "text": "它去了坦帕湾地区",
+              "correct": true
+            },
+            {
+              "text": "它离开了坦帕湾地区",
+              "correct": false
+            },
+            {
+              "text": "它去了纽约市",
+              "correct": false
+            },
+            {
+              "text": "它去了一个未指定的地方",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 10.28,
+      "endTime": 13.75,
+      "sentence": "Ahh , i remember the first time i saw you",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到了什么关于第一次见到对方的事情？",
+          "options": [
+            {
+              "text": "说话者忘记了第一次见面的时间",
+              "correct": false
+            },
+            {
+              "text": "说话者记得第一次见到对方的情景",
+              "correct": true
+            },
+            {
+              "text": "说话者不喜欢第一次见面的经历",
+              "correct": false
+            },
+            {
+              "text": "说话者想再次见到对方",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到了什么关于他们第一次见面的事情？",
+          "options": [
+            {
+              "text": "他们第一次见面时发生了争吵",
+              "correct": false
+            },
+            {
+              "text": "说话者记得第一次见到对方的情景",
+              "correct": true
+            },
+            {
+              "text": "他们第一次见面是在一个派对上",
+              "correct": false
+            },
+            {
+              "text": "说话者忘记了第一次见面的细节",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到了什么关于他们与对方的关系？",
+          "options": [
+            {
+              "text": "他们记得第一次见到对方的情景",
+              "correct": true
+            },
+            {
+              "text": "他们经常一起见面",
+              "correct": false
+            },
+            {
+              "text": "他们刚刚第一次见面",
+              "correct": false
+            },
+            {
+              "text": "他们忘记了对方的样貌",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 7,
+      "startTime": 20.05,
+      "endTime": 21.95,
+      "sentence": "You know , i fall in love with you",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "说话者表示对对方有爱意",
+              "correct": true
+            },
+            {
+              "text": "说话者询问对方是否知道某事",
+              "correct": false
+            },
+            {
+              "text": "说话者描述自己摔倒了",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方去恋爱",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "说话者承认自己爱上了对方",
+              "correct": true
+            },
+            {
+              "text": "说话者询问对方是否了解自己",
+              "correct": false
+            },
+            {
+              "text": "说话者表示自己曾经摔倒过",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方应该知道某件事",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "说话者承认自己爱上了对方",
+              "correct": true
+            },
+            {
+              "text": "说话者询问对方是否了解自己",
+              "correct": false
+            },
+            {
+              "text": "说话者表示自己曾经爱过对方",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方应该爱上自己",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 11,
+      "startTime": 31.23,
+      "endTime": 34.09,
+      "sentence": "Yeah , when earl and i found each other",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者和Earl之间发生了什么？",
+          "options": [
+            {
+              "text": "他们偶然相遇了",
+              "correct": true
+            },
+            {
+              "text": "他们约好了一起见面",
+              "correct": false
+            },
+            {
+              "text": "他们互相寻找了很久",
+              "correct": false
+            },
+            {
+              "text": "他们因为争吵而分开",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者和Earl之间发生了什么？",
+          "options": [
+            {
+              "text": "他们偶然相遇了",
+              "correct": true
+            },
+            {
+              "text": "他们约好了一起见面",
+              "correct": false
+            },
+            {
+              "text": "他们互相寻找了很久",
+              "correct": false
+            },
+            {
+              "text": "他们因为吵架分开了",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者和Earl之间发生了什么？",
+          "options": [
+            {
+              "text": "他们偶然相遇了",
+              "correct": true
+            },
+            {
+              "text": "他们约好见面了",
+              "correct": false
+            },
+            {
+              "text": "他们互相寻找对方",
+              "correct": false
+            },
+            {
+              "text": "他们重新联系上了",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 16,
+      "startTime": 44.48,
+      "endTime": 46.58,
+      "sentence": "Because steve , in my heart",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到Steve时表达了什么？",
+          "options": [
+            {
+              "text": "Steve是说话者心中的重要人物",
+              "correct": true
+            },
+            {
+              "text": "Steve正在说话者的心里",
+              "correct": false
+            },
+            {
+              "text": "说话者想忘记Steve",
+              "correct": false
+            },
+            {
+              "text": "Steve让说话者感到伤心",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到Steve时，表达了什么情感或态度？",
+          "options": [
+            {
+              "text": "说话者对Steve持有负面的看法",
+              "correct": false
+            },
+            {
+              "text": "说话者认为Steve在情感上很重要",
+              "correct": true
+            },
+            {
+              "text": "说话者想和Steve讨论工作问题",
+              "correct": false
+            },
+            {
+              "text": "说话者觉得Steve是个陌生人",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者为什么提到Steve？",
+          "options": [
+            {
+              "text": "因为Steve是说话者的朋友",
+              "correct": false
+            },
+            {
+              "text": "因为Steve在说话者心中很重要",
+              "correct": true
+            },
+            {
+              "text": "因为Steve做了某件事",
+              "correct": false
+            },
+            {
+              "text": "因为说话者想感谢Steve",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 20,
+      "startTime": 58.16,
+      "endTime": 60.08,
+      "sentence": "I just want you to be happy",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话人表达的主要目的是什么？",
+          "options": [
+            {
+              "text": "希望对方感到快乐",
+              "correct": true
+            },
+            {
+              "text": "要求对方完成某个任务",
+              "correct": false
+            },
+            {
+              "text": "表达自己的不满情绪",
+              "correct": false
+            },
+            {
+              "text": "询问对方的健康状况",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话人表达的主要目的是什么？",
+          "options": [
+            {
+              "text": "希望对方感到快乐",
+              "correct": true
+            },
+            {
+              "text": "要求对方帮助自己",
+              "correct": false
+            },
+            {
+              "text": "批评对方的行为",
+              "correct": false
+            },
+            {
+              "text": "询问对方的意见",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话人表达的主要目的是什么？",
+          "options": [
+            {
+              "text": "希望对方感到快乐",
+              "correct": true
+            },
+            {
+              "text": "要求对方完成某项任务",
+              "correct": false
+            },
+            {
+              "text": "表达自己的不满情绪",
+              "correct": false
+            },
+            {
+              "text": "询问对方的健康状况",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 25,
+      "startTime": 70.03,
+      "endTime": 72.47,
+      "sentence": "But what if i can't be happy without you",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了对什么情况的担忧？",
+          "options": [
+            {
+              "text": "担心自己无法在没有对方的情况下感到快乐",
+              "correct": true
+            },
+            {
+              "text": "担心对方离开后会感到不快乐",
+              "correct": false
+            },
+            {
+              "text": "担心自己无法让对方感到快乐",
+              "correct": false
+            },
+            {
+              "text": "担心双方在一起时无法快乐",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了对什么情况的担忧？",
+          "options": [
+            {
+              "text": "担心自己无法在没有对方的情况下获得快乐",
+              "correct": true
+            },
+            {
+              "text": "担心对方离开后会感到不快乐",
+              "correct": false
+            },
+            {
+              "text": "担心自己无法让对方感到快乐",
+              "correct": false
+            },
+            {
+              "text": "担心双方在一起时会产生矛盾",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了什么情感或担忧？",
+          "options": [
+            {
+              "text": "担心没有对方就无法获得幸福",
+              "correct": true
+            },
+            {
+              "text": "询问对方是否愿意一起旅行",
+              "correct": false
+            },
+            {
+              "text": "表达对过去错误的后悔",
+              "correct": false
+            },
+            {
+              "text": "建议两人应该保持距离",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 27,
+      "startTime": 76.27,
+      "endTime": 77.83,
+      "sentence": "Assuming that i go first",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者假设了什么情况？",
+          "options": [
+            {
+              "text": "假设自己先行动",
+              "correct": true
+            },
+            {
+              "text": "假设对方先行动",
+              "correct": false
+            },
+            {
+              "text": "假设自己最后行动",
+              "correct": false
+            },
+            {
+              "text": "假设双方同时行动",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者假设了什么情况？",
+          "options": [
+            {
+              "text": "说话者会第一个行动",
+              "correct": true
+            },
+            {
+              "text": "说话者会最后行动",
+              "correct": false
+            },
+            {
+              "text": "说话者不会参与行动",
+              "correct": false
+            },
+            {
+              "text": "说话者会等待他人先行动",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者最可能在讨论什么情况？",
+          "options": [
+            {
+              "text": "说话者假设自己会第一个行动",
+              "correct": true
+            },
+            {
+              "text": "说话者已经完成了第一个任务",
+              "correct": false
+            },
+            {
+              "text": "说话者不确定谁应该先开始",
+              "correct": false
+            },
+            {
+              "text": "说话者建议别人先开始行动",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 33,
+      "startTime": 92.39,
+      "endTime": 98.31,
+      "sentence": "I still on occasion will play that whole interview to hear his voice",
+      "wordCount": 13,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者为什么偶尔会播放整个采访录音？",
+          "options": [
+            {
+              "text": "为了学习采访技巧",
+              "correct": false
+            },
+            {
+              "text": "为了听到他的声音",
+              "correct": true
+            },
+            {
+              "text": "为了检查录音质量",
+              "correct": false
+            },
+            {
+              "text": "为了回忆采访内容",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者为什么偶尔会播放整个采访录音？",
+          "options": [
+            {
+              "text": "为了学习采访技巧",
+              "correct": false
+            },
+            {
+              "text": "为了听到他的声音",
+              "correct": true
+            },
+            {
+              "text": "为了检查录音质量",
+              "correct": false
+            },
+            {
+              "text": "为了回忆采访内容",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者为什么偶尔会播放整个采访录音？",
+          "options": [
+            {
+              "text": "为了学习采访技巧",
+              "correct": false
+            },
+            {
+              "text": "为了听到他的声音",
+              "correct": true
+            },
+            {
+              "text": "为了检查录音质量",
+              "correct": false
+            },
+            {
+              "text": "为了回忆采访内容",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 38,
+      "startTime": 110.99,
+      "endTime": 112.63,
+      "sentence": "But if that isn't the case",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到“但如果情况不是这样”时，暗示了什么？",
+          "options": [
+            {
+              "text": "说话者认为前面的假设可能不成立",
+              "correct": true
+            },
+            {
+              "text": "说话者确认了某个事实已经发生",
+              "correct": false
+            },
+            {
+              "text": "说话者正在描述一个具体的时间地点",
+              "correct": false
+            },
+            {
+              "text": "说话者表达了强烈的个人情感态度",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者假设了什么情况？",
+          "options": [
+            {
+              "text": "假设情况不是真的",
+              "correct": true
+            },
+            {
+              "text": "假设情况已经发生",
+              "correct": false
+            },
+            {
+              "text": "假设情况是确定的",
+              "correct": false
+            },
+            {
+              "text": "假设情况不重要",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到“但如果情况不是这样”，暗示了什么？",
+          "options": [
+            {
+              "text": "说话者认为当前情况可能不符合预期",
+              "correct": true
+            },
+            {
+              "text": "说话者确认当前情况完全正确",
+              "correct": false
+            },
+            {
+              "text": "说话者正在描述一个具体的时间点",
+              "correct": false
+            },
+            {
+              "text": "说话者表达了对某人的强烈不满",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 42,
+      "startTime": 120.86,
+      "endTime": 123.71,
+      "sentence": "Because you're gonna feel lonely",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到这个情况的原因是什么？",
+          "options": [
+            {
+              "text": "因为对方会感到孤独",
+              "correct": true
+            },
+            {
+              "text": "因为对方会感到快乐",
+              "correct": false
+            },
+            {
+              "text": "因为对方会感到困惑",
+              "correct": false
+            },
+            {
+              "text": "因为对方会感到愤怒",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到这句话的原因是什么？",
+          "options": [
+            {
+              "text": "因为对方可能会感到孤独",
+              "correct": true
+            },
+            {
+              "text": "因为对方需要帮助",
+              "correct": false
+            },
+            {
+              "text": "因为对方应该离开",
+              "correct": false
+            },
+            {
+              "text": "因为对方做错了事",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到这个情况的原因是什么？",
+          "options": [
+            {
+              "text": "因为你会感到孤独",
+              "correct": true
+            },
+            {
+              "text": "因为你会感到兴奋",
+              "correct": false
+            },
+            {
+              "text": "因为你会感到困惑",
+              "correct": false
+            },
+            {
+              "text": "因为你会感到满足",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 48,
+      "startTime": 141.64,
+      "endTime": 146.56,
+      "sentence": "As an example of how you can have that kind of love",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "这句话主要想表达什么？",
+          "options": [
+            {
+              "text": "它是在解释如何获得那种爱",
+              "correct": true
+            },
+            {
+              "text": "它是在描述爱的不同类型",
+              "correct": false
+            },
+            {
+              "text": "它是在批评某种爱的表现",
+              "correct": false
+            },
+            {
+              "text": "它是在询问爱的定义",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "这句话主要想表达什么？",
+          "options": [
+            {
+              "text": "解释如何获得那种爱",
+              "correct": true
+            },
+            {
+              "text": "描述爱的不同类型",
+              "correct": false
+            },
+            {
+              "text": "询问对方是否相信爱",
+              "correct": false
+            },
+            {
+              "text": "批评某种爱的表现",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "这句话主要想表达什么？",
+          "options": [
+            {
+              "text": "它是在解释如何获得那种爱",
+              "correct": true
+            },
+            {
+              "text": "它是在描述爱的不同类型",
+              "correct": false
+            },
+            {
+              "text": "它是在询问对方是否拥有爱",
+              "correct": false
+            },
+            {
+              "text": "它是在批评某种爱的表现",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "resourceId": "cet4-2024-12-1",
+  "title": "CET-4 2024年12月听力真题 (第1套)",
+  "passages": [
+    {
+      "passageId": "news-report-1",
+      "passageName": "News Report 1",
+      "section": "A",
+      "passageStartTime": 38.95,
+      "passageEndTime": 98.8,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "What do we learn about Sherry Christian?",
+          "questionTextZh": "关于Sherry Christian我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "She is making a special effort to be recognized.", "correct": false },
+            { "label": "B", "text": "She has been living in Fayetteville for 25 years.", "correct": false },
+            { "label": "C", "text": "She has been driving a school bus ever since 2009.", "correct": false },
+            { "label": "D", "text": "She is the longest-serving bus driver in Fayetteville.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "What did city officials of Fayetteville want bus drivers to be aware of?",
+          "questionTextZh": "费耶特维尔市官员希望公交车司机意识到什么？",
+          "options": [
+            { "label": "A", "text": "The importance of their service to the city.", "correct": true },
+            { "label": "B", "text": "The number of riders they serve in the city.", "correct": false },
+            { "label": "C", "text": "The new proclamation issued early this week.", "correct": false },
+            { "label": "D", "text": "The significance of the event to take place March 18.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-2",
+      "passageName": "News Report 2",
+      "section": "A",
+      "passageStartTime": 158.5,
+      "passageEndTime": 238.8,
+      "questions": [
+        {
+          "questionNumber": 3,
+          "questionText": "What does the news report say the Wilton school board has done?",
+          "questionTextZh": "新闻报道说威尔顿学校董事会做了什么？",
+          "options": [
+            { "label": "A", "text": "Budgeted $56.7 million for the coming school year.", "correct": false },
+            { "label": "B", "text": "Requested to raise teachers' salaries by 3 percent.", "correct": false },
+            { "label": "C", "text": "Proposed a spending increase by 5.99 percent.", "correct": true },
+            { "label": "D", "text": "Kept raising funds for at least 8 budget cycles.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What will a decline in the total enrollment lead to?",
+          "questionTextZh": "总入学人数下降会导致什么？",
+          "options": [
+            { "label": "A", "text": "Decrease in salaries for school administrators.", "correct": false },
+            { "label": "B", "text": "Reduction in federal and state funding.", "correct": true },
+            { "label": "C", "text": "Firing of less qualified faculty members.", "correct": false },
+            { "label": "D", "text": "Closing down of some less competitive schools.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-3",
+      "passageName": "News Report 3",
+      "section": "A",
+      "passageStartTime": 277.12,
+      "passageEndTime": 346.69,
+      "questions": [
+        {
+          "questionNumber": 5,
+          "questionText": "What do we learn about thunder snows from the report?",
+          "questionTextZh": "从报道中我们了解到关于雷雪的什么信息？",
+          "options": [
+            { "label": "A", "text": "They often take place in the Scottish Highlands.", "correct": false },
+            { "label": "B", "text": "They usually happen in the middle of the night.", "correct": false },
+            { "label": "C", "text": "Their damage can be as serious as that of bombs.", "correct": false },
+            { "label": "D", "text": "Their loud claps can be confused with explosions.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "What did the police do when they received the local residents' phone calls?",
+          "questionTextZh": "警方接到当地居民电话后做了什么？",
+          "options": [
+            { "label": "A", "text": "They sent out a message to calm them down.", "correct": true },
+            { "label": "B", "text": "They promised to stop the construction work.", "correct": false },
+            { "label": "C", "text": "They told them the military exercise was over.", "correct": false },
+            { "label": "D", "text": "They set off to inspect the site of the plane crash.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "What were people advised to do when traveling outside?",
+          "questionTextZh": "人们被建议在外出时做什么？",
+          "options": [
+            { "label": "A", "text": "Keep warm.", "correct": false },
+            { "label": "B", "text": "Take caution.", "correct": true },
+            { "label": "C", "text": "Avoid driving.", "correct": false },
+            { "label": "D", "text": "Use rail service.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-1",
+      "passageName": "Conversation 1",
+      "section": "B",
+      "passageStartTime": 453.99,
+      "passageEndTime": 571.72,
+      "questions": [
+        {
+          "questionNumber": 8,
+          "questionText": "What does the woman say she was actually wondering about?",
+          "questionTextZh": "女士说她实际上在想什么？",
+          "options": [
+            { "label": "A", "text": "Why the man is so anxious to buy a new phone.", "correct": false },
+            { "label": "B", "text": "How the man could possibly afford a new phone.", "correct": true },
+            { "label": "C", "text": "How the man got into the habit of being wasteful.", "correct": false },
+            { "label": "D", "text": "Why the man is so fond of using his credit card.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Why is the man a little embarrassed by the phone he's using now?",
+          "questionTextZh": "为什么男士对他现在使用的手机感到有点尴尬？",
+          "options": [
+            { "label": "A", "text": "It is not in fashion any more.", "correct": false },
+            { "label": "B", "text": "It goes out of order frequently.", "correct": true },
+            { "label": "C", "text": "It is not as fancy as his colleagues'.", "correct": false },
+            { "label": "D", "text": "It lacks functions office work requires.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "What does the man say about the credit card he just got?",
+          "questionTextZh": "男士说他刚办的信用卡有什么特点？",
+          "options": [
+            { "label": "A", "text": "It enables him to buy a new phone at a more favorable price.", "correct": false },
+            { "label": "B", "text": "It is a special offer to recent college graduates working in offices.", "correct": false },
+            { "label": "C", "text": "It is available to office workers who have a good enough credit score.", "correct": false },
+            { "label": "D", "text": "It allows him to borrow money without paying interest for six months.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "What do we learn about one of the woman's colleagues?",
+          "questionTextZh": "关于女士的一位同事我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "She borrowed money to pay her debt.", "correct": false },
+            { "label": "B", "text": "She developed a habit of overspending.", "correct": true },
+            { "label": "C", "text": "She enjoys buying a lot of fancy things.", "correct": false },
+            { "label": "D", "text": "She regrets ignoring the woman's advice.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-2",
+      "passageName": "Conversation 2",
+      "section": "B",
+      "passageStartTime": 628.68,
+      "passageEndTime": 829.74,
+      "questions": [
+        {
+          "questionNumber": 12,
+          "questionText": "What does the tiny home movement mainly advocate?",
+          "questionTextZh": "小房子运动主要倡导什么？",
+          "options": [
+            { "label": "A", "text": "Blog writing and natural resources saving.", "correct": false },
+            { "label": "B", "text": "Joint efforts to improve the local community.", "correct": false },
+            { "label": "C", "text": "Audience participation in The Morning Show.", "correct": false },
+            { "label": "D", "text": "Home ownership and environmental protection.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "What does the woman say about houses as small as twenty square meters?",
+          "questionTextZh": "女士对20平方米大小的房子有什么看法？",
+          "options": [
+            { "label": "A", "text": "Not a realistic size for families.", "correct": true },
+            { "label": "B", "text": "Not welcomed by most Americans.", "correct": false },
+            { "label": "C", "text": "Only fit for families of four or less.", "correct": false },
+            { "label": "D", "text": "Only suitable for renting to the poor.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What does the man think about the dream of owning a 150 square meter house?",
+          "questionTextZh": "男士对拥有150平方米房子的梦想有什么看法？",
+          "options": [
+            { "label": "A", "text": "It should be changed.", "correct": true },
+            { "label": "B", "text": "It isn't easy to realize.", "correct": false },
+            { "label": "C", "text": "It will come true sooner or later.", "correct": false },
+            { "label": "D", "text": "It doesn't appeal to average families.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "What does the man say about tiny homes?",
+          "questionTextZh": "男士对小房子有什么看法？",
+          "options": [
+            { "label": "A", "text": "They help to lower housing prices.", "correct": false },
+            { "label": "B", "text": "They help to save up for larger houses.", "correct": false },
+            { "label": "C", "text": "They are a good choice for many people.", "correct": true },
+            { "label": "D", "text": "They are vital to reducing waste worldwide.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-1",
+      "passageName": "Passage 1",
+      "section": "C",
+      "passageStartTime": 866.53,
+      "passageEndTime": 997.11,
+      "questions": [
+        {
+          "questionNumber": 16,
+          "questionText": "What do children seem to have a natural desire to do?",
+          "questionTextZh": "孩子们似乎天生渴望做什么？",
+          "options": [
+            { "label": "A", "text": "Play outdoors and enjoy themselves.", "correct": false },
+            { "label": "B", "text": "Beat challenges and take risks.", "correct": true },
+            { "label": "C", "text": "Take care of their well-being.", "correct": false },
+            { "label": "D", "text": "Grow up strong and healthy.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 17,
+          "questionText": "According to the American Psychological Association, what does regular physical activity do to children?",
+          "questionTextZh": "根据美国心理学会，定期体育活动对孩子有什么作用？",
+          "options": [
+            { "label": "A", "text": "Enable them to develop their motor skills.", "correct": false },
+            { "label": "B", "text": "Help them to conceal their frustration.", "correct": false },
+            { "label": "C", "text": "Reduce their stress and depression.", "correct": true },
+            { "label": "D", "text": "Prevent them from feeling lonely.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 18,
+          "questionText": "What does the passage say about cultivating the habit of physical activity?",
+          "questionTextZh": "关于培养体育活动习惯，文章说了什么？",
+          "options": [
+            { "label": "A", "text": "It begins early.", "correct": true },
+            { "label": "B", "text": "It proves demanding.", "correct": false },
+            { "label": "C", "text": "It calls for lifelong efforts.", "correct": false },
+            { "label": "D", "text": "It lies in nature experiences.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "passageName": "Passage 2",
+      "section": "C",
+      "passageStartTime": 1020.13,
+      "passageEndTime": 1173.38,
+      "questions": [
+        {
+          "questionNumber": 19,
+          "questionText": "When are job seekers willing to explore jobs with lower salaries according to a new study?",
+          "questionTextZh": "根据一项新研究，求职者什么时候愿意探索薪资较低的工作？",
+          "options": [
+            { "label": "A", "text": "When companies share their information online.", "correct": false },
+            { "label": "B", "text": "When their job search criteria are met fully.", "correct": false },
+            { "label": "C", "text": "When companies embrace greater diversity.", "correct": true },
+            { "label": "D", "text": "When they find job postings visually attractive.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 20,
+          "questionText": "What did participants see in the baseline condition of the study?",
+          "questionTextZh": "参与者在研究的基准条件下看到了什么？",
+          "options": [
+            { "label": "A", "text": "Emails in the normal format.", "correct": true },
+            { "label": "B", "text": "Major companies in one location.", "correct": false },
+            { "label": "C", "text": "All companies in the same sector.", "correct": false },
+            { "label": "D", "text": "Various aspects of a company's workforce.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 21,
+          "questionText": "What does the passage say participants seem to be paying attention to?",
+          "questionTextZh": "文章说参与者似乎在关注什么？",
+          "options": [
+            { "label": "A", "text": "Job security.", "correct": false },
+            { "label": "B", "text": "Potential pay raises.", "correct": false },
+            { "label": "C", "text": "Minimum base salary.", "correct": false },
+            { "label": "D", "text": "Information about diversity.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "passageName": "Passage 3",
+      "section": "C",
+      "passageStartTime": 1195.7,
+      "passageEndTime": 1408.22,
+      "questions": [
+        {
+          "questionNumber": 22,
+          "questionText": "What does the passage say about the findings of a new study from Oregon State University?",
+          "questionTextZh": "关于俄勒冈州立大学一项新研究的发现，文章说了什么？",
+          "options": [
+            { "label": "A", "text": "Positive.", "correct": false },
+            { "label": "B", "text": "Original.", "correct": false },
+            { "label": "C", "text": "Important.", "correct": true },
+            { "label": "D", "text": "Surprising.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 23,
+          "questionText": "What does a growing body of evidence show according to the passage?",
+          "questionTextZh": "根据文章，越来越多的证据显示什么？",
+          "options": [
+            { "label": "A", "text": "Dogs match their behavior with kids as much as with adults.", "correct": false },
+            { "label": "B", "text": "Kids and adults alike find in dogs a source of attachment.", "correct": false },
+            { "label": "C", "text": "Kids' attitude to dogs is influenced by adults.", "correct": false },
+            { "label": "D", "text": "Dogs can help kids in many ways.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 24,
+          "questionText": "What did Monique Udell say their study suggests?",
+          "questionTextZh": "Monique Udell说他们的研究表明什么？",
+          "options": [
+            { "label": "A", "text": "Dogs pay much attention to the kids they live with.", "correct": true },
+            { "label": "B", "text": "Dogs view both adults and kids as social companions.", "correct": false },
+            { "label": "C", "text": "Kids differ from adults in their behavior towards dogs.", "correct": false },
+            { "label": "D", "text": "Kids need to be aware of the risks in playing with dogs.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 25,
+          "questionText": "What does research show kids are very capable of doing?",
+          "questionTextZh": "研究表明孩子们非常擅长做什么？",
+          "options": [
+            { "label": "A", "text": "Understanding dogs.", "correct": false },
+            { "label": "B", "text": "Training dogs.", "correct": true },
+            { "label": "C", "text": "Taking care of dogs.", "correct": false },
+            { "label": "D", "text": "Associating with dogs.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 25,
+  "generatedAt": "2025-04-24"
+}

@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_06",
+  "totalSentences": 49,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:46:08.846399",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.14,
+      "endTime": 1.42,
+      "sentence": "when i was a child",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到的时间段是什么？",
+          "options": [
+            {
+              "text": "说话者现在的时间",
+              "correct": false
+            },
+            {
+              "text": "说话者童年时期",
+              "correct": true
+            },
+            {
+              "text": "说话者成年以后",
+              "correct": false
+            },
+            {
+              "text": "说话者未来的计划",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到的时间是什么时候？",
+          "options": [
+            {
+              "text": "说话者现在的时间",
+              "correct": false
+            },
+            {
+              "text": "说话者童年时期",
+              "correct": true
+            },
+            {
+              "text": "说话者成年以后",
+              "correct": false
+            },
+            {
+              "text": "说话者老年时期",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到了什么时期？",
+          "options": [
+            {
+              "text": "童年时期",
+              "correct": true
+            },
+            {
+              "text": "青少年时期",
+              "correct": false
+            },
+            {
+              "text": "成年时期",
+              "correct": false
+            },
+            {
+              "text": "老年时期",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 5.93,
+      "endTime": 10.01,
+      "sentence": "So when most young children would want to be outside playing",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，大多数年幼的孩子在什么情况下会想做什么？",
+          "options": [
+            {
+              "text": "在大多数情况下，他们想待在家里学习",
+              "correct": false
+            },
+            {
+              "text": "在大多数情况下，他们想在外面玩耍",
+              "correct": true
+            },
+            {
+              "text": "在特殊情况下，他们想在外面玩耍",
+              "correct": false
+            },
+            {
+              "text": "在大多数情况下，他们想参加室内活动",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，大多数年幼的孩子通常想做什么？",
+          "options": [
+            {
+              "text": "在室内安静地看书",
+              "correct": false
+            },
+            {
+              "text": "在外面玩耍",
+              "correct": true
+            },
+            {
+              "text": "帮助父母做家务",
+              "correct": false
+            },
+            {
+              "text": "学习新的技能",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，大多数年幼的孩子通常会想做什么？",
+          "options": [
+            {
+              "text": "在室内安静地看书",
+              "correct": false
+            },
+            {
+              "text": "在外面玩耍",
+              "correct": true
+            },
+            {
+              "text": "帮助父母做家务",
+              "correct": false
+            },
+            {
+              "text": "学习新的技能",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 8,
+      "startTime": 23.12,
+      "endTime": 25.38,
+      "sentence": "You facilitated that for me",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者想表达对方做了什么？",
+          "options": [
+            {
+              "text": "对方帮助说话者完成了某件事",
+              "correct": true
+            },
+            {
+              "text": "对方阻止了说话者的计划",
+              "correct": false
+            },
+            {
+              "text": "说话者自己独立完成了任务",
+              "correct": false
+            },
+            {
+              "text": "对方批评了说话者的做法",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为对方做了什么？",
+          "options": [
+            {
+              "text": "帮助说话者完成某件事",
+              "correct": true
+            },
+            {
+              "text": "阻止说话者做某件事",
+              "correct": false
+            },
+            {
+              "text": "批评说话者的行为",
+              "correct": false
+            },
+            {
+              "text": "要求说话者提供帮助",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为对方做了什么？",
+          "options": [
+            {
+              "text": "帮助说话者完成了某事",
+              "correct": true
+            },
+            {
+              "text": "阻止了说话者的行动",
+              "correct": false
+            },
+            {
+              "text": "批评了说话者的做法",
+              "correct": false
+            },
+            {
+              "text": "忽视了说话者的请求",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 10,
+      "startTime": 28.44,
+      "endTime": 31.56,
+      "sentence": "You were the kind of student that inspires teachers",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为对方是什么样的学生？",
+          "options": [
+            {
+              "text": "让老师感到鼓舞的学生",
+              "correct": true
+            },
+            {
+              "text": "需要老师特别关注的学生",
+              "correct": false
+            },
+            {
+              "text": "经常让老师失望的学生",
+              "correct": false
+            },
+            {
+              "text": "学习成绩特别优秀的学生",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者认为这位学生怎么样？",
+          "options": [
+            {
+              "text": "是那种让老师感到鼓舞的学生",
+              "correct": true
+            },
+            {
+              "text": "是那种需要老师特别帮助的学生",
+              "correct": false
+            },
+            {
+              "text": "是那种经常让老师失望的学生",
+              "correct": false
+            },
+            {
+              "text": "是那种对老师不太尊重的学生",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者认为这位学生具有什么特点？",
+          "options": [
+            {
+              "text": "这位学生经常给老师带来麻烦",
+              "correct": false
+            },
+            {
+              "text": "这位学生是那种能激励老师的类型",
+              "correct": true
+            },
+            {
+              "text": "这位学生需要老师特别照顾",
+              "correct": false
+            },
+            {
+              "text": "这位学生对学习缺乏兴趣",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 15,
+      "startTime": 48.42,
+      "endTime": 50.06,
+      "sentence": "I was very proud of you",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者对听者的态度是什么？",
+          "options": [
+            {
+              "text": "说话者感到非常自豪",
+              "correct": true
+            },
+            {
+              "text": "说话者感到非常失望",
+              "correct": false
+            },
+            {
+              "text": "说话者感到非常惊讶",
+              "correct": false
+            },
+            {
+              "text": "说话者感到非常困惑",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话人对对方表达了什么情感？",
+          "options": [
+            {
+              "text": "说话人对对方感到非常自豪",
+              "correct": true
+            },
+            {
+              "text": "说话人对对方感到非常失望",
+              "correct": false
+            },
+            {
+              "text": "说话人对对方感到非常生气",
+              "correct": false
+            },
+            {
+              "text": "说话人对对方感到非常担心",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话人对听话人的感受是什么？",
+          "options": [
+            {
+              "text": "说话人感到非常自豪",
+              "correct": true
+            },
+            {
+              "text": "说话人感到非常失望",
+              "correct": false
+            },
+            {
+              "text": "说话人感到非常惊讶",
+              "correct": false
+            },
+            {
+              "text": "说话人感到非常困惑",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 18,
+      "startTime": 56.58,
+      "endTime": 62.78,
+      "sentence": "That was because the time i would spend with you after school was a respite",
+      "wordCount": 15,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者为什么提到放学后与你共度的时光？",
+          "options": [
+            {
+              "text": "因为那是他一天中最忙碌的时刻",
+              "correct": false
+            },
+            {
+              "text": "因为那段时间让他感到放松和喘息",
+              "correct": true
+            },
+            {
+              "text": "因为那是他完成作业的唯一时间",
+              "correct": false
+            },
+            {
+              "text": "因为那是他学习新技能的机会",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者为什么提到放学后的时间？",
+          "options": [
+            {
+              "text": "因为那是他一天中最忙碌的时刻",
+              "correct": false
+            },
+            {
+              "text": "因为那是他需要完成作业的时间",
+              "correct": false
+            },
+            {
+              "text": "因为那是他感到放松和休息的时间",
+              "correct": true
+            },
+            {
+              "text": "因为那是他参加课外活动的时间",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者为什么提到放学后与你共度的时光？",
+          "options": [
+            {
+              "text": "因为那段时间让他感到放松",
+              "correct": true
+            },
+            {
+              "text": "因为那段时间让他感到紧张",
+              "correct": false
+            },
+            {
+              "text": "因为那段时间让他感到无聊",
+              "correct": false
+            },
+            {
+              "text": "因为那段时间让他感到疲惫",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 22,
+      "startTime": 78.6,
+      "endTime": 81.76,
+      "sentence": "I stared him in his eye",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者做了什么？",
+          "options": [
+            {
+              "text": "说话者直视对方的眼睛",
+              "correct": true
+            },
+            {
+              "text": "说话者对他眨了眨眼",
+              "correct": false
+            },
+            {
+              "text": "说话者避开了他的目光",
+              "correct": false
+            },
+            {
+              "text": "说话者拍了拍他的肩膀",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者做了什么？",
+          "options": [
+            {
+              "text": "直视对方的眼睛",
+              "correct": true
+            },
+            {
+              "text": "对他眨了眨眼",
+              "correct": false
+            },
+            {
+              "text": "避开了他的目光",
+              "correct": false
+            },
+            {
+              "text": "拍了拍他的肩膀",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者做了什么？",
+          "options": [
+            {
+              "text": "直视对方的眼睛",
+              "correct": true
+            },
+            {
+              "text": "对他眨了眨眼",
+              "correct": false
+            },
+            {
+              "text": "避开了他的目光",
+              "correct": false
+            },
+            {
+              "text": "拍了拍他的肩膀",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 26,
+      "startTime": 94.31,
+      "endTime": 97.15,
+      "sentence": "But i knew that you were troubled about something",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者认为对方当时处于什么状态？",
+          "options": [
+            {
+              "text": "对方正在享受愉快的时光",
+              "correct": false
+            },
+            {
+              "text": "对方对某件事感到困扰",
+              "correct": true
+            },
+            {
+              "text": "对方完全不知道发生了什么",
+              "correct": false
+            },
+            {
+              "text": "对方正在计划一个重要活动",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为对方当时处于什么状态？",
+          "options": [
+            {
+              "text": "正在为某件事感到困扰",
+              "correct": true
+            },
+            {
+              "text": "对某件事感到非常兴奋",
+              "correct": false
+            },
+            {
+              "text": "完全不知道发生了什么事",
+              "correct": false
+            },
+            {
+              "text": "正在专心处理工作事务",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为对方当时处于什么状态？",
+          "options": [
+            {
+              "text": "对方正在为某事感到困扰",
+              "correct": true
+            },
+            {
+              "text": "对方当时心情非常愉快",
+              "correct": false
+            },
+            {
+              "text": "对方完全不知道发生了什么",
+              "correct": false
+            },
+            {
+              "text": "对方正在专心处理工作",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 28,
+      "startTime": 102.07,
+      "endTime": 106.35,
+      "sentence": "And you will have my everlasting gratitude for that",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了对什么的情感？",
+          "options": [
+            {
+              "text": "对某件事的永恒感激",
+              "correct": true
+            },
+            {
+              "text": "对某个人的短暂感谢",
+              "correct": false
+            },
+            {
+              "text": "对未来的美好期待",
+              "correct": false
+            },
+            {
+              "text": "对过去的深深遗憾",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了对什么的情感？",
+          "options": [
+            {
+              "text": "对某件事的感激之情",
+              "correct": true
+            },
+            {
+              "text": "对某个人的愤怒情绪",
+              "correct": false
+            },
+            {
+              "text": "对未来的担忧和不安",
+              "correct": false
+            },
+            {
+              "text": "对过去的遗憾和后悔",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了什么情感？",
+          "options": [
+            {
+              "text": "说话者会永远感激对方",
+              "correct": true
+            },
+            {
+              "text": "说话者要求对方立即行动",
+              "correct": false
+            },
+            {
+              "text": "说话者感到失望和不满",
+              "correct": false
+            },
+            {
+              "text": "说话者承诺给予物质回报",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 32,
+      "startTime": 120.1,
+      "endTime": 123.82,
+      "sentence": "But also do things like get that organ",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者建议做什么？",
+          "options": [
+            {
+              "text": "获取某个器官",
+              "correct": true
+            },
+            {
+              "text": "演奏某种乐器",
+              "correct": false
+            },
+            {
+              "text": "修理某个器官",
+              "correct": false
+            },
+            {
+              "text": "捐赠某个器官",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者建议做什么？",
+          "options": [
+            {
+              "text": "获取某个器官",
+              "correct": true
+            },
+            {
+              "text": "演奏某种乐器",
+              "correct": false
+            },
+            {
+              "text": "组织一场活动",
+              "correct": false
+            },
+            {
+              "text": "修理某个器官",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者建议做什么？",
+          "options": [
+            {
+              "text": "获取那个器官",
+              "correct": true
+            },
+            {
+              "text": "演奏那个乐器",
+              "correct": false
+            },
+            {
+              "text": "修理那个器官",
+              "correct": false
+            },
+            {
+              "text": "捐赠那个器官",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 38,
+      "startTime": 136.91,
+      "endTime": 139.39,
+      "sentence": "He just didn't know how to express it",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为他遇到了什么问题？",
+          "options": [
+            {
+              "text": "他缺乏表达自己想法的能力",
+              "correct": true
+            },
+            {
+              "text": "他不想说出自己的真实想法",
+              "correct": false
+            },
+            {
+              "text": "他忘记了要表达的内容",
+              "correct": false
+            },
+            {
+              "text": "他听不懂别人在说什么",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者认为他遇到了什么问题？",
+          "options": [
+            {
+              "text": "他缺乏表达自己感受的能力",
+              "correct": true
+            },
+            {
+              "text": "他完全不知道自己在想什么",
+              "correct": false
+            },
+            {
+              "text": "他不想和别人分享自己的想法",
+              "correct": false
+            },
+            {
+              "text": "他忘记了要说的重要事情",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者认为他遇到了什么问题？",
+          "options": [
+            {
+              "text": "他缺乏表达自己想法的能力",
+              "correct": true
+            },
+            {
+              "text": "他不知道如何解决这个问题",
+              "correct": false
+            },
+            {
+              "text": "他忘记了要表达的内容",
+              "correct": false
+            },
+            {
+              "text": "他不想表达自己的真实想法",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 44,
+      "startTime": 153.11,
+      "endTime": 155.59,
+      "sentence": "I was hired by a church",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者与教堂的关系是什么？",
+          "options": [
+            {
+              "text": "说话者被教堂雇佣了",
+              "correct": true
+            },
+            {
+              "text": "说话者在教堂做礼拜",
+              "correct": false
+            },
+            {
+              "text": "说话者捐赠了钱给教堂",
+              "correct": false
+            },
+            {
+              "text": "说话者正在参观教堂",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者与教堂之间是什么关系？",
+          "options": [
+            {
+              "text": "说话者被教堂雇佣了",
+              "correct": true
+            },
+            {
+              "text": "说话者正在教堂工作",
+              "correct": false
+            },
+            {
+              "text": "说话者要去教堂参观",
+              "correct": false
+            },
+            {
+              "text": "说话者在教堂做志愿者",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者发生了什么？",
+          "options": [
+            {
+              "text": "被一家教堂雇佣了",
+              "correct": true
+            },
+            {
+              "text": "去教堂做礼拜了",
+              "correct": false
+            },
+            {
+              "text": "在教堂里工作过",
+              "correct": false
+            },
+            {
+              "text": "参观了一座教堂",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

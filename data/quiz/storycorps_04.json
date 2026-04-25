@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_04",
+  "totalSentences": 42,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:38:34.926391",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.08,
+      "endTime": 4.36,
+      "sentence": "I was in afghanistan in a particularly dangerous combat zone",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者当时在阿富汗的什么地方？",
+          "options": [
+            {
+              "text": "一个特别危险的战斗区域",
+              "correct": true
+            },
+            {
+              "text": "一个相对安全的军事基地",
+              "correct": false
+            },
+            {
+              "text": "首都喀布尔的市中心",
+              "correct": false
+            },
+            {
+              "text": "一个普通的边境检查站",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者当时在阿富汗的什么地方？",
+          "options": [
+            {
+              "text": "一个特别危险的战斗区域",
+              "correct": true
+            },
+            {
+              "text": "一个相对安全的军事基地",
+              "correct": false
+            },
+            {
+              "text": "首都喀布尔的市中心",
+              "correct": false
+            },
+            {
+              "text": "一个普通的边境检查站",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话人提到他在阿富汗时，身处什么样的环境中？",
+          "options": [
+            {
+              "text": "一个特别危险的战斗区域",
+              "correct": true
+            },
+            {
+              "text": "一个相对安全的军事基地",
+              "correct": false
+            },
+            {
+              "text": "一个普通的城市街道",
+              "correct": false
+            },
+            {
+              "text": "一个旅游景点附近",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 9.4,
+      "endTime": 14.28,
+      "sentence": "She received the breast cancer diagnosis on november eighteenth , two thousand and five",
+      "wordCount": 13,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "她是在什么时候得知自己患有乳腺癌的？",
+          "options": [
+            {
+              "text": "2005年11月18日",
+              "correct": true
+            },
+            {
+              "text": "2005年10月18日",
+              "correct": false
+            },
+            {
+              "text": "2006年11月18日",
+              "correct": false
+            },
+            {
+              "text": "2005年11月8日",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据句子信息，她是什么时候得知自己患有乳腺癌的？",
+          "options": [
+            {
+              "text": "2005年11月18日",
+              "correct": true
+            },
+            {
+              "text": "2005年12月18日",
+              "correct": false
+            },
+            {
+              "text": "2006年11月18日",
+              "correct": false
+            },
+            {
+              "text": "2005年11月8日",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据听力内容，她是在什么时候得知自己患有乳腺癌的？",
+          "options": [
+            {
+              "text": "2005年11月18日",
+              "correct": true
+            },
+            {
+              "text": "2005年10月18日",
+              "correct": false
+            },
+            {
+              "text": "2006年11月18日",
+              "correct": false
+            },
+            {
+              "text": "2005年11月8日",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 8,
+      "startTime": 24.39,
+      "endTime": 27.19,
+      "sentence": "Come may we got the amazing news",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "这句话主要表达了什么？",
+          "options": [
+            {
+              "text": "我们可能收到了惊人的消息",
+              "correct": true
+            },
+            {
+              "text": "我们肯定收到了惊人的消息",
+              "correct": false
+            },
+            {
+              "text": "我们可能错过了惊人的消息",
+              "correct": false
+            },
+            {
+              "text": "我们肯定错过了惊人的消息",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者何时得知了这个惊人的消息？",
+          "options": [
+            {
+              "text": "在五月",
+              "correct": true
+            },
+            {
+              "text": "在六月",
+              "correct": false
+            },
+            {
+              "text": "在四月",
+              "correct": false
+            },
+            {
+              "text": "在七月",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "这句话主要表达了什么？",
+          "options": [
+            {
+              "text": "他们可能收到了令人惊喜的消息",
+              "correct": true
+            },
+            {
+              "text": "他们正在等待重要的通知",
+              "correct": false
+            },
+            {
+              "text": "他们拒绝了一个好消息",
+              "correct": false
+            },
+            {
+              "text": "他们分享了一个悲伤的故事",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 12,
+      "startTime": 38.69,
+      "endTime": 42.41,
+      "sentence": "but then she tells me she can't fill her left leg",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到的女性遇到了什么问题？",
+          "options": [
+            {
+              "text": "她的左腿无法正常活动",
+              "correct": true
+            },
+            {
+              "text": "她需要别人帮忙填写表格",
+              "correct": false
+            },
+            {
+              "text": "她的右腿感到疼痛",
+              "correct": false
+            },
+            {
+              "text": "她无法完成腿部锻炼",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到的女性遇到了什么问题？",
+          "options": [
+            {
+              "text": "她无法移动自己的左腿",
+              "correct": true
+            },
+            {
+              "text": "她需要别人帮她填表格",
+              "correct": false
+            },
+            {
+              "text": "她左腿受伤需要治疗",
+              "correct": false
+            },
+            {
+              "text": "她无法完成左腿的锻炼",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据对话，她告诉说话者什么信息？",
+          "options": [
+            {
+              "text": "她无法移动她的左腿",
+              "correct": true
+            },
+            {
+              "text": "她需要填充她的右腿",
+              "correct": false
+            },
+            {
+              "text": "她感觉左腿疼痛",
+              "correct": false
+            },
+            {
+              "text": "她无法抬起她的右腿",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 15,
+      "startTime": 47.55,
+      "endTime": 50.91,
+      "sentence": "And i'll never ever forget the doctor looking at us",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者为什么永远不会忘记医生的某个行为？",
+          "options": [
+            {
+              "text": "医生当时正在给他们做手术",
+              "correct": false
+            },
+            {
+              "text": "医生当时正在看着他们",
+              "correct": true
+            },
+            {
+              "text": "医生当时正在给他们开药",
+              "correct": false
+            },
+            {
+              "text": "医生当时正在和他们说话",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者为什么永远不会忘记医生看着他们的那一刻？",
+          "options": [
+            {
+              "text": "因为医生当时正在给他们做手术",
+              "correct": false
+            },
+            {
+              "text": "因为医生当时看着他们的眼神或表情令人难忘",
+              "correct": true
+            },
+            {
+              "text": "因为医生当时告诉他们一个好消息",
+              "correct": false
+            },
+            {
+              "text": "因为医生当时正在检查他们的病历",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者为什么永远不会忘记医生？",
+          "options": [
+            {
+              "text": "因为医生给他们做了手术",
+              "correct": false
+            },
+            {
+              "text": "因为医生当时正在看着他们",
+              "correct": true
+            },
+            {
+              "text": "因为医生说了重要的话",
+              "correct": false
+            },
+            {
+              "text": "因为医生是他们的朋友",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 19,
+      "startTime": 61.93,
+      "endTime": 68.49,
+      "sentence": "And here's this person absolutely racked with all the horrible ess of cancer",
+      "wordCount": 14,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述的这个人的状况是什么？",
+          "options": [
+            {
+              "text": "这个人正在享受健康的生活",
+              "correct": false
+            },
+            {
+              "text": "这个人正遭受癌症带来的痛苦",
+              "correct": true
+            },
+            {
+              "text": "这个人刚刚战胜了癌症",
+              "correct": false
+            },
+            {
+              "text": "这个人正在帮助癌症患者",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，这个人目前处于什么状态？",
+          "options": [
+            {
+              "text": "正在接受癌症治疗",
+              "correct": false
+            },
+            {
+              "text": "因癌症而极度痛苦",
+              "correct": true
+            },
+            {
+              "text": "刚刚被诊断出癌症",
+              "correct": false
+            },
+            {
+              "text": "已经战胜了癌症",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者描述的这个人的状况是怎样的？",
+          "options": [
+            {
+              "text": "这个人正在经历癌症带来的巨大痛苦",
+              "correct": true
+            },
+            {
+              "text": "这个人刚刚战胜了癌症的折磨",
+              "correct": false
+            },
+            {
+              "text": "这个人对癌症治疗感到非常乐观",
+              "correct": false
+            },
+            {
+              "text": "这个人正在帮助其他癌症患者",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 23,
+      "startTime": 75.77,
+      "endTime": 77.81,
+      "sentence": "When else looks at my wife says",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者可能在谈论什么？",
+          "options": [
+            {
+              "text": "别人对他妻子的评价",
+              "correct": true
+            },
+            {
+              "text": "他妻子对别人的看法",
+              "correct": false
+            },
+            {
+              "text": "他妻子说话的方式",
+              "correct": false
+            },
+            {
+              "text": "他妻子看别人的眼神",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者可能在表达什么？",
+          "options": [
+            {
+              "text": "别人在评论他的妻子",
+              "correct": true
+            },
+            {
+              "text": "他妻子正在看别的东西",
+              "correct": false
+            },
+            {
+              "text": "他妻子在跟别人说话",
+              "correct": false
+            },
+            {
+              "text": "他妻子在看别的地方",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者可能在谈论什么？",
+          "options": [
+            {
+              "text": "有人对说话者的妻子发表了评论",
+              "correct": true
+            },
+            {
+              "text": "说话者正在询问妻子的意见",
+              "correct": false
+            },
+            {
+              "text": "说话者描述了自己看妻子的场景",
+              "correct": false
+            },
+            {
+              "text": "说话者询问何时能见到妻子",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 25,
+      "startTime": 79.53,
+      "endTime": 81.41,
+      "sentence": "A little sparkle in her eye",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据句子，说话者最可能描述的是什么？",
+          "options": [
+            {
+              "text": "她眼中闪烁的光芒",
+              "correct": true
+            },
+            {
+              "text": "她眼睛的颜色",
+              "correct": false
+            },
+            {
+              "text": "她戴的眼镜",
+              "correct": false
+            },
+            {
+              "text": "她闭眼的样子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，可以推断出什么？",
+          "options": [
+            {
+              "text": "她眼中闪烁着一点光芒",
+              "correct": true
+            },
+            {
+              "text": "她眼睛里有异物",
+              "correct": false
+            },
+            {
+              "text": "她正在哭泣",
+              "correct": false
+            },
+            {
+              "text": "她闭上了眼睛",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子“A little sparkle in her eye”，说话者最可能描述的是什么？",
+          "options": [
+            {
+              "text": "她眼中闪烁着微光，暗示着某种情绪或想法",
+              "correct": true
+            },
+            {
+              "text": "她的眼睛里有灰尘或异物，需要清理",
+              "correct": false
+            },
+            {
+              "text": "她正在佩戴闪亮的眼影或化妆品",
+              "correct": false
+            },
+            {
+              "text": "她的眼睛因强光照射而暂时不适",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 29,
+      "startTime": 92.57,
+      "endTime": 98.55,
+      "sentence": "Where she's so alive and full of joy and excitement",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述她处于什么状态？",
+          "options": [
+            {
+              "text": "她感到非常疲惫和沮丧",
+              "correct": false
+            },
+            {
+              "text": "她充满活力和喜悦兴奋",
+              "correct": true
+            },
+            {
+              "text": "她正在安静地休息",
+              "correct": false
+            },
+            {
+              "text": "她对某事感到困惑不解",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者描述她处于怎样的状态？",
+          "options": [
+            {
+              "text": "充满活力和喜悦兴奋",
+              "correct": true
+            },
+            {
+              "text": "感到疲惫和沮丧",
+              "correct": false
+            },
+            {
+              "text": "正在安静地休息",
+              "correct": false
+            },
+            {
+              "text": "处于困惑和犹豫中",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者描述她处于什么状态？",
+          "options": [
+            {
+              "text": "她感到疲惫和无聊",
+              "correct": false
+            },
+            {
+              "text": "她充满活力和喜悦",
+              "correct": true
+            },
+            {
+              "text": "她正在安静地休息",
+              "correct": false
+            },
+            {
+              "text": "她感到困惑和不安",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 33,
+      "startTime": 109.33,
+      "endTime": 111.69,
+      "sentence": "And she said , you've got to hartfort",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到了什么地点？",
+          "options": [
+            {
+              "text": "哈特福德",
+              "correct": true
+            },
+            {
+              "text": "纽约",
+              "correct": false
+            },
+            {
+              "text": "伦敦",
+              "correct": false
+            },
+            {
+              "text": "波士顿",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据对话，说话者提到了什么地点？",
+          "options": [
+            {
+              "text": "哈特福德",
+              "correct": true
+            },
+            {
+              "text": "波士顿",
+              "correct": false
+            },
+            {
+              "text": "纽约",
+              "correct": false
+            },
+            {
+              "text": "芝加哥",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者提到了什么地点？",
+          "options": [
+            {
+              "text": "哈特福德",
+              "correct": true
+            },
+            {
+              "text": "纽约",
+              "correct": false
+            },
+            {
+              "text": "波士顿",
+              "correct": false
+            },
+            {
+              "text": "芝加哥",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 35,
+      "startTime": 114.82,
+      "endTime": 116.66,
+      "sentence": "You have to keep on living",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者想表达什么核心意思？",
+          "options": [
+            {
+              "text": "你必须继续生活下去",
+              "correct": true
+            },
+            {
+              "text": "你应该停止现在的生活方式",
+              "correct": false
+            },
+            {
+              "text": "你需要保持身体健康",
+              "correct": false
+            },
+            {
+              "text": "你必须坚持工作赚钱",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者最可能想表达什么？",
+          "options": [
+            {
+              "text": "你必须继续生活下去",
+              "correct": true
+            },
+            {
+              "text": "你应该停止现在的生活方式",
+              "correct": false
+            },
+            {
+              "text": "你需要保持身体健康",
+              "correct": false
+            },
+            {
+              "text": "你必须坚持工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者想表达什么核心信息？",
+          "options": [
+            {
+              "text": "你必须继续生活下去",
+              "correct": true
+            },
+            {
+              "text": "你应该停止现在的生活方式",
+              "correct": false
+            },
+            {
+              "text": "你需要保持身体健康",
+              "correct": false
+            },
+            {
+              "text": "你必须学会如何生存",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 40,
+      "startTime": 136.5,
+      "endTime": 138.62,
+      "sentence": "But i also recognize what was given",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么态度？",
+          "options": [
+            {
+              "text": "对过去获得的东西表示感激",
+              "correct": true
+            },
+            {
+              "text": "对未来的机会感到期待",
+              "correct": false
+            },
+            {
+              "text": "对当前的处境表示不满",
+              "correct": false
+            },
+            {
+              "text": "对别人的帮助表示拒绝",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了什么？",
+          "options": [
+            {
+              "text": "说话者意识到了所给予的东西",
+              "correct": true
+            },
+            {
+              "text": "说话者拒绝了别人的帮助",
+              "correct": false
+            },
+            {
+              "text": "说话者正在寻找丢失的物品",
+              "correct": false
+            },
+            {
+              "text": "说话者批评了别人的行为",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达了对什么的认知？",
+          "options": [
+            {
+              "text": "说话者认识到自己得到了什么",
+              "correct": true
+            },
+            {
+              "text": "说话者承认自己做错了什么",
+              "correct": false
+            },
+            {
+              "text": "说话者意识到自己失去了什么",
+              "correct": false
+            },
+            {
+              "text": "说话者确认自己拒绝了什么",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

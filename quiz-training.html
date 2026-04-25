@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精听测验 | BeeListen</title>
+    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/player.css">
+    <link rel="stylesheet" href="../css/training.css">
+    <link rel="stylesheet" href="../css/training-quiz.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    
+    <script defer src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <img src="../Beelisten ip形象/英语学习 IP 形象设1计.png" alt="BeeListen Logo" class="logo-image">
+                    <h1 class="logo">BeeListen</h1>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-item" data-page="learn">
+                    <span class="menu-icon">🏠</span>
+                    <span class="menu-text">学习</span>
+                </div>
+                <div class="menu-item active" data-page="review">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">复习</span>
+                </div>
+                <div class="menu-item" data-page="task">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">任务</span>
+                </div>
+                <div class="menu-item" data-page="shop">
+                    <span class="menu-icon">🛒</span>
+                    <span class="menu-text">小店</span>
+                </div>
+                <div class="menu-item" data-page="profile">
+                    <span class="menu-icon">👤</span>
+                    <span class="menu-text">个人档案</span>
+                </div>
+                <div class="menu-item" data-page="test">
+                    <span class="menu-icon">🔧</span>
+                    <span class="menu-text">测试</span>
+                </div>
+                <div class="menu-item" data-page="more">
+                    <span class="menu-icon">⚙️</span>
+                    <span class="menu-text">更多</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="page-content" id="quizTrainingPage">
+                <div class="page-header">
+                    <button class="back-btn" onclick="window.location.href='quiz-select.html'">← 返回选择</button>
+                    <h2 id="trainingTitle">🎯 精听测验</h2>
+                    <div class="training-progress" id="trainingProgress">分段 1/3</div>
+                </div>
+                
+                <div class="segment-selector" id="segmentSelector">
+                </div>
+                
+                <div class="training-player-section">
+                    <audio id="trainingAudio"></audio>
+                    <div class="training-player-controls">
+                        <button id="playPauseBtn" class="training-control-btn">
+                            <i class="ph ph-play"></i> 播放
+                        </button>
+                        <button id="replayBtn" class="training-control-btn secondary">
+                            <i class="ph ph-repeat"></i> 重播分段
+                        </button>
+                        <div class="training-progress-bar">
+                            <div class="training-progress-filled" id="progressFilled"></div>
+                        </div>
+                        <span id="timeDisplay">0:00 / 0:00</span>
+                    </div>
+                </div>
+                
+                <div class="training-exercise-section">
+                    <div class="quiz-options-container hidden" id="quizOptionsContainer">
+                        <div class="quiz-options-list" id="quizOptionsList">
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-result-container hidden" id="quizResultContainer">
+                    </div>
+                    
+                    <div class="training-actions">
+                        <div class="action-buttons-row">
+                            <button id="nextSentenceBtn" class="training-action-btn next-btn" disabled>
+                                <i class="ph ph-arrow-right"></i> 继续
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="training-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">进度</span>
+                        <span class="stat-value" id="progressStat">1/3</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">正确</span>
+                        <span class="stat-value correct" id="correctStat">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">错误</span>
+                        <span class="stat-value wrong" id="wrongStat">0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="page-content hidden" id="quizResultPage">
+                <div class="page-header">
+                    <button class="back-btn" onclick="window.location.href='quiz-select.html'">← 返回选择</button>
+                    <h2>🐝 本次精听测验结果</h2>
+                </div>
+                
+                <div class="quiz-result-summary">
+                    <div class="result-summary-card">
+                        <div class="summary-icon">🎉</div>
+                        <div class="summary-stats">
+                            <div class="summary-stat">
+                                <span class="summary-label">正确</span>
+                                <span class="summary-value correct" id="finalCorrect">0</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="summary-label">错误</span>
+                                <span class="summary-value wrong" id="finalWrong">0</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="summary-label">正确率</span>
+                                <span class="summary-value" id="finalAccuracy">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wrong-answers-section" id="wrongAnswersSection">
+                        <h3 class="section-title">错题回顾</h3>
+                        <div class="wrong-answers-list" id="wrongAnswersList">
+                        </div>
+                    </div>
+                    
+                    <div class="result-actions">
+                        <button class="training-action-btn" id="retryWrongBtn">
+                            <i class="ph ph-arrow-counter-clockwise"></i> 重做错题
+                        </button>
+                        <button class="training-action-btn next-btn" onclick="window.location.href='quiz-select.html'">
+                            <i class="ph ph-list"></i> 返回列表
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="../js/quiz-training.js"></script>
+</body>
+</html>

@@ -1,0 +1,683 @@
+{
+  "resourceId": "Do I like my role at my current job",
+  "totalSentences": 18,
+  "quizSentences": 9,
+  "generatedAt": "2026-04-23T00:22:46.698692",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.88,
+      "endTime": 2.92,
+      "sentence": "Hi , my name is tamara",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者介绍了自己的什么信息？",
+          "options": [
+            {
+              "text": "说话者的名字是Tamara",
+              "correct": true
+            },
+            {
+              "text": "说话者来自某个地方",
+              "correct": false
+            },
+            {
+              "text": "说话者正在介绍别人",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方的名字",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者介绍了什么信息？",
+          "options": [
+            {
+              "text": "说话者的名字",
+              "correct": true
+            },
+            {
+              "text": "说话者的职业",
+              "correct": false
+            },
+            {
+              "text": "说话者的年龄",
+              "correct": false
+            },
+            {
+              "text": "说话者的爱好",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者主要想表达什么？",
+          "options": [
+            {
+              "text": "询问对方的名字",
+              "correct": false
+            },
+            {
+              "text": "介绍自己的名字",
+              "correct": true
+            },
+            {
+              "text": "表达问候",
+              "correct": false
+            },
+            {
+              "text": "确认对方身份",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 6.52,
+      "endTime": 9.56,
+      "sentence": "And right now i'm living in ecuador",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话人目前住在哪里？",
+          "options": [
+            {
+              "text": "厄瓜多尔",
+              "correct": true
+            },
+            {
+              "text": "阿根廷",
+              "correct": false
+            },
+            {
+              "text": "哥伦比亚",
+              "correct": false
+            },
+            {
+              "text": "秘鲁",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话人现在住在哪里？",
+          "options": [
+            {
+              "text": "厄瓜多尔",
+              "correct": true
+            },
+            {
+              "text": "阿根廷",
+              "correct": false
+            },
+            {
+              "text": "哥伦比亚",
+              "correct": false
+            },
+            {
+              "text": "秘鲁",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话人目前住在哪里？",
+          "options": [
+            {
+              "text": "厄瓜多尔",
+              "correct": true
+            },
+            {
+              "text": "阿根廷",
+              "correct": false
+            },
+            {
+              "text": "巴西",
+              "correct": false
+            },
+            {
+              "text": "智利",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 5,
+      "startTime": 11.22,
+      "endTime": 15.4,
+      "sentence": "My question is , do i like my role at my current job",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者对自己当前工作的角色持什么态度？",
+          "options": [
+            {
+              "text": "说话者不确定自己是否喜欢当前工作的角色",
+              "correct": true
+            },
+            {
+              "text": "说话者非常喜欢当前工作的角色",
+              "correct": false
+            },
+            {
+              "text": "说话者明确表示不喜欢当前工作的角色",
+              "correct": false
+            },
+            {
+              "text": "说话者认为当前工作的角色需要改变",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者对自己当前工作的角色表达了什么态度？",
+          "options": [
+            {
+              "text": "说话者不确定是否喜欢自己当前工作的角色",
+              "correct": true
+            },
+            {
+              "text": "说话者非常喜欢自己当前工作的角色",
+              "correct": false
+            },
+            {
+              "text": "说话者明确表示不喜欢自己当前工作的角色",
+              "correct": false
+            },
+            {
+              "text": "说话者正在询问别人是否喜欢他们的工作角色",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者对自己当前工作的角色表达了什么态度？",
+          "options": [
+            {
+              "text": "他对自己当前工作的角色感到满意",
+              "correct": false
+            },
+            {
+              "text": "他对自己当前工作的角色感到不满意",
+              "correct": false
+            },
+            {
+              "text": "他对自己当前工作的角色感到不确定",
+              "correct": true
+            },
+            {
+              "text": "他对自己当前工作的角色感到非常自豪",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 7,
+      "startTime": 18.4,
+      "endTime": 22.06,
+      "sentence": "Teaching english online to kids in china",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者主要在做什么？",
+          "options": [
+            {
+              "text": "在中国教成年人英语",
+              "correct": false
+            },
+            {
+              "text": "在线教中国孩子英语",
+              "correct": true
+            },
+            {
+              "text": "在中国教孩子数学",
+              "correct": false
+            },
+            {
+              "text": "在线教美国孩子英语",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者主要在做什么？",
+          "options": [
+            {
+              "text": "在中国为孩子们提供在线英语教学",
+              "correct": true
+            },
+            {
+              "text": "在中国教孩子们线下英语课程",
+              "correct": false
+            },
+            {
+              "text": "为中国的成年人提供在线英语教学",
+              "correct": false
+            },
+            {
+              "text": "在海外教中国孩子英语课程",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者主要在做什么？",
+          "options": [
+            {
+              "text": "在中国教成年人英语",
+              "correct": false
+            },
+            {
+              "text": "在线教中国孩子英语",
+              "correct": true
+            },
+            {
+              "text": "在中国学校教英语",
+              "correct": false
+            },
+            {
+              "text": "教中国孩子其他科目",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 9,
+      "startTime": 27.92,
+      "endTime": 30.16,
+      "sentence": "Good about their week or their day",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "这句话主要询问什么内容？",
+          "options": [
+            {
+              "text": "询问对方对一周或一天的评价",
+              "correct": true
+            },
+            {
+              "text": "询问具体的工作安排",
+              "correct": false
+            },
+            {
+              "text": "询问天气情况",
+              "correct": false
+            },
+            {
+              "text": "询问旅行计划",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "这句话最可能是在询问什么？",
+          "options": [
+            {
+              "text": "他们最近过得怎么样",
+              "correct": true
+            },
+            {
+              "text": "他们今天吃了什么",
+              "correct": false
+            },
+            {
+              "text": "他们下周的计划",
+              "correct": false
+            },
+            {
+              "text": "他们昨天的工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者可能在询问什么？",
+          "options": [
+            {
+              "text": "对方对过去一周或一天的评价",
+              "correct": true
+            },
+            {
+              "text": "对方下周或明天的计划安排",
+              "correct": false
+            },
+            {
+              "text": "对方喜欢的季节或天气",
+              "correct": false
+            },
+            {
+              "text": "对方的工作时间或日程",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 11,
+      "startTime": 33.75,
+      "endTime": 38.78,
+      "sentence": "It helps them transition from thinking in chinese to speaking in english",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，这个做法的主要目的是什么？",
+          "options": [
+            {
+              "text": "帮助他们从用中文思考转向用英语说话",
+              "correct": true
+            },
+            {
+              "text": "让他们在说英语时忘记中文",
+              "correct": false
+            },
+            {
+              "text": "提高他们的中文翻译成英语的能力",
+              "correct": false
+            },
+            {
+              "text": "减少他们在英语对话中的语法错误",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，这个做法的主要目的是什么？",
+          "options": [
+            {
+              "text": "帮助他们从用中文思考转向用英语说话",
+              "correct": true
+            },
+            {
+              "text": "让他们在说英语时忘记中文",
+              "correct": false
+            },
+            {
+              "text": "提高他们的中文翻译能力",
+              "correct": false
+            },
+            {
+              "text": "让他们同时使用中文和英语思考",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，它帮助人们实现什么转变？",
+          "options": [
+            {
+              "text": "从用中文思考转变为用英语说话",
+              "correct": true
+            },
+            {
+              "text": "从用英语思考转变为用中文说话",
+              "correct": false
+            },
+            {
+              "text": "从用中文说话转变为用英语思考",
+              "correct": false
+            },
+            {
+              "text": "从用英语说话转变为用中文思考",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 13,
+      "startTime": 44.1,
+      "endTime": 48.66,
+      "sentence": "and introducing diverse themes such as nature and landmarks",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据句子，说话者正在做什么？",
+          "options": [
+            {
+              "text": "介绍多样化的主题",
+              "correct": true
+            },
+            {
+              "text": "讨论自然和地标",
+              "correct": false
+            },
+            {
+              "text": "批评某些主题",
+              "correct": false
+            },
+            {
+              "text": "列举具体例子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据句子，说话者正在介绍什么？",
+          "options": [
+            {
+              "text": "自然和地标等多样主题",
+              "correct": true
+            },
+            {
+              "text": "自然和地标的具体例子",
+              "correct": false
+            },
+            {
+              "text": "自然和地标的历史背景",
+              "correct": false
+            },
+            {
+              "text": "自然和地标的重要性",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子内容，说话者正在介绍什么？",
+          "options": [
+            {
+              "text": "关于自然和地标的多样化主题",
+              "correct": true
+            },
+            {
+              "text": "自然和地标的具体例子",
+              "correct": false
+            },
+            {
+              "text": "如何保护自然和地标",
+              "correct": false
+            },
+            {
+              "text": "自然和地标的历史背景",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 15,
+      "startTime": 50.8,
+      "endTime": 55.62,
+      "sentence": "And how it's used by scientists to discover new technologies",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "科学家使用它来做什么？",
+          "options": [
+            {
+              "text": "发现新技术",
+              "correct": true
+            },
+            {
+              "text": "研究历史事件",
+              "correct": false
+            },
+            {
+              "text": "教授学生知识",
+              "correct": false
+            },
+            {
+              "text": "管理实验室设备",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据句子，科学家使用它的主要目的是什么？",
+          "options": [
+            {
+              "text": "为了发现新的技术",
+              "correct": true
+            },
+            {
+              "text": "为了研究历史事件",
+              "correct": false
+            },
+            {
+              "text": "为了教育学生",
+              "correct": false
+            },
+            {
+              "text": "为了娱乐大众",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "科学家使用它来做什么？",
+          "options": [
+            {
+              "text": "发现新技术",
+              "correct": true
+            },
+            {
+              "text": "研究历史事件",
+              "correct": false
+            },
+            {
+              "text": "教授学生知识",
+              "correct": false
+            },
+            {
+              "text": "保护自然环境",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 17,
+      "startTime": 60.33,
+      "endTime": 64.57,
+      "sentence": "Keeps the students motivated and enhances their language development",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，其主要目的是什么？",
+          "options": [
+            {
+              "text": "提高学生的语言能力",
+              "correct": true
+            },
+            {
+              "text": "降低学生的学习压力",
+              "correct": false
+            },
+            {
+              "text": "增加学生的课外活动",
+              "correct": false
+            },
+            {
+              "text": "改变学生的课程安排",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，其主要目的是什么？",
+          "options": [
+            {
+              "text": "提高学生的语言能力并保持他们的积极性",
+              "correct": true
+            },
+            {
+              "text": "减少学生的课堂参与度",
+              "correct": false
+            },
+            {
+              "text": "主要关注学生的数学成绩提升",
+              "correct": false
+            },
+            {
+              "text": "限制学生的语言发展机会",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，这种做法的主要目的是什么？",
+          "options": [
+            {
+              "text": "提高学生的语言发展水平",
+              "correct": true
+            },
+            {
+              "text": "减少教师的工作负担",
+              "correct": false
+            },
+            {
+              "text": "增加课堂的娱乐活动",
+              "correct": false
+            },
+            {
+              "text": "降低学校的运营成本",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>词块填空训练 | BeeListen</title>
+    
+    <!-- CSS模块化引入 -->
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/player.css">
+    <link rel="stylesheet" href="../css/training.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    
+    <!-- Phosphor Icons -->
+    <script defer src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <img src="../assets/images/英语学习 IP 形象设1计.png" alt="BeeListen Logo" class="logo-image">
+                    <h1 class="logo">BeeListen</h1>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-item" data-page="learn">
+                    <span class="menu-icon">🏠</span>
+                    <span class="menu-text">学习</span>
+                </div>
+                <div class="menu-item active" data-page="review">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">复习</span>
+                </div>
+                <div class="menu-item" data-page="task">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">任务</span>
+                </div>
+                <div class="menu-item" data-page="shop">
+                    <span class="menu-icon">🛒</span>
+                    <span class="menu-text">小店</span>
+                </div>
+                <div class="menu-item" data-page="profile">
+                    <span class="menu-icon">👤</span>
+                    <span class="menu-text">个人档案</span>
+                </div>
+                <div class="menu-item" data-page="test">
+                    <span class="menu-icon">🔧</span>
+                    <span class="menu-text">测试</span>
+                </div>
+                <div class="menu-item" data-page="more">
+                    <span class="menu-icon">⚙️</span>
+                    <span class="menu-text">更多</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 主内容区域 -->
+        <div class="main-content">
+            <div class="page-content" id="wordFillTrainingPage">
+                <!-- 页面头部 -->
+                <div class="page-header">
+                    <button class="back-btn" onclick="window.location.href='word-fill-select.html'">← 返回选择</button>
+                    <h2 id="trainingTitle">✍️ 词块填空训练</h2>
+                    <div class="training-progress" id="trainingProgress">1/10</div>
+                </div>
+                
+                <!-- 音频播放器区域 -->
+                <div class="training-player-section">
+                    <audio id="trainingAudio"></audio>
+                    <div class="training-player-controls">
+                        <button id="playPauseBtn" class="training-control-btn">
+                            <i class="ph ph-play"></i> 播放
+                        </button>
+                        <button id="replayBtn" class="training-control-btn secondary">
+                            <i class="ph ph-repeat"></i> 重播
+                        </button>
+                        <div class="training-progress-bar">
+                            <div class="training-progress-filled" id="progressFilled"></div>
+                        </div>
+                        <span id="timeDisplay">0:00 / 0:00</span>
+                    </div>
+                </div>
+                
+                <!-- 训练练习区域 -->
+                <div class="training-exercise-section">
+                    <!-- 句子显示区域 -->
+                    <div class="sentence-container">
+                        <div class="sentence-label">当前句子：</div>
+                        <div class="sentence-content" id="sentenceContent">
+                            <div class="loading-text">正在加载训练内容...</div>
+                        </div>
+                    </div>
+                    
+                    <!-- 词块候选区 -->
+                    <div class="candidates-container">
+                        <div class="candidates-label">拖拽词块填入空白处：</div>
+                        <div class="candidates-list" id="candidatesList">
+                            <!-- 词块将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+                    
+                    <!-- 操作按钮 -->
+                    <div class="training-actions">
+                        <button id="checkAnswerBtn" class="training-action-btn check-btn">
+                            <i class="ph ph-check-circle"></i> 检查答案
+                        </button>
+                        <button id="nextSentenceBtn" class="training-action-btn next-btn" disabled>
+                            <i class="ph ph-arrow-right"></i> 下一句
+                        </button>
+                        <button id="resetBtn" class="training-action-btn reset-btn">
+                            <i class="ph ph-arrow-counter-clockwise"></i> 重置
+                        </button>
+                    </div>
+                    
+                    <!-- 结果显示 -->
+                    <div class="result-container" id="resultContainer"></div>
+                </div>
+                
+                <!-- 训练统计 -->
+                <div class="training-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">进度</span>
+                        <span class="stat-value" id="progressStat">1/10</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">正确</span>
+                        <span class="stat-value correct" id="correctStat">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">错误</span>
+                        <span class="stat-value wrong" id="wrongStat">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="../js/word-fill-training.js"></script>
+</body>
+</html>

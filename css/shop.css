@@ -1,0 +1,1103 @@
+/* ========================================
+   商店页面样式 - 蜜蜂主题虚拟商店
+
+   【用途说明】
+   这个文件负责虚拟商店的全部样式，包括：
+   - 商店顶部栏（蜂蜜币余额）
+   - 分类标签页（工具/装饰）
+   - 商品卡片网格布局
+   - 购买按钮状态
+   - 购买提示 Toast
+   - 背包/库存面板
+   - 空状态
+
+   【设计规范】
+   - 主色：蜂蜜黄 #FFD166
+   - 蜜蜂黑：#000000 / #1a1a2e
+   - 蜂巢白：#FFFFFF
+   - 蜜蜂棕：#D97706
+   - 蜂蜜橙：#F59E0B
+   ======================================== */
+
+/* ========================================
+   商店页面容器
+   ======================================== */
+.shop-page {
+    animation: fadeIn 0.5s ease-out;
+    padding: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========================================
+   商店顶部栏
+   ======================================== */
+.shop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-5) var(--space-6);
+    background: linear-gradient(135deg, var(--honey-yellow) 0%, var(--bee-brown-light) 100%);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--space-6);
+    box-shadow: var(--shadow-bee), 0 4px 20px rgba(245, 158, 11, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.shop-header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.shop-header-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: var(--bee-black);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--font-display);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.shop-header-title .shop-header-icon {
+    font-size: 28px;
+    animation: beeFloat 3s ease-in-out infinite;
+}
+
+/* ========================================
+   蜂蜜币显示
+   ======================================== */
+.shop-coin-display {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-5);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: var(--radius-full);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all var(--transition-fast);
+}
+
+.shop-coin-display:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.shop-coin-icon {
+    font-size: 24px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.shop-coin-amount {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bee-brown);
+    font-variant-numeric: tabular-nums;
+}
+
+.shop-coin-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* ========================================
+   分类标签页
+   ======================================== */
+.shop-tabs {
+    display: flex;
+    gap: var(--space-2);
+    margin-bottom: var(--space-6);
+    padding: var(--space-2);
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: var(--radius-full);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    width: fit-content;
+}
+
+.shop-tab {
+    padding: var(--space-3) var(--space-6);
+    border: none;
+    border-radius: var(--radius-full);
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    position: relative;
+    overflow: hidden;
+    font-family: var(--font-sans);
+}
+
+.shop-tab:hover {
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.shop-tab.active {
+    background: linear-gradient(135deg, var(--honey-yellow) 0%, var(--bee-brown-light) 100%);
+    color: var(--bee-black);
+    box-shadow: var(--shadow-bee);
+    font-weight: 700;
+}
+
+.shop-tab.active:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(212, 172, 56, 0.4);
+}
+
+/* ========================================
+   商店网格布局
+   ======================================== */
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-5);
+    margin-bottom: var(--space-8);
+}
+
+/* ========================================
+   商品卡片
+   ======================================== */
+.shop-item-card {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    padding: var(--space-5);
+    text-align: center;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    border: 2px solid transparent;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+    animation: popIn 0.4s ease-out backwards;
+}
+
+.shop-item-card:nth-child(1) { animation-delay: 0.05s; }
+.shop-item-card:nth-child(2) { animation-delay: 0.1s; }
+.shop-item-card:nth-child(3) { animation-delay: 0.15s; }
+.shop-item-card:nth-child(4) { animation-delay: 0.2s; }
+.shop-item-card:nth-child(5) { animation-delay: 0.25s; }
+.shop-item-card:nth-child(6) { animation-delay: 0.3s; }
+.shop-item-card:nth-child(7) { animation-delay: 0.35s; }
+.shop-item-card:nth-child(8) { animation-delay: 0.4s; }
+
+.shop-item-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--honey-yellow) 0%, var(--bee-brown-light) 100%);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.shop-item-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg), 0 0 0 3px rgba(255, 209, 102, 0.15);
+    border-color: rgba(255, 209, 102, 0.3);
+}
+
+.shop-item-card:hover::before {
+    opacity: 1;
+}
+
+.shop-item-card.owned {
+    border-color: rgba(40, 167, 69, 0.3);
+    background: linear-gradient(180deg, var(--surface) 0%, rgba(40, 167, 69, 0.05) 100%);
+}
+
+.shop-item-card.owned::after {
+    content: '已拥有';
+    position: absolute;
+    top: var(--space-3);
+    right: var(--space-3);
+    padding: 2px 8px;
+    background: linear-gradient(135deg, #28a745 0%, #34ce57 100%);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    box-shadow: 0 2px 6px rgba(40, 167, 69, 0.3);
+}
+
+/* ========================================
+   商品图标
+   ======================================== */
+.shop-item-icon {
+    font-size: 56px;
+    margin-bottom: var(--space-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    transition: transform var(--transition-fast);
+}
+
+.shop-item-card:hover .shop-item-icon {
+    transform: scale(1.15) rotate(-5deg);
+}
+
+/* ========================================
+   商品文字
+   ======================================== */
+.shop-item-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-2);
+    line-height: 1.3;
+}
+
+.shop-item-desc {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: var(--space-4);
+    line-height: 1.5;
+    min-height: 40px;
+}
+
+.shop-item-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--bee-brown);
+    margin-bottom: var(--space-4);
+}
+
+.shop-item-price .price-icon {
+    font-size: 20px;
+}
+
+.shop-item-qty {
+    display: inline-block;
+    padding: 2px 8px;
+    background: linear-gradient(135deg, #28a745 0%, #34ce57 100%);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.shop-inventory-item-qty {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--bee-brown);
+    background: rgba(255, 209, 102, 0.2);
+    padding: 4px 10px;
+    border-radius: var(--radius-md);
+}
+
+.shop-inventory-item-tag {
+    font-size: 12px;
+    font-weight: 600;
+    color: #28a745;
+    background: rgba(40, 167, 69, 0.1);
+    padding: 4px 10px;
+    border-radius: var(--radius-md);
+}
+
+.inventory-section {
+    margin-bottom: var(--space-5);
+}
+
+.inventory-section-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-3);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--border);
+}
+
+.shop-buy-btn.disabled {
+    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.shop-buy-btn.disabled:hover {
+    transform: none;
+}
+
+.shop-inventory-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-full);
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    backdrop-filter: blur(10px);
+}
+
+.shop-inventory-btn:hover {
+    background: var(--surface);
+    border-color: var(--honey-yellow);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+.inventory-badge {
+    padding: 2px 8px;
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--bee-brown-light) 100%);
+    color: var(--hive-white);
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    min-width: 20px;
+    text-align: center;
+}
+
+.shop-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    z-index: 2400;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-normal);
+}
+
+.shop-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.shop-overlay.hidden {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.inventory-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-4) var(--space-5);
+    border-bottom: 2px solid var(--border);
+    background: linear-gradient(135deg, var(--honey-yellow) 0%, var(--bee-brown-light) 100%);
+}
+
+.inventory-header h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--bee-black);
+    margin: 0;
+}
+
+.inventory-close {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--text-secondary);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inventory-close:hover {
+    background: var(--surface);
+    transform: rotate(90deg);
+}
+
+.inventory-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--space-4);
+}
+
+/* ========================================
+   购买按钮
+   ======================================== */
+.shop-buy-btn {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    border: none;
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--bee-brown-light) 100%);
+    color: var(--hive-white);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-bee);
+    position: relative;
+    overflow: hidden;
+    font-family: var(--font-sans);
+}
+
+.shop-buy-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.shop-buy-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 172, 56, 0.5);
+}
+
+.shop-buy-btn:hover::before {
+    left: 100%;
+}
+
+.shop-buy-btn:active {
+    transform: translateY(0) scale(0.98);
+}
+
+.shop-buy-btn:disabled {
+    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.shop-buy-btn:disabled::before {
+    display: none;
+}
+
+.shop-buy-btn.owned {
+    background: linear-gradient(135deg, #28a745 0%, #34ce57 100%);
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+.shop-buy-btn.owned:hover {
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+/* ========================================
+   购买提示 Toast
+   ======================================== */
+.shop-toast {
+    position: fixed;
+    top: var(--space-6);
+    right: var(--space-6);
+    padding: var(--space-4) var(--space-6);
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255, 209, 102, 0.3);
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    z-index: 3000;
+    transform: translateX(150%);
+    transition: transform var(--transition-slow);
+    border-left: 4px solid var(--honey-yellow);
+    max-width: 360px;
+}
+
+.shop-toast.show {
+    transform: translateX(0);
+    animation: toastSlideIn 0.4s ease-out;
+}
+
+.shop-toast.hide {
+    animation: toastSlideOut 0.3s ease-in forwards;
+}
+
+@keyframes toastSlideIn {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+    70% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes toastSlideOut {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+}
+
+.shop-toast-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.shop-toast-content {
+    flex: 1;
+}
+
+.shop-toast-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: 2px;
+}
+
+.shop-toast-message {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.shop-toast.success {
+    border-left-color: #28a745;
+}
+
+.shop-toast.error {
+    border-left-color: #dc3545;
+}
+
+.shop-toast.warning {
+    border-left-color: #ffc107;
+}
+
+/* ========================================
+   背包/库存面板
+   ======================================== */
+.shop-inventory-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 380px;
+    max-width: 90vw;
+    height: 100vh;
+    background: linear-gradient(180deg, var(--hive-cream) 0%, var(--surface) 100%);
+    box-shadow: -8px 0 30px rgba(0, 0, 0, 0.15);
+    z-index: 2500;
+    transform: translateX(100%);
+    transition: transform var(--transition-slow);
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-inventory-panel.open {
+    transform: translateX(0);
+}
+
+.shop-inventory-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    z-index: 2400;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-normal);
+}
+
+.shop-inventory-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.shop-inventory-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-5) var(--space-6);
+    border-bottom: 2px solid var(--border);
+    background: linear-gradient(135deg, var(--honey-yellow) 0%, var(--bee-brown-light) 100%);
+}
+
+.shop-inventory-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--bee-black);
+    font-family: var(--font-display);
+}
+
+.shop-inventory-title .inventory-icon {
+    font-size: 24px;
+}
+
+.shop-inventory-close {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--text-secondary);
+    font-size: 18px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-inventory-close:hover {
+    background: var(--surface);
+    transform: rotate(90deg);
+    box-shadow: var(--shadow-sm);
+}
+
+.shop-inventory-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--space-4) var(--space-5);
+}
+
+.shop-inventory-footer {
+    padding: var(--space-4) var(--space-5);
+    border-top: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.shop-inventory-count {
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* ========================================
+   库存物品
+   ======================================== */
+.shop-inventory-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-3);
+    transition: all var(--transition-fast);
+    border: 1px solid transparent;
+    animation: slideInRight 0.3s ease-out backwards;
+}
+
+.shop-inventory-item:nth-child(1) { animation-delay: 0.05s; }
+.shop-inventory-item:nth-child(2) { animation-delay: 0.1s; }
+.shop-inventory-item:nth-child(3) { animation-delay: 0.15s; }
+.shop-inventory-item:nth-child(4) { animation-delay: 0.2s; }
+.shop-inventory-item:nth-child(5) { animation-delay: 0.25s; }
+
+.shop-inventory-item:hover {
+    background: var(--surface);
+    border-color: rgba(255, 209, 102, 0.3);
+    transform: translateX(4px);
+    box-shadow: var(--shadow-sm);
+}
+
+.shop-inventory-item-icon {
+    font-size: 36px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--honey-yellow-light) 0%, var(--honey-yellow) 100%);
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+}
+
+.shop-inventory-item-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.shop-inventory-item-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: 2px;
+}
+
+.shop-inventory-item-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.shop-inventory-item-use-btn {
+    padding: var(--space-2) var(--space-4);
+    border: none;
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--bee-brown-light) 100%);
+    color: var(--hive-white);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-bee);
+    flex-shrink: 0;
+}
+
+.shop-inventory-item-use-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 172, 56, 0.4);
+}
+
+.shop-inventory-item-use-btn:active {
+    transform: translateY(0) scale(0.95);
+}
+
+.shop-inventory-item-use-btn:disabled {
+    background: #e9ecef;
+    color: var(--text-muted);
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* ========================================
+   空状态
+   ======================================== */
+.shop-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-10) var(--space-6);
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.shop-empty-state-icon {
+    font-size: 72px;
+    margin-bottom: var(--space-5);
+    opacity: 0.6;
+    animation: beeFloat 3s ease-in-out infinite;
+}
+
+.shop-empty-state-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-3);
+    font-family: var(--font-display);
+}
+
+.shop-empty-state-desc {
+    font-size: 14px;
+    color: var(--text-muted);
+    max-width: 300px;
+    line-height: 1.6;
+}
+
+/* ========================================
+   背包空状态
+   ======================================== */
+.shop-inventory-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-10) var(--space-4);
+    text-align: center;
+}
+
+.shop-inventory-empty-icon {
+    font-size: 56px;
+    margin-bottom: var(--space-4);
+    opacity: 0.5;
+}
+
+.shop-inventory-empty-text {
+    font-size: 15px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* ========================================
+   打开背包按钮
+   ======================================== */
+.shop-inventory-toggle {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-full);
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    backdrop-filter: blur(10px);
+}
+
+.shop-inventory-toggle:hover {
+    background: var(--surface);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+.shop-inventory-toggle:active {
+    transform: translateY(0);
+}
+
+.shop-inventory-toggle .toggle-icon {
+    font-size: 20px;
+}
+
+.shop-inventory-toggle .toggle-badge {
+    padding: 1px 7px;
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--bee-brown-light) 100%);
+    color: var(--hive-white);
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    min-width: 20px;
+    text-align: center;
+}
+
+/* ========================================
+   商店分类标题
+   ======================================== */
+.shop-section-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-5);
+    margin-top: var(--space-6);
+    position: relative;
+    padding-left: var(--space-4);
+}
+
+.shop-section-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(180deg, var(--honey-yellow) 0%, var(--bee-brown-light) 100%);
+    border-radius: var(--radius-full);
+}
+
+.shop-section-title .section-icon {
+    font-size: 22px;
+}
+
+/* ========================================
+   商品稀有度标签
+   ======================================== */
+.shop-item-rarity {
+    position: absolute;
+    top: var(--space-3);
+    left: var(--space-3);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.shop-item-rarity.common {
+    background: #e9ecef;
+    color: #6c757d;
+}
+
+.shop-item-rarity.rare {
+    background: linear-gradient(135deg, #cce5ff 0%, #99caff 100%);
+    color: #004085;
+}
+
+.shop-item-rarity.epic {
+    background: linear-gradient(135deg, #e2d4f0 0%, #c5a3e0 100%);
+    color: #4a148c;
+}
+
+.shop-item-rarity.legendary {
+    background: linear-gradient(135deg, var(--honey-yellow-light) 0%, var(--honey-yellow) 100%);
+    color: var(--bee-black);
+    box-shadow: 0 2px 6px rgba(255, 209, 102, 0.4);
+}
+
+/* ========================================
+   响应式适配
+   ======================================== */
+
+/* 平板设备 (768px - 1024px) */
+@media (max-width: 1024px) {
+    .shop-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-4);
+    }
+}
+
+@media (max-width: 768px) {
+    .shop-page {
+        padding: var(--space-4);
+    }
+
+    .shop-header {
+        flex-direction: column;
+        gap: var(--space-4);
+        text-align: center;
+        padding: var(--space-4);
+    }
+
+    .shop-header-title {
+        font-size: 18px;
+    }
+
+    .shop-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-4);
+    }
+
+    .shop-tabs {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .shop-tab {
+        flex: 1;
+        text-align: center;
+        padding: var(--space-3) var(--space-4);
+        font-size: 14px;
+    }
+
+    .shop-toast {
+        right: var(--space-4);
+        left: var(--space-4);
+        max-width: none;
+    }
+
+    .shop-inventory-panel {
+        width: 100%;
+        max-width: none;
+    }
+
+    .shop-item-card {
+        padding: var(--space-4);
+    }
+
+    .shop-item-icon {
+        font-size: 44px;
+        height: 64px;
+    }
+
+    .shop-item-name {
+        font-size: 14px;
+    }
+
+    .shop-item-desc {
+        font-size: 12px;
+        min-height: 36px;
+    }
+
+    .shop-item-price {
+        font-size: 16px;
+    }
+}
+
+/* 手机设备 (< 480px) */
+@media (max-width: 480px) {
+    .shop-page {
+        padding: var(--space-3);
+    }
+
+    .shop-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-3);
+    }
+
+    .shop-header {
+        padding: var(--space-4);
+        border-radius: var(--radius-lg);
+    }
+
+    .shop-header-title {
+        font-size: 16px;
+    }
+
+    .shop-coin-display {
+        padding: var(--space-2) var(--space-4);
+    }
+
+    .shop-coin-amount {
+        font-size: 16px;
+    }
+
+    .shop-section-title {
+        font-size: 16px;
+        margin-bottom: var(--space-4);
+    }
+
+    .shop-item-card {
+        padding: var(--space-4);
+    }
+
+    .shop-item-icon {
+        font-size: 48px;
+        height: 68px;
+    }
+
+    .shop-inventory-item {
+        padding: var(--space-3);
+    }
+
+    .shop-inventory-item-icon {
+        font-size: 28px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .shop-inventory-item-name {
+        font-size: 13px;
+    }
+
+    .shop-inventory-item-use-btn {
+        padding: var(--space-2) var(--space-3);
+        font-size: 12px;
+    }
+}

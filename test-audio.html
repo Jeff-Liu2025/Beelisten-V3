@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音频跳转测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .log {
+            background: #f5f5f5;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: monospace;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎵 音频跳转测试</h1>
+    
+    <div class="test-section">
+        <h2>测试 1: 原生音频元素</h2>
+        <audio id="testAudio1" controls style="width: 100%;">
+            <source src="../听力资源/StoryCorps/mp3/s440_-_StoryCorps_-_s440.mp3" type="audio/mpeg">
+        </audio>
+        <div>
+            <button onclick="testSeek1(10)">跳转到 10秒</button>
+            <button onclick="testSeek1(30)">跳转到 30秒</button>
+            <button onclick="testSeek1(60)">跳转到 60秒</button>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试 2: JavaScript 创建音频</h2>
+        <div>
+            <button onclick="createAudio2()">创建音频</button>
+            <button onclick="testSeek2(10)">跳转到 10秒</button>
+            <button onclick="testSeek2(30)">跳转到 30秒</button>
+            <button onclick="playAudio2()">播放</button>
+            <button onclick="pauseAudio2()">暂停</button>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试 3: 模拟你的场景</h2>
+        <audio id="testAudio3" controls style="width: 100%;"></audio>
+        <div>
+            <button onclick="loadAudio3()">加载音频</button>
+            <button onclick="playAudio3()">播放</button>
+            <button onclick="testSeek3(10)">跳转到 10秒</button>
+            <button onclick="testSeek3(30)">跳转到 30秒</button>
+        </div>
+    </div>
+    
+    <div class="log" id="log"></div>
+    
+    <script>
+        // 日志函数
+        function log(message) {
+            const logDiv = document.getElementById('log');
+            const time = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${time}] ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+            console.log(message);
+        }
+        
+        // 测试 1
+        function testSeek1(time) {
+            const audio = document.getElementById('testAudio1');
+            log(`测试1 - 设置前 currentTime: ${audio.currentTime}`);
+            audio.currentTime = time;
+            log(`测试1 - 设置后 currentTime: ${audio.currentTime}`);
+            
+            setTimeout(() => {
+                log(`测试1 - 100ms后 currentTime: ${audio.currentTime}`);
+            }, 100);
+        }
+        
+        // 测试 2
+        let audio2 = null;
+        
+        function createAudio2() {
+            audio2 = new Audio('../听力资源/StoryCorps/mp3/s440_-_StoryCorps_-_s440.mp3');
+            audio2.addEventListener('loadedmetadata', () => {
+                log(`测试2 - 音频加载完成，时长: ${audio2.duration}`);
+            });
+            log('测试2 - 音频已创建');
+        }
+        
+        function testSeek2(time) {
+            if (!audio2) {
+                log('测试2 - 请先创建音频');
+                return;
+            }
+            log(`测试2 - 设置前 currentTime: ${audio2.currentTime}`);
+            audio2.currentTime = time;
+            log(`测试2 - 设置后 currentTime: ${audio2.currentTime}`);
+            
+            setTimeout(() => {
+                log(`测试2 - 100ms后 currentTime: ${audio2.currentTime}`);
+            }, 100);
+        }
+        
+        function playAudio2() {
+            if (!audio2) return;
+            audio2.play().then(() => {
+                log('测试2 - 开始播放');
+            }).catch(err => {
+                log(`测试2 - 播放失败: ${err.message}`);
+            });
+        }
+        
+        function pauseAudio2() {
+            if (!audio2) return;
+            audio2.pause();
+            log('测试2 - 已暂停');
+        }
+        
+        // 测试 3
+        const audio3 = document.getElementById('testAudio3');
+        
+        function loadAudio3() {
+            audio3.src = '../听力资源/StoryCorps/mp3/s440_-_StoryCorps_-_s440.mp3';
+            audio3.load();
+            log('测试3 - 音频已加载');
+        }
+        
+        function playAudio3() {
+            audio3.play().then(() => {
+                log('测试3 - 开始播放');
+            }).catch(err => {
+                log(`测试3 - 播放失败: ${err.message}`);
+            });
+        }
+        
+        function testSeek3(time) {
+            log(`测试3 - 设置前 currentTime: ${audio3.currentTime}`);
+            audio3.currentTime = time;
+            log(`测试3 - 设置后 currentTime: ${audio3.currentTime}`);
+            
+            setTimeout(() => {
+                log(`测试3 - 100ms后 currentTime: ${audio3.currentTime}`);
+            }, 100);
+        }
+        
+        // 监听音频事件
+        audio3.addEventListener('timeupdate', () => {
+            // 不记录，避免刷屏
+        });
+        
+        audio3.addEventListener('seeking', () => {
+            log(`测试3 - seeking 事件，时间: ${audio3.currentTime}`);
+        });
+        
+        audio3.addEventListener('seeked', () => {
+            log(`测试3 - seeked 事件，时间: ${audio3.currentTime}`);
+        });
+    </script>
+</body>
+</html>

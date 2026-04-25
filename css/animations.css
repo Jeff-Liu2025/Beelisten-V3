@@ -1,0 +1,869 @@
+/* ========================================
+   动画和响应式文件 - 动画效果和媒体查询
+   
+   【用途说明】
+   这个文件负责：
+   - 所有动画关键帧定义
+   - 弹窗动画
+   - 页面过渡动画
+   - 按钮波纹效果
+   - 全局响应式媒体查询
+   
+   【修改指南】
+   - 添加新动画：在动画关键帧区域添加@keyframes
+   - 修改动画时长：调整animation属性的duration
+   - 添加响应式：在响应式区域添加@media查询
+   
+   【注意事项】
+   - 动画应保持流畅，避免过度使用
+   - 响应式断点应与设计保持一致
+   ======================================== */
+
+/* ========================================
+   动画关键帧定义
+   ======================================== */
+
+/* 淡入动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 从左侧滑入 */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* 从右侧滑入 */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* 缩放弹出 */
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    70% {
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 脉冲动画 */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* 蜜蜂飞舞动画 */
+@keyframes beeFloat {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(2deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-3px) rotate(-2deg);
+    }
+}
+
+/* 闪烁发光 */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* 成功弹窗动画 */
+@keyframes successPopup {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* 成功弹窗隐藏动画 */
+@keyframes successPopupHide {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+}
+
+/* 弹跳动画 */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* 抖动动画 */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+/* 旋转动画 */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 掉落动画 */
+@keyframes dropAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ========================================
+   页面内容动画
+   ======================================== */
+.page-content {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* ========================================
+   按钮点击波纹效果
+   ======================================== */
+.btn, .search-btn, .control-btn.play-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::after, .search-btn::after, .control-btn.play-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.btn:active::after, .search-btn:active::after, .control-btn.play-btn:active::after {
+    width: 200%;
+    height: 200%;
+}
+
+/* ========================================
+   Logo 蜜蜂飞舞效果
+   ======================================== */
+.logo-image {
+    animation: beeFloat 3s ease-in-out infinite;
+}
+
+/* ========================================
+   高级音频测试页面样式
+   ======================================== */
+
+/* 测试页面容器 */
+.test-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+    padding-bottom: 200px;
+}
+
+/* 测试页面头部 */
+.test-page-header {
+    padding: var(--space-4) var(--space-6);
+    margin-bottom: 0;
+}
+
+/* 文件上传区域 */
+.upload-section {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    margin: var(--space-4) var(--space-6);
+    border: 2px dashed rgba(212, 172, 56, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-md);
+}
+
+.upload-section h2 {
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: var(--space-4);
+}
+
+.upload-group {
+    margin-bottom: var(--space-4);
+}
+
+.upload-group label {
+    display: block;
+    margin-bottom: var(--space-2);
+    font-weight: 500;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.upload-group input[type="file"] {
+    width: 100%;
+    padding: var(--space-3);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+    font-size: 14px;
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+}
+
+.upload-group input[type="file"]:focus {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-bee), 0 0 0 4px rgba(255, 209, 102, 0.15);
+}
+
+.load-btn {
+    display: block;
+    width: 100%;
+    padding: var(--space-3);
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--bee-brown-light) 100%);
+    color: var(--hive-white);
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    margin-top: var(--space-4);
+    box-shadow: var(--shadow-bee);
+}
+
+.load-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 172, 56, 0.5);
+}
+
+.load-btn:active {
+    transform: translateY(0);
+}
+
+/* 资源状态 */
+.resource-status {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    margin-bottom: var(--space-4);
+    border: 1px solid rgba(212, 172, 56, 0.2);
+}
+
+.resource-status .status-empty {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+.resource-status .status-empty .status-icon {
+    font-size: 16px;
+}
+
+.resource-status .status-loaded {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    color: var(--text-primary);
+    font-size: 13px;
+}
+
+.resource-status .status-loaded .status-icon {
+    font-size: 16px;
+}
+
+.resource-status .status-loaded .status-text {
+    color: var(--text-muted);
+}
+
+.resource-status .status-loaded .status-title {
+    font-weight: 600;
+    color: var(--bee-brown);
+}
+
+.resource-status .status-loaded .status-meta {
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+/* 测试字幕头部 */
+.test-subtitle-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: var(--space-4);
+    flex-wrap: wrap;
+    padding: 0 var(--space-6);
+}
+
+/* 测试字幕内容区域 */
+.test-subtitle-content {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    margin: 0 var(--space-6);
+}
+
+.empty-subtitles {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 40px;
+}
+
+.empty-subtitles p {
+    margin-bottom: 10px;
+}
+
+.empty-subtitles p:last-child {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/* 测试字幕项 */
+.test-subtitle-item {
+    padding: var(--space-3) var(--space-4);
+    margin-bottom: var(--space-2);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-normal);
+    position: relative;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    user-select: none;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: auto;
+    touch-action: manipulation;
+}
+
+.test-subtitle-item:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateX(5px);
+}
+
+.test-subtitle-item:active {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateX(5px) scale(0.98);
+}
+
+.test-subtitle-item.highlighted {
+    background: rgba(255, 217, 102, 0.85);
+    border-left: 4px solid #e6ac00;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(255, 217, 102, 0.5);
+    transform: translateX(5px);
+}
+
+.test-subtitle-item.highlighted .original-text {
+    color: #5d4e37;
+}
+
+.test-subtitle-item.highlighted .translation-text {
+    color: #4a4a4a;
+}
+
+.subtitle-time {
+    color: rgba(139, 115, 85, 0.7);
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* 测试播放器控制栏 */
+.test-player-controls {
+    background: linear-gradient(180deg, rgba(255, 253, 245, 0.98) 0%, rgba(254, 249, 231, 0.98) 100%);
+    border-top: 3px solid var(--primary);
+    padding: var(--space-4) var(--space-6);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.test-progress-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.test-time-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+}
+
+.test-progress-container {
+    height: 20px;
+    background: transparent;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    position: relative;
+    pointer-events: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.test-progress-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 6px;
+    background: rgba(139, 115, 85, 0.15);
+    border-radius: var(--radius-full);
+    pointer-events: none;
+    transition: height 0.15s ease;
+}
+
+.test-progress-container:hover::before {
+    height: 8px;
+}
+
+.test-progress-filled {
+    height: 6px;
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    border-radius: var(--radius-full);
+    width: 0%;
+    transition: width 0.1s linear;
+    box-shadow: 0 0 10px rgba(255, 209, 102, 0.5);
+    pointer-events: none;
+}
+
+.test-progress-container:hover .test-progress-filled {
+    height: 8px;
+}
+
+.test-control-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.test-first-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.test-second-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.test-main-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.test-control-btn {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    color: var(--text-muted);
+    box-shadow: var(--shadow-sm);
+}
+
+.test-control-btn:hover {
+    background: var(--primary-light);
+    border-color: var(--primary);
+    color: var(--text-secondary);
+    transform: scale(1.1);
+    box-shadow: var(--shadow-md);
+}
+
+.test-control-btn:active {
+    transform: scale(0.95);
+}
+
+.test-control-btn.play-btn {
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--primary) 100%);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 52px;
+    height: 52px;
+    font-size: 20px;
+    color: var(--hive-white);
+    box-shadow: var(--shadow-bee);
+}
+
+.test-control-btn.play-btn:hover {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(212, 172, 56, 0.5);
+}
+
+.test-secondary-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+}
+
+.test-speed-control {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.test-speed-dropdown {
+    position: relative;
+}
+
+.test-speed-dropdown-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    color: var(--text-muted);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 80px;
+    justify-content: space-between;
+}
+
+.test-speed-dropdown-btn:hover {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(212, 172, 56, 0.5);
+    color: #b8860b;
+}
+
+.test-speed-options {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: 0 8px 20px rgba(212, 172, 56, 0.2);
+    backdrop-filter: blur(10px);
+    min-width: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.test-speed-options.open {
+    display: block;
+}
+
+.test-speed-option {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.test-speed-option:hover {
+    background: rgba(212, 172, 56, 0.15);
+    color: #b8860b;
+}
+
+.test-speed-option.active {
+    background: linear-gradient(90deg, var(--honey-gold) 0%, #c9a227 100%);
+    color: var(--hive-white);
+}
+
+.test-volume-control {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.test-volume-slider {
+    width: 70px;
+    height: 5px;
+    border-radius: var(--radius-full);
+    background: rgba(139, 115, 85, 0.2);
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.test-volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--secondary) 100%);
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(212, 172, 56, 0.4);
+    transition: transform var(--transition-fast);
+}
+
+.test-volume-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.test-volume-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--secondary) 100%);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 6px rgba(212, 172, 56, 0.4);
+}
+
+.test-feature-buttons {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.test-feature-btn {
+    width: 34px;
+    height: 34px;
+    padding: var(--space-1);
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    color: var(--text-muted);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-feature-btn:hover {
+    background: var(--primary-light);
+    border-color: var(--primary);
+    color: var(--text-secondary);
+    transform: scale(1.1);
+    box-shadow: var(--shadow-sm);
+}
+
+.test-dropdown-arrow {
+    font-size: 10px;
+    transition: transform 0.2s ease;
+}
+
+.test-speed-dropdown.open .test-dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* ========================================
+   全局响应式适配
+   ======================================== */
+
+/* 平板设备 (768px - 1024px) */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+    
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+    }
+    
+    /* 测试页面响应式 */
+    .test-page-container {
+        padding: 0;
+    }
+
+    .test-page-header {
+        padding: var(--space-3) var(--space-4);
+    }
+
+    .upload-section,
+    .test-subtitle-header,
+    .test-subtitle-content,
+    .test-player-controls {
+        padding: var(--space-4);
+        margin: var(--space-3);
+    }
+
+    .test-second-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--space-3);
+    }
+
+    .test-main-controls,
+    .test-secondary-controls {
+        justify-content: center;
+    }
+    
+    /* 资源选择页响应式 */
+    .resource-selection-page,
+    .training-page {
+        padding: 0;
+    }
+    
+    .resource-list {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+    }
+    
+    .resource-card-header {
+        gap: 10px;
+    }
+    
+    .resource-icon {
+        font-size: 32px;
+        padding: 8px;
+    }
+    
+    .resource-title {
+        font-size: 14px;
+    }
+}
+
+/* 手机设备 (< 480px) */
+@media (max-width: 480px) {
+    .main-content {
+        padding: 15px;
+    }
+    
+    /* 测试页面小屏响应式 */
+    .upload-section,
+    .test-subtitle-header,
+    .test-subtitle-content,
+    .test-player-controls {
+        padding: var(--space-3);
+        margin: var(--space-2);
+    }
+    
+    /* 资源选择页小屏响应式 */
+    .resource-selection-page,
+    .training-page {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .resource-list {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .resource-card {
+        padding: 14px;
+    }
+    
+    .resource-icon {
+        font-size: 30px;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    
+    .resource-title {
+        font-size: 14px;
+    }
+    
+    .resource-meta {
+        gap: 10px;
+        font-size: 11px;
+    }
+}

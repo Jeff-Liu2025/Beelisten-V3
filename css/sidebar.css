@@ -1,0 +1,180 @@
+/* ========================================
+   侧边栏文件 - 导航栏样式
+   
+   【用途说明】
+   这个文件负责：
+   - 侧边栏容器样式
+   - Logo区域样式
+   - 导航菜单样式
+   - 菜单项激活状态
+   
+   【修改指南】
+   - 修改侧边栏颜色：调整.sidebar的background
+   - 修改菜单项样式：调整.menu-item相关样式
+   - 修改激活状态：调整.menu-item.active样式
+   
+   【注意事项】
+   - 侧边栏宽度修改需要同步修改layout.css中的margin-left
+   - 移动端适配已包含在内
+   ======================================== */
+
+/* ========================================
+   侧边栏容器
+   ======================================== */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background: linear-gradient(180deg, var(--bee-black-light) 0%, var(--bee-black) 100%);
+    border-right: 3px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    transition: transform var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+}
+
+/* ========================================
+   侧边栏头部（Logo区域）
+   ======================================== */
+.sidebar-header {
+    padding: var(--space-6) var(--space-5) var(--space-5);
+    border-bottom: 2px solid rgba(255, 215, 102, 0.15);
+    background: linear-gradient(180deg, rgba(255, 215, 102, 0.08) 0%, transparent 100%);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+}
+
+.logo-image {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    padding: var(--space-2);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(255, 215, 102, 0.3);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    animation: beeFloat 3s ease-in-out infinite;
+}
+
+.logo-image:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4), 0 0 0 3px rgba(255, 215, 102, 0.5);
+}
+
+.logo {
+    color: var(--hive-white);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================================
+   导航菜单
+   ======================================== */
+.sidebar-menu {
+    flex: 1;
+    padding: var(--space-4) 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: var(--space-3) var(--space-5);
+    margin: var(--space-2) var(--space-4);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: var(--radius-md);
+    position: relative;
+    overflow: hidden;
+}
+
+/* 菜单项左侧指示条 */
+.menu-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: var(--primary);
+    transform: scaleY(0);
+    transition: transform var(--transition-fast);
+}
+
+/* 菜单项悬停状态 */
+.menu-item:hover {
+    background: rgba(255, 215, 102, 0.12);
+    color: var(--hive-white);
+    transform: translateX(4px);
+}
+
+.menu-item:hover::before {
+    transform: scaleY(1);
+}
+
+/* 菜单项激活状态 */
+.menu-item.active {
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--bee-brown-light) 100%);
+    color: var(--hive-white);
+    box-shadow: var(--shadow-bee), 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+
+.menu-item.active::before {
+    transform: scaleY(1);
+    background: var(--hive-white);
+}
+
+/* 菜单图标 */
+.menu-icon {
+    font-size: 20px;
+    margin-right: var(--space-3);
+    width: 24px;
+    text-align: center;
+    transition: transform var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon i {
+    font-size: 20px;
+    stroke-width: 1.5;
+}
+
+.menu-item:hover .menu-icon {
+    transform: scale(1.1);
+}
+
+/* 菜单文字 */
+.menu-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* ========================================
+   响应式适配
+   ======================================== */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+    }
+}

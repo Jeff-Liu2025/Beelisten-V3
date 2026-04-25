@@ -1,0 +1,380 @@
+{
+  "resourceId": "cet4-2023-12-1",
+  "title": "CET-4 2023年12月听力真题 (第1套)",
+  "passages": [
+    {
+      "passageId": "news-report-1",
+      "passageName": "News Report 1",
+      "section": "A",
+      "passageStartTime": 43.55,
+      "passageEndTime": 117.78,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "What may be the reason that friends are similar to each other according to the recent research?",
+          "questionTextZh": "根据最近的研究，朋友之间相似的原因可能是什么？",
+          "options": [
+            { "label": "A", "text": "Their brains work in harmony.", "correct": true },
+            { "label": "B", "text": "They are generally the same age.", "correct": false },
+            { "label": "C", "text": "Their interests are quite similar.", "correct": false },
+            { "label": "D", "text": "They have the same ethnic background.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "What does the news report say about the relationship between friends?",
+          "questionTextZh": "新闻报道对朋友之间的关系说了什么？",
+          "options": [
+            { "label": "A", "text": "It can be touching.", "correct": false },
+            { "label": "B", "text": "It is hard to predict.", "correct": false },
+            { "label": "C", "text": "It can work both ways.", "correct": true },
+            { "label": "D", "text": "It resembles family ties.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-2",
+      "passageName": "News Report 2",
+      "section": "A",
+      "passageStartTime": 169.47,
+      "passageEndTime": 257.07,
+      "questions": [
+        {
+          "questionNumber": 3,
+          "questionText": "What did both Alan Robinson and Walter McDonald attempt to do on DNA matching websites?",
+          "questionTextZh": "Alan Robinson和Walter McDonald在DNA匹配网站上尝试做什么？",
+          "options": [
+            { "label": "A", "text": "Search for their half-brothers.", "correct": false },
+            { "label": "B", "text": "Identify their biological fathers.", "correct": false },
+            { "label": "C", "text": "Find out more about their ancestry.", "correct": false },
+            { "label": "D", "text": "See whether they are actually related.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What did the news report say about Alan Robinson and Walter McDonald?",
+          "questionTextZh": "关于Alan Robinson和Walter McDonald，新闻报道说了什么？",
+          "options": [
+            { "label": "A", "text": "They were both given up for adoption.", "correct": false },
+            { "label": "B", "text": "They were born to the same mother.", "correct": true },
+            { "label": "C", "text": "They flew 737 airplanes as pilots.", "correct": false },
+            { "label": "D", "text": "They were both 60 years of age.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-3",
+      "passageName": "News Report 3",
+      "section": "A",
+      "passageStartTime": 283.29,
+      "passageEndTime": 366.5,
+      "questions": [
+        {
+          "questionNumber": 5,
+          "questionText": "Why did one of the male tourists feel sad?",
+          "questionTextZh": "为什么其中一位男性游客感到难过？",
+          "options": [
+            { "label": "A", "text": "One of his friends was caught littering.", "correct": false },
+            { "label": "B", "text": "Other tourists refused to join in the cleanup.", "correct": false },
+            { "label": "C", "text": "The beautiful beach was spoiled with lots of trash.", "correct": true },
+            { "label": "D", "text": "The kilometer-long beach was practically deserted.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "Who put the good deed video on the internet?",
+          "questionTextZh": "谁把善举视频放到了网上？",
+          "options": [
+            { "label": "A", "text": "A passerby.", "correct": true },
+            { "label": "B", "text": "A local woman.", "correct": false },
+            { "label": "C", "text": "The beach authorities.", "correct": false },
+            { "label": "D", "text": "One of the five tourists.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "Why did one local woman say she was embarrassed?",
+          "questionTextZh": "为什么一位当地女性说她感到尴尬？",
+          "options": [
+            { "label": "A", "text": "The tourists' good deed was not noticed by the locals.", "correct": false },
+            { "label": "B", "text": "Some natives were selling poor-quality food to tourists.", "correct": false },
+            { "label": "C", "text": "The number of tourists to the beach is on a steady decline.", "correct": false },
+            { "label": "D", "text": "It was tourists not natives who were cleaning up the beach.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-1",
+      "passageName": "Conversation 1",
+      "section": "B",
+      "passageStartTime": 440.63,
+      "passageEndTime": 553.07,
+      "questions": [
+        {
+          "questionNumber": 8,
+          "questionText": "Why can't the man go for a run Saturday morning?",
+          "questionTextZh": "为什么男士周六早上不能去跑步？",
+          "options": [
+            { "label": "A", "text": "He has to play football with workmates.", "correct": false },
+            { "label": "B", "text": "He has got some books to read.", "correct": false },
+            { "label": "C", "text": "He is going to visit a friend.", "correct": false },
+            { "label": "D", "text": "He is physically unfit for it.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Why is the woman's whole family going to the zoo next Saturday?",
+          "questionTextZh": "为什么女士全家下周六要去动物园？",
+          "options": [
+            { "label": "A", "text": "To teach kids about animal protection.", "correct": false },
+            { "label": "B", "text": "To learn how popular zoos could be.", "correct": false },
+            { "label": "C", "text": "To see some rare animals in cages.", "correct": false },
+            { "label": "D", "text": "To give her little nephew a treat.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "What do we learn about Dan from the man's description?",
+          "questionTextZh": "从男士的描述中，我们了解到关于Dan的什么信息？",
+          "options": [
+            { "label": "A", "text": "He enjoys excellent health.", "correct": false },
+            { "label": "B", "text": "He is keen on extreme sports.", "correct": false },
+            { "label": "C", "text": "He coaches tennis players every week.", "correct": false },
+            { "label": "D", "text": "He spends most of his time in the gym.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "What has the man been doing since last weekend?",
+          "questionTextZh": "自上周末以来男士一直在做什么？",
+          "options": [
+            { "label": "A", "text": "Tending to his swollen ankle.", "correct": false },
+            { "label": "B", "text": "Concentrating on reading.", "correct": true },
+            { "label": "C", "text": "Writing three book reports.", "correct": false },
+            { "label": "D", "text": "Planning Christmas celebrations.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-2",
+      "passageName": "Conversation 2",
+      "section": "B",
+      "passageStartTime": 615.9,
+      "passageEndTime": 799.72,
+      "questions": [
+        {
+          "questionNumber": 12,
+          "questionText": "What do we learn about the man's book published recently?",
+          "questionTextZh": "关于男士最近出版的书，我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "It is being debated by hundreds of retirees.", "correct": false },
+            { "label": "B", "text": "It is attracting many people's attention.", "correct": true },
+            { "label": "C", "text": "It partly records his own experience.", "correct": false },
+            { "label": "D", "text": "It argues for postponing retirement.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "What do the articles the woman read recommend?",
+          "questionTextZh": "女士读到的文章推荐什么？",
+          "options": [
+            { "label": "A", "text": "One should foresee a financial crisis.", "correct": false },
+            { "label": "B", "text": "One should trust financial planners' figures.", "correct": false },
+            { "label": "C", "text": "One should have one million dollars to retire.", "correct": false },
+            { "label": "D", "text": "One should start saving as early as possible.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What does the man say about retirement?",
+          "questionTextZh": "男士对退休有什么看法？",
+          "options": [
+            { "label": "A", "text": "It doesn't need to be permanent.", "correct": true },
+            { "label": "B", "text": "It shouldn't be considered risky.", "correct": false },
+            { "label": "C", "text": "It helps to reduce travel expenses.", "correct": false },
+            { "label": "D", "text": "It is the way to quit a job one hates.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "How does the man say his proposal about retirement can be carried out?",
+          "questionTextZh": "男士说他的退休建议如何实现？",
+          "options": [
+            { "label": "A", "text": "By keeping close contact with one's employers.", "correct": false },
+            { "label": "B", "text": "By retiring when one reaches sixty years old.", "correct": false },
+            { "label": "C", "text": "By investing half of one's monthly income.", "correct": false },
+            { "label": "D", "text": "By following the counsel of financial planners.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-1",
+      "passageName": "Passage 1",
+      "section": "C",
+      "passageStartTime": 849.85,
+      "passageEndTime": 998.8,
+      "questions": [
+        {
+          "questionNumber": 16,
+          "questionText": "What was the finding of the new research from America about consumers' food choices?",
+          "questionTextZh": "美国关于消费者食物选择的新研究发现了什么？",
+          "options": [
+            { "label": "A", "text": "They tended to be easily anticipated by those belonging to their own race.", "correct": false },
+            { "label": "B", "text": "They tended to be arbitrarily judged by individuals of opposing groups.", "correct": false },
+            { "label": "C", "text": "They were readily shared among members of the same social or racial group.", "correct": false },
+            { "label": "D", "text": "They were influenced by the presence of someone from an outsider group.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 17,
+          "questionText": "When did 31 percent of students in the experiment select the healthier option?",
+          "questionTextZh": "实验中31%的学生什么时候选择了更健康的选项？",
+          "options": [
+            { "label": "A", "text": "When they tried to make a positive impression on the researchers.", "correct": false },
+            { "label": "B", "text": "When an unknown student from another university was present.", "correct": true },
+            { "label": "C", "text": "When an experimenter from the research team took notice.", "correct": false },
+            { "label": "D", "text": "When they were offered both candy and fruit as a snack.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 18,
+          "questionText": "How could a healthy diet be promoted according to the findings of the new research?",
+          "questionTextZh": "根据新研究的发现，如何促进健康饮食？",
+          "options": [
+            { "label": "A", "text": "By advertising its social benefits.", "correct": false },
+            { "label": "B", "text": "By teaching consumers diet strategies.", "correct": true },
+            { "label": "C", "text": "By supporting struggling consumers.", "correct": false },
+            { "label": "D", "text": "By maintaining its positive image.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "passageName": "Passage 2",
+      "section": "C",
+      "passageStartTime": 1022.25,
+      "passageEndTime": 1172.66,
+      "questions": [
+        {
+          "questionNumber": 19,
+          "questionText": "What does the recent study led by Patricia Pendry aim to examine?",
+          "questionTextZh": "Patricia Pendry领导的近期研究旨在考察什么？",
+          "options": [
+            { "label": "A", "text": "The academic and learning issues struggling students encounter.", "correct": false },
+            { "label": "B", "text": "The risk students face due to a history of mental health problems.", "correct": false },
+            { "label": "C", "text": "The effect of interacting with therapy dogs on students under pressure.", "correct": true },
+            { "label": "D", "text": "The work universities are doing to help students succeed academically.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 20,
+          "questionText": "What did the new study measure in the participants?",
+          "questionTextZh": "新研究测量了参与者的什么？",
+          "options": [
+            { "label": "A", "text": "Their communicative skills.", "correct": false },
+            { "label": "B", "text": "Their executive functioning.", "correct": true },
+            { "label": "C", "text": "Their academic networking.", "correct": false },
+            { "label": "D", "text": "Their leadership capacities.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 21,
+          "questionText": "What does Patricia Pendry think traditional stress management programs may do?",
+          "questionTextZh": "Patricia Pendry认为传统的压力管理项目可能做什么？",
+          "options": [
+            { "label": "A", "text": "Rid students of their anxiety.", "correct": false },
+            { "label": "B", "text": "Add to some students' stress.", "correct": true },
+            { "label": "C", "text": "Contribute little to typical students' success.", "correct": false },
+            { "label": "D", "text": "Help students with mental issues pull through.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "passageName": "Passage 3",
+      "section": "C",
+      "passageStartTime": 1212.25,
+      "passageEndTime": 1392.14,
+      "questions": [
+        {
+          "questionNumber": 22,
+          "questionText": "What do entrepreneurs have to do when taking risks according to the passage?",
+          "questionTextZh": "根据文章，企业家在承担风险时必须做什么？",
+          "options": [
+            { "label": "A", "text": "Work hard and plan carefully.", "correct": true },
+            { "label": "B", "text": "Attempt to succeed at any cost.", "correct": false },
+            { "label": "C", "text": "Aim high and expect great results.", "correct": false },
+            { "label": "D", "text": "Remain optimistic even in difficulty.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 23,
+          "questionText": "What does the passage say is key to business growth?",
+          "questionTextZh": "文章说什么是业务增长的关键？",
+          "options": [
+            { "label": "A", "text": "Regarding failure as something inevitable.", "correct": false },
+            { "label": "B", "text": "Trying out innovative marketing strategies.", "correct": false },
+            { "label": "C", "text": "Venturing into sectors never explored before.", "correct": false },
+            { "label": "D", "text": "Being willing to experiment with novel ideas.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 24,
+          "questionText": "What are we advised to do when we fail?",
+          "questionTextZh": "当我们失败时，我们被建议做什么？",
+          "options": [
+            { "label": "A", "text": "Expect future success so as to move forward.", "correct": false },
+            { "label": "B", "text": "Learn from our failure and forge ahead.", "correct": true },
+            { "label": "C", "text": "Distinguish between good and bad risks.", "correct": false },
+            { "label": "D", "text": "Examine our strategies and find out weaknesses.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 25,
+          "questionText": "What does it mean to risk-taking businesses when most people tend to avoid risk?",
+          "questionTextZh": "当大多数人倾向于规避风险时，这对敢于冒险的企业意味着什么？",
+          "options": [
+            { "label": "A", "text": "Fresher offers.", "correct": false },
+            { "label": "B", "text": "Safer operation.", "correct": false },
+            { "label": "C", "text": "More challenges.", "correct": false },
+            { "label": "D", "text": "Less competition.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 25,
+  "generatedAt": "2025-04-24"
+}

@@ -1,0 +1,434 @@
+/* ========================================
+   播放器文件 - 音频播放器相关样式
+   
+   【用途说明】
+   这个文件负责：
+   - 底部播放器容器
+   - 播放控制按钮
+   - 进度条样式
+   - 音量控制
+   - 变速选择器
+   - 字幕显示区
+   
+   【修改指南】
+   - 修改播放器高度：调整.podcast-player的padding
+   - 修改进度条颜色：调整.progress-filled的background
+   - 修改按钮大小：调整.control-btn的width和height
+   - 修改变速菜单：调整.speed-dropdown相关样式
+   
+   【注意事项】
+   - 播放器是fixed定位，不影响页面布局
+   - 注意进度条的可点击区域设计
+   ======================================== */
+
+/* ========================================
+   播放器容器（底部固定）
+   ======================================== */
+.podcast-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(255, 253, 245, 0.98) 0%, rgba(254, 249, 231, 0.98) 100%);
+    border-top: 3px solid var(--primary);
+    padding: var(--space-4) var(--space-6);
+    backdrop-filter: blur(20px);
+    z-index: 999;
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 第一行：进度条 */
+.first-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* 第二行：控制按钮 */
+.second-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    width: 100%;
+}
+
+/* ========================================
+   进度条区域
+   说明：使用伪元素实现细线效果，但保持可点击区域
+   ======================================== */
+.progress-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.time-display {
+    font-size: 13px;
+    color: var(--text-muted);
+    text-align: center;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+}
+
+/* 进度条容器 - 大点击区域 */
+.progress-container {
+    height: 20px;
+    background: transparent;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    position: relative;
+    pointer-events: auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+/* 细线轨道 - 通过伪元素实现 */
+.progress-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 6px;
+    background: rgba(139, 115, 85, 0.15);
+    border-radius: var(--radius-full);
+    pointer-events: none;
+    transition: height 0.15s ease;
+}
+
+.progress-container:hover::before {
+    height: 8px;
+}
+
+/* 已播放进度 */
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    position: relative;
+    pointer-events: none;
+    background: transparent;
+    border-radius: var(--radius-full);
+    transition: height 0.15s ease;
+}
+
+.progress-container:hover .progress-bar {
+    height: 8px;
+}
+
+.progress-filled {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    border-radius: var(--radius-full);
+    width: 0%;
+    transition: width 0.1s linear;
+    box-shadow: 0 0 10px rgba(255, 209, 102, 0.5);
+    pointer-events: none;
+    min-width: 0%;
+}
+
+/* ========================================
+   播放控制按钮
+   ======================================== */
+.control-buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.control-btn {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    color: var(--text-muted);
+    box-shadow: var(--shadow-sm);
+}
+
+.control-btn:hover {
+    background: var(--primary-light);
+    border-color: var(--primary);
+    color: var(--text-secondary);
+    transform: scale(1.1);
+    box-shadow: var(--shadow-md);
+}
+
+.control-btn:active {
+    transform: scale(0.95);
+}
+
+/* 播放按钮（主按钮） */
+.control-btn.play-btn {
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--primary) 100%);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 52px;
+    height: 52px;
+    font-size: 20px;
+    color: var(--hive-white);
+    box-shadow: var(--shadow-bee);
+}
+
+.control-btn.play-btn:hover {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(212, 172, 56, 0.5);
+}
+
+/* ========================================
+   图标按钮（音量等）
+   ======================================== */
+.player-icons {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.icon-btn {
+    padding: var(--space-1);
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    color: var(--text-muted);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn:hover {
+    background: var(--primary-light);
+    border-color: var(--primary);
+    color: var(--text-secondary);
+    transform: scale(1.1);
+    box-shadow: var(--shadow-sm);
+}
+
+/* ========================================
+   音量控制
+   ======================================== */
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.volume-slider {
+    width: 70px;
+    height: 5px;
+    border-radius: var(--radius-full);
+    background: rgba(139, 115, 85, 0.2);
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--secondary) 100%);
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(212, 172, 56, 0.4);
+    transition: transform var(--transition-fast);
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.volume-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--honey-gold) 0%, var(--secondary) 100%);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 6px rgba(212, 172, 56, 0.4);
+}
+
+/* ========================================
+   变速选择器（下拉菜单）
+   ======================================== */
+.speed-selector {
+    position: relative;
+}
+
+.speed-dropdown {
+    position: relative;
+}
+
+.speed-dropdown-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(212, 172, 56, 0.3);
+    border-radius: 20px;
+    color: #8b7355;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 80px;
+    justify-content: space-between;
+}
+
+.speed-dropdown-btn:hover {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(212, 172, 56, 0.5);
+    color: #b8860b;
+}
+
+.dropdown-arrow {
+    font-size: 10px;
+    transition: transform 0.2s ease;
+}
+
+.speed-dropdown.open .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* 变速下拉菜单 */
+.speed-dropdown-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(212, 172, 56, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(212, 172, 56, 0.2);
+    backdrop-filter: blur(10px);
+    min-width: 120px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.speed-dropdown.open .speed-dropdown-menu {
+    display: block;
+}
+
+.speed-option {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    background: transparent;
+    border: none;
+    color: #5d4e37;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.speed-option:hover {
+    background: rgba(212, 172, 56, 0.15);
+    color: #b8860b;
+}
+
+.speed-option.active {
+    background: linear-gradient(90deg, #d4ac38 0%, #c9a227 100%);
+    color: #ffffff;
+}
+
+/* ========================================
+   播放器操作按钮
+   ======================================== */
+.player-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.player-actions .action-btn {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.player-actions .action-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   字幕显示区
+   ======================================== */
+.subtitle-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.subtitle-text {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* ========================================
+   响应式适配
+   ======================================== */
+@media (max-width: 768px) {
+    .control-buttons {
+        gap: 15px;
+    }
+    
+    .control-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+    
+    .control-btn.play-btn {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .control-buttons {
+        gap: 10px;
+    }
+}

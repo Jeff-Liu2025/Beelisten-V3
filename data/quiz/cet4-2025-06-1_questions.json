@@ -1,0 +1,380 @@
+{
+  "resourceId": "cet4-2025-06-1",
+  "title": "CET-4 2025年6月听力真题 (第1套)",
+  "passages": [
+    {
+      "passageId": "news-report-1",
+      "passageName": "News Report 1",
+      "section": "A",
+      "passageStartTime": 41.0,
+      "passageEndTime": 116.0,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "What did the corn growers do to make their corn special?",
+          "questionTextZh": "种植玉米的人做了什么让他们的玉米变得特别？",
+          "options": [
+            { "label": "A", "text": "By slapping some butter on it.", "correct": true },
+            { "label": "B", "text": "By enhancing its nourishment.", "correct": false },
+            { "label": "C", "text": "By growing it in South Dakota.", "correct": false },
+            { "label": "D", "text": "By cooking it in vegetable oil.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "Why did the corn growers go to the Corn Palace?",
+          "questionTextZh": "种植玉米的人为什么去玉米宫殿？",
+          "options": [
+            { "label": "A", "text": "To introduce their corn to tourists.", "correct": false },
+            { "label": "B", "text": "To attend an honorary ceremony.", "correct": true },
+            { "label": "C", "text": "To share experience with other corn growers.", "correct": false },
+            { "label": "D", "text": "To exhibit their corn at the state's Corn Palace.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-2",
+      "passageName": "News Report 2",
+      "section": "A",
+      "passageStartTime": 160.0,
+      "passageEndTime": 225.0,
+      "questions": [
+        {
+          "questionNumber": 3,
+          "questionText": "What did Jordan Jacks and Tarred Goodman do according to a news release?",
+          "questionTextZh": "根据新闻通稿，Jordan Jacks和Tarred Goodman做了什么？",
+          "options": [
+            { "label": "A", "text": "Stole mail several times.", "correct": true },
+            { "label": "B", "text": "Forged postal keys illegally.", "correct": false },
+            { "label": "C", "text": "Attacked postmen on multiple occasions.", "correct": false },
+            { "label": "D", "text": "Broke a number of postal collection boxes.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What do Jordan Jack's and Troid Goodman face?",
+          "questionTextZh": "Jordan Jacks和Troid Goodman面临什么？",
+          "options": [
+            { "label": "A", "text": "A sentence for life.", "correct": false },
+            { "label": "B", "text": "Loss of all their possessions.", "correct": false },
+            { "label": "C", "text": "Twenty-three years' hard labor.", "correct": false },
+            { "label": "D", "text": "Up to fifteen years in prison.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-3",
+      "passageName": "News Report 3",
+      "section": "A",
+      "passageStartTime": 270.0,
+      "passageEndTime": 360.0,
+      "questions": [
+        {
+          "questionNumber": 5,
+          "questionText": "Why has the clothing industry come under attack?",
+          "questionTextZh": "为什么服装行业受到攻击？",
+          "options": [
+            { "label": "A", "text": "It escapes regulation and misleads consumers.", "correct": false },
+            { "label": "B", "text": "It ignores economically feasible recycling options.", "correct": false },
+            { "label": "C", "text": "It creates waste and severely impacts the environment.", "correct": true },
+            { "label": "D", "text": "It produces clothes affordable only to a tiny minority.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "Why do the researchers put forth such policies as production tax?",
+          "questionTextZh": "研究人员为什么提出生产税等政策？",
+          "options": [
+            { "label": "A", "text": "To cut consumers' expenses in buying quality clothes.", "correct": false },
+            { "label": "B", "text": "To enable the whole fast-fashion industry to be sustainable.", "correct": false },
+            { "label": "C", "text": "To incentivize manufacturers to be more consumer-friendly.", "correct": false },
+            { "label": "D", "text": "To urge manufacturers and consumers to reduce waste.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "What should be done first to eliminate the harm caused by the clothing industry?",
+          "questionTextZh": "消除服装行业造成的危害，首先应该做什么？",
+          "options": [
+            { "label": "A", "text": "Recognizing the impact on consumers.", "correct": false },
+            { "label": "B", "text": "Identifying the source of the problem.", "correct": true },
+            { "label": "C", "text": "Abandoning the current business model.", "correct": false },
+            { "label": "D", "text": "Establishing powerful regulatory bodies.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-1",
+      "passageName": "Conversation 1",
+      "section": "B",
+      "passageStartTime": 463.0,
+      "passageEndTime": 570.0,
+      "questions": [
+        {
+          "questionNumber": 8,
+          "questionText": "Why is the woman complaining?",
+          "questionTextZh": "女士为什么在抱怨？",
+          "options": [
+            { "label": "A", "text": "The city's rush-hour traffic is intolerable.", "correct": true },
+            { "label": "B", "text": "She cannot avoid rush-hour traffic.", "correct": false },
+            { "label": "C", "text": "The local government is inefficient.", "correct": false },
+            { "label": "D", "text": "The city is too big to move around easily.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "What does the woman suggest doing?",
+          "questionTextZh": "女士建议做什么？",
+          "options": [
+            { "label": "A", "text": "Upgrading subway carriages.", "correct": false },
+            { "label": "B", "text": "Increasing the number of bus routes.", "correct": false },
+            { "label": "C", "text": "Air conditioning the city's subway.", "correct": true },
+            { "label": "D", "text": "Learning from other big cities.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "What do we learn about the man from the conversation?",
+          "questionTextZh": "从对话中我们了解到关于男士的什么信息？",
+          "options": [
+            { "label": "A", "text": "He suffers from rush-hour crowding too.", "correct": false },
+            { "label": "B", "text": "He is fortunate to live very near to work.", "correct": false },
+            { "label": "C", "text": "He takes a half-hour bus ride to work.", "correct": true },
+            { "label": "D", "text": "He is going to move closer to his office.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "What does the woman ask the man to do at the end of the conversation?",
+          "questionTextZh": "对话结束时女士请男士做什么？",
+          "options": [
+            { "label": "A", "text": "Recommend to her a good house near his office.", "correct": false },
+            { "label": "B", "text": "Send her his housing agent's telephone number.", "correct": true },
+            { "label": "C", "text": "Tell her exactly what kind of property to look for.", "correct": false },
+            { "label": "D", "text": "Make sure the agent finds something good for her.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-2",
+      "passageName": "Conversation 2",
+      "section": "B",
+      "passageStartTime": 650.0,
+      "passageEndTime": 752.0,
+      "questions": [
+        {
+          "questionNumber": 12,
+          "questionText": "What does the man say about Johnny?",
+          "questionTextZh": "男士说Johnny怎么了？",
+          "options": [
+            { "label": "A", "text": "He was remembered for the scar on his cheek.", "correct": false },
+            { "label": "B", "text": "He received a heart operation a few days ago.", "correct": false },
+            { "label": "C", "text": "He used to wear a sad face in school.", "correct": false },
+            { "label": "D", "text": "He had some plastic surgery done.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "What does the woman find puzzling?",
+          "questionTextZh": "女士觉得什么令人困惑？",
+          "options": [
+            { "label": "A", "text": "The man's deep sympathy for Johnny.", "correct": false },
+            { "label": "B", "text": "The man's use of the expression \"fixed\".", "correct": true },
+            { "label": "C", "text": "The man's covering up of what happened.", "correct": false },
+            { "label": "D", "text": "The man's good memory of his childhood.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What did the man think of Johnny's scar?",
+          "questionTextZh": "男士对Johnny的疤痕有什么看法？",
+          "options": [
+            { "label": "A", "text": "It gave him a noticeable smartness.", "correct": false },
+            { "label": "B", "text": "It made him appear even more manly.", "correct": false },
+            { "label": "C", "text": "It seemed to give him a certain uniqueness.", "correct": true },
+            { "label": "D", "text": "It seemed to make up for his physical defects.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "How could we describe the speaker's attitude towards Johnny's girlfriend?",
+          "questionTextZh": "说话者对Johnny的女友的态度可以描述为什么？",
+          "options": [
+            { "label": "A", "text": "Liberal.", "correct": false },
+            { "label": "B", "text": "Hostile.", "correct": false },
+            { "label": "C", "text": "Indifferent.", "correct": false },
+            { "label": "D", "text": "Critical.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-1",
+      "passageName": "Passage 1",
+      "section": "C",
+      "passageStartTime": 865.0,
+      "passageEndTime": 969.0,
+      "questions": [
+        {
+          "questionNumber": 16,
+          "questionText": "How did language come into being according to researchers?",
+          "questionTextZh": "根据研究人员的说法，语言是如何产生的？",
+          "options": [
+            { "label": "A", "text": "Through deliberation.", "correct": false },
+            { "label": "B", "text": "Through evolution.", "correct": true },
+            { "label": "C", "text": "Through invention.", "correct": false },
+            { "label": "D", "text": "Through collaboration.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 17,
+          "questionText": "How did language start according to the first theory?",
+          "questionTextZh": "根据第一个理论，语言是如何开始的？",
+          "options": [
+            { "label": "A", "text": "With people imitating sounds around them.", "correct": true },
+            { "label": "B", "text": "With people interacting with animals close by.", "correct": false },
+            { "label": "C", "text": "With people showing each other things nearby.", "correct": false },
+            { "label": "D", "text": "With people trying to string sounds together.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 18,
+          "questionText": "Why did people switch from gesturing to making sounds according to the more recent theory?",
+          "questionTextZh": "根据较新的理论，人们为什么从手势转向发声？",
+          "options": [
+            { "label": "A", "text": "Making sounds can free one's hands for doing other things.", "correct": false },
+            { "label": "B", "text": "Making sounds proves markedly easier than sign languages.", "correct": false },
+            { "label": "C", "text": "Making sounds enables one to express their ideas more explicitly.", "correct": false },
+            { "label": "D", "text": "Making sounds helps one communicate with people they can't see.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "passageName": "Passage 2",
+      "section": "C",
+      "passageStartTime": 1038.0,
+      "passageEndTime": 1145.0,
+      "questions": [
+        {
+          "questionNumber": 19,
+          "questionText": "How would people describe someone who shows off their social status according to new research?",
+          "questionTextZh": "根据新研究，人们如何描述炫耀社会地位的人？",
+          "options": [
+            { "label": "A", "text": "Well disciplined.", "correct": false },
+            { "label": "B", "text": "Quite confident.", "correct": false },
+            { "label": "C", "text": "Somewhat selfish.", "correct": true },
+            { "label": "D", "text": "Highly intelligent.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 20,
+          "questionText": "When were participants more likely to choose someone who signalled their wealth or status?",
+          "questionTextZh": "参与者什么时候更可能选择炫耀财富或地位的人？",
+          "options": [
+            { "label": "A", "text": "When they wanted to have a competitive team member.", "correct": true },
+            { "label": "B", "text": "When they were looking for a cooperative workmate.", "correct": false },
+            { "label": "C", "text": "When they found collaboration essential to them.", "correct": false },
+            { "label": "D", "text": "When they were seeking someone to help them.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 21,
+          "questionText": "What should people do when sharing their wealth and status online?",
+          "questionTextZh": "在网上分享财富和地位时，人们应该怎么做？",
+          "options": [
+            { "label": "A", "text": "Avoid frightening competitors.", "correct": false },
+            { "label": "B", "text": "Make clear their social goal.", "correct": false },
+            { "label": "C", "text": "Adopt persuasive strategies.", "correct": false },
+            { "label": "D", "text": "Consider the consequences.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "passageName": "Passage 3",
+      "section": "C",
+      "passageStartTime": 1216.0,
+      "passageEndTime": 1323.0,
+      "questions": [
+        {
+          "questionNumber": 22,
+          "questionText": "What can we see in the oldest cave paintings?",
+          "questionTextZh": "在最古老的洞穴壁画中我们可以看到什么？",
+          "options": [
+            { "label": "A", "text": "Much evidence of humans capturing animals.", "correct": false },
+            { "label": "B", "text": "More images of animals than humans.", "correct": true },
+            { "label": "C", "text": "Fewer images of buildings than animals.", "correct": false },
+            { "label": "D", "text": "Little proof of human fascination with animals.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 23,
+          "questionText": "What do we learn about the first known collections of animals?",
+          "questionTextZh": "关于最早的已知动物收藏，我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "They were open to the public.", "correct": false },
+            { "label": "B", "text": "They were primarily native.", "correct": false },
+            { "label": "C", "text": "They were kept by royalty.", "correct": true },
+            { "label": "D", "text": "They were hardly injured.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 24,
+          "questionText": "Why did the Egyptian queen create the zoo?",
+          "questionTextZh": "埃及女王创建动物园的原因可能是什么？",
+          "options": [
+            { "label": "A", "text": "To enable the public to watch animals close by.", "correct": false },
+            { "label": "B", "text": "To introduce to Egyptians animals from Punt.", "correct": false },
+            { "label": "C", "text": "To protect the endangered animals.", "correct": false },
+            { "label": "D", "text": "To show off her riches and power.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 25,
+          "questionText": "What do we learn about King Henry the first collection of animals in England?",
+          "questionTextZh": "关于亨利一世在英国的动物收藏，我们了解到什么？",
+          "options": [
+            { "label": "A", "text": "It was part of the royal estate.", "correct": true },
+            { "label": "B", "text": "It was a shelter for wild animals.", "correct": false },
+            { "label": "C", "text": "It was the kingdom's best-equipped zoo.", "correct": false },
+            { "label": "D", "text": "It was the first public exhibit of animals.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 25,
+  "generatedAt": "2026-04-22"
+}

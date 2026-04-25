@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_01",
+  "totalSentences": 57,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:26:43.937618",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.06,
+      "endTime": 5.85,
+      "sentence": "A lot of time went by between when you had your stroke and when i was born",
+      "wordCount": 17,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者与中风事件之间是什么关系？",
+          "options": [
+            {
+              "text": "说话者在中风事件发生前就认识对方",
+              "correct": false
+            },
+            {
+              "text": "说话者在中风事件发生后很久才出生",
+              "correct": true
+            },
+            {
+              "text": "说话者与中风事件同时发生",
+              "correct": false
+            },
+            {
+              "text": "说话者直接导致了中风事件",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者与中风事件之间是什么关系？",
+          "options": [
+            {
+              "text": "说话者在中风事件发生后才出生",
+              "correct": true
+            },
+            {
+              "text": "说话者在中风事件发生前就已出生",
+              "correct": false
+            },
+            {
+              "text": "说话者本人经历了中风事件",
+              "correct": false
+            },
+            {
+              "text": "说话者与中风事件同时发生",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者想表达什么关于时间的信息？",
+          "options": [
+            {
+              "text": "说话者出生后不久，对方就中风了",
+              "correct": false
+            },
+            {
+              "text": "对方中风和说话者出生之间相隔了很长时间",
+              "correct": true
+            },
+            {
+              "text": "说话者中风后不久，对方就出生了",
+              "correct": false
+            },
+            {
+              "text": "对方出生和说话者中风之间相隔了很长时间",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 7.45,
+      "endTime": 9.29,
+      "sentence": "I was just thinking we're gonna make it",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者刚刚在想什么？",
+          "options": [
+            {
+              "text": "他们即将成功",
+              "correct": true
+            },
+            {
+              "text": "他们需要更多时间",
+              "correct": false
+            },
+            {
+              "text": "他们可能失败",
+              "correct": false
+            },
+            {
+              "text": "他们应该放弃计划",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者刚刚在思考什么？",
+          "options": [
+            {
+              "text": "他们将要成功",
+              "correct": true
+            },
+            {
+              "text": "他们需要更多时间",
+              "correct": false
+            },
+            {
+              "text": "他们应该放弃计划",
+              "correct": false
+            },
+            {
+              "text": "他们遇到了困难",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者对自己和同伴的未来持什么态度？",
+          "options": [
+            {
+              "text": "他们将会成功",
+              "correct": true
+            },
+            {
+              "text": "他们需要更多帮助",
+              "correct": false
+            },
+            {
+              "text": "他们正在考虑放弃",
+              "correct": false
+            },
+            {
+              "text": "他们不确定能否完成",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 7,
+      "startTime": 17.15,
+      "endTime": 18.32,
+      "sentence": "For the baby's health",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "这句话主要表达了什么目的？",
+          "options": [
+            {
+              "text": "为了婴儿的健康",
+              "correct": true
+            },
+            {
+              "text": "为了节省时间",
+              "correct": false
+            },
+            {
+              "text": "为了增加收入",
+              "correct": false
+            },
+            {
+              "text": "为了娱乐消遣",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "这句话主要表达的是什么目的？",
+          "options": [
+            {
+              "text": "为了婴儿的健康",
+              "correct": true
+            },
+            {
+              "text": "为了节省家庭开支",
+              "correct": false
+            },
+            {
+              "text": "为了增加家庭娱乐",
+              "correct": false
+            },
+            {
+              "text": "为了提升工作效率",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者最可能是在讨论什么？",
+          "options": [
+            {
+              "text": "为了婴儿的健康",
+              "correct": true
+            },
+            {
+              "text": "为了节省时间",
+              "correct": false
+            },
+            {
+              "text": "为了增加乐趣",
+              "correct": false
+            },
+            {
+              "text": "为了降低成本",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 14,
+      "startTime": 30.66,
+      "endTime": 33.04,
+      "sentence": "But i felt so strongly you were supposed to be here",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者为什么认为对方应该在这里？",
+          "options": [
+            {
+              "text": "因为对方之前承诺过会来",
+              "correct": false
+            },
+            {
+              "text": "因为说话者有强烈的直觉",
+              "correct": true
+            },
+            {
+              "text": "因为对方的工作职责要求",
+              "correct": false
+            },
+            {
+              "text": "因为其他人告诉说话者对方会来",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者为什么认为对方应该在这里？",
+          "options": [
+            {
+              "text": "因为对方之前承诺过会来",
+              "correct": false
+            },
+            {
+              "text": "因为说话者内心有强烈的预感",
+              "correct": true
+            },
+            {
+              "text": "因为其他人告诉说话者对方会来",
+              "correct": false
+            },
+            {
+              "text": "因为对方的工作职责要求他必须来",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者为什么认为对方应该在这里？",
+          "options": [
+            {
+              "text": "因为对方之前承诺过会来",
+              "correct": false
+            },
+            {
+              "text": "因为说话者内心有强烈的感觉",
+              "correct": true
+            },
+            {
+              "text": "因为对方是这次活动的组织者",
+              "correct": false
+            },
+            {
+              "text": "因为其他人告诉说话者对方会来",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 18,
+      "startTime": 37.22,
+      "endTime": 40.14,
+      "sentence": "Do you want to tell us about the stroke",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者想了解什么信息？",
+          "options": [
+            {
+              "text": "对方是否愿意分享中风的情况",
+              "correct": true
+            },
+            {
+              "text": "对方是否经历过一次打击",
+              "correct": false
+            },
+            {
+              "text": "对方是否想讲述一个笔画",
+              "correct": false
+            },
+            {
+              "text": "对方是否要告诉我们时间",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者询问对方是否愿意分享什么信息？",
+          "options": [
+            {
+              "text": "关于中风的情况",
+              "correct": true
+            },
+            {
+              "text": "关于绘画的技巧",
+              "correct": false
+            },
+            {
+              "text": "关于游泳的经历",
+              "correct": false
+            },
+            {
+              "text": "关于写作的计划",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者询问对方是否愿意分享什么信息？",
+          "options": [
+            {
+              "text": "关于一次中风的经历",
+              "correct": true
+            },
+            {
+              "text": "关于一次绘画的过程",
+              "correct": false
+            },
+            {
+              "text": "关于一次旅行的计划",
+              "correct": false
+            },
+            {
+              "text": "关于一次会议的内容",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 22,
+      "startTime": 44.94,
+      "endTime": 46.6,
+      "sentence": "And you have an older sibling",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到了什么关于对方家庭的信息？",
+          "options": [
+            {
+              "text": "对方有一个哥哥或姐姐",
+              "correct": true
+            },
+            {
+              "text": "对方是独生子女",
+              "correct": false
+            },
+            {
+              "text": "对方有一个弟弟或妹妹",
+              "correct": false
+            },
+            {
+              "text": "对方有多个兄弟姐妹",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到了什么关于对方家庭的信息？",
+          "options": [
+            {
+              "text": "对方有一个哥哥或姐姐",
+              "correct": true
+            },
+            {
+              "text": "对方有一个弟弟或妹妹",
+              "correct": false
+            },
+            {
+              "text": "对方是独生子女",
+              "correct": false
+            },
+            {
+              "text": "对方有多个兄弟姐妹",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者提到了什么关于家庭关系的信息？",
+          "options": [
+            {
+              "text": "对方有一个哥哥或姐姐",
+              "correct": true
+            },
+            {
+              "text": "对方是家里的独生子女",
+              "correct": false
+            },
+            {
+              "text": "对方有一个弟弟或妹妹",
+              "correct": false
+            },
+            {
+              "text": "对方是家里的长子或长女",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 28,
+      "startTime": 56.29,
+      "endTime": 58.05,
+      "sentence": "Ha ha ha . i did",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么态度？",
+          "options": [
+            {
+              "text": "说话者感到沮丧",
+              "correct": false
+            },
+            {
+              "text": "说话者感到惊讶",
+              "correct": false
+            },
+            {
+              "text": "说话者感到开心并确认完成了某事",
+              "correct": true
+            },
+            {
+              "text": "说话者在询问信息",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达的主要态度是什么？",
+          "options": [
+            {
+              "text": "说话者感到非常开心或得意",
+              "correct": true
+            },
+            {
+              "text": "说话者正在询问对方是否完成某事",
+              "correct": false
+            },
+            {
+              "text": "说话者否认自己做了某事",
+              "correct": false
+            },
+            {
+              "text": "说话者表示自己无法完成某事",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达的主要态度是什么？",
+          "options": [
+            {
+              "text": "说话者感到开心或得意",
+              "correct": true
+            },
+            {
+              "text": "说话者承认自己做错了事",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方是否完成某事",
+              "correct": false
+            },
+            {
+              "text": "说话者表示自己不会做某事",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 34,
+      "startTime": 67.85,
+      "endTime": 70.41,
+      "sentence": "And my mom play when she forgets words",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者的妈妈在什么情况下会玩？",
+          "options": [
+            {
+              "text": "当她忘记单词时",
+              "correct": true
+            },
+            {
+              "text": "当她学习新单词时",
+              "correct": false
+            },
+            {
+              "text": "当她教别人单词时",
+              "correct": false
+            },
+            {
+              "text": "当她听到音乐时",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，妈妈在什么情况下会玩？",
+          "options": [
+            {
+              "text": "当她忘记单词时",
+              "correct": true
+            },
+            {
+              "text": "当她学习新单词时",
+              "correct": false
+            },
+            {
+              "text": "当她教别人单词时",
+              "correct": false
+            },
+            {
+              "text": "当她听到音乐时",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，妈妈在什么情况下会玩？",
+          "options": [
+            {
+              "text": "当她忘记单词的时候",
+              "correct": true
+            },
+            {
+              "text": "当她学习新单词的时候",
+              "correct": false
+            },
+            {
+              "text": "当她感到无聊的时候",
+              "correct": false
+            },
+            {
+              "text": "当她需要帮助的时候",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 38,
+      "startTime": 78.76,
+      "endTime": 81.0,
+      "sentence": "You had said that it made you feel pressure",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到对方之前说过什么？",
+          "options": [
+            {
+              "text": "对方曾表示某件事让他感到有压力",
+              "correct": true
+            },
+            {
+              "text": "对方曾表示某件事让他感到开心",
+              "correct": false
+            },
+            {
+              "text": "对方曾表示某件事让他感到困惑",
+              "correct": false
+            },
+            {
+              "text": "对方曾表示某件事让他感到放松",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到对方之前说了什么？",
+          "options": [
+            {
+              "text": "对方之前说过某件事让他感到压力",
+              "correct": true
+            },
+            {
+              "text": "对方之前说过某件事让他感到快乐",
+              "correct": false
+            },
+            {
+              "text": "说话者之前说过某件事让他感到压力",
+              "correct": false
+            },
+            {
+              "text": "对方之前说过某件事让说话者感到压力",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者提到对方之前说过什么？",
+          "options": [
+            {
+              "text": "对方曾表示某件事让他感到压力",
+              "correct": true
+            },
+            {
+              "text": "对方曾表示某件事让他感到快乐",
+              "correct": false
+            },
+            {
+              "text": "说话者自己感到某件事有压力",
+              "correct": false
+            },
+            {
+              "text": "说话者建议对方减少压力",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 44,
+      "startTime": 88.99,
+      "endTime": 89.87,
+      "sentence": "Or go to the moon",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者建议做什么？",
+          "options": [
+            {
+              "text": "去月球旅行",
+              "correct": true
+            },
+            {
+              "text": "去月球工作",
+              "correct": false
+            },
+            {
+              "text": "去月球学习",
+              "correct": false
+            },
+            {
+              "text": "去月球居住",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者建议做什么？",
+          "options": [
+            {
+              "text": "去月球旅行",
+              "correct": true
+            },
+            {
+              "text": "去月球工作",
+              "correct": false
+            },
+            {
+              "text": "去月球探索",
+              "correct": false
+            },
+            {
+              "text": "去月球居住",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者建议做什么？",
+          "options": [
+            {
+              "text": "去月球旅行",
+              "correct": true
+            },
+            {
+              "text": "去月球工作",
+              "correct": false
+            },
+            {
+              "text": "去月球探险",
+              "correct": false
+            },
+            {
+              "text": "去月球定居",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 48,
+      "startTime": 95.92,
+      "endTime": 99.04,
+      "sentence": "I mean , had a pretty good example that's good to hear",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到这个例子时，表达了什么态度？",
+          "options": [
+            {
+              "text": "认为这个例子很有参考价值",
+              "correct": true
+            },
+            {
+              "text": "觉得这个例子不太合适",
+              "correct": false
+            },
+            {
+              "text": "对这个例子感到困惑不解",
+              "correct": false
+            },
+            {
+              "text": "认为这个例子需要改进",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到一个例子时，表达了什么态度？",
+          "options": [
+            {
+              "text": "认为这个例子很有参考价值",
+              "correct": true
+            },
+            {
+              "text": "觉得这个例子过于复杂难懂",
+              "correct": false
+            },
+            {
+              "text": "表示这个例子需要进一步验证",
+              "correct": false
+            },
+            {
+              "text": "对这个例子感到失望和不满",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者对听到的消息持什么态度？",
+          "options": [
+            {
+              "text": "感到失望",
+              "correct": false
+            },
+            {
+              "text": "表示赞同",
+              "correct": true
+            },
+            {
+              "text": "提出质疑",
+              "correct": false
+            },
+            {
+              "text": "表示困惑",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 53,
+      "startTime": 109.53,
+      "endTime": 110.69,
+      "sentence": "If you weren't here with us",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者暗示了什么？",
+          "options": [
+            {
+              "text": "说话者假设对方不在场",
+              "correct": true
+            },
+            {
+              "text": "说话者邀请对方加入活动",
+              "correct": false
+            },
+            {
+              "text": "说话者感谢对方的陪伴",
+              "correct": false
+            },
+            {
+              "text": "说话者询问对方的位置",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者暗示了什么情况？",
+          "options": [
+            {
+              "text": "对方现在和他们在一起",
+              "correct": true
+            },
+            {
+              "text": "对方应该马上离开",
+              "correct": false
+            },
+            {
+              "text": "对方从未参与过活动",
+              "correct": false
+            },
+            {
+              "text": "对方独自完成了任务",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者假设了什么情况？",
+          "options": [
+            {
+              "text": "假设对方正在这里",
+              "correct": false
+            },
+            {
+              "text": "假设对方不在这里",
+              "correct": true
+            },
+            {
+              "text": "假设对方将要离开",
+              "correct": false
+            },
+            {
+              "text": "假设对方从未到过这里",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

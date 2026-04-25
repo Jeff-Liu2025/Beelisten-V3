@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_08",
+  "totalSentences": 52,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:54:01.851002",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.14,
+      "endTime": 4.09,
+      "sentence": "My dad always filtered everything down to its simplest form",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者的父亲通常如何处理事情？",
+          "options": [
+            {
+              "text": "总是把事情复杂化",
+              "correct": false
+            },
+            {
+              "text": "总是把事情简化到最基本的形式",
+              "correct": true
+            },
+            {
+              "text": "总是把事情拖延到最后",
+              "correct": false
+            },
+            {
+              "text": "总是把事情交给别人处理",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者的父亲通常如何处理事情？",
+          "options": [
+            {
+              "text": "总是把事情复杂化",
+              "correct": false
+            },
+            {
+              "text": "总是把事情简化到最基本的形式",
+              "correct": true
+            },
+            {
+              "text": "总是把事情拖延到最后",
+              "correct": false
+            },
+            {
+              "text": "总是把事情交给别人处理",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者的父亲通常如何处理事情？",
+          "options": [
+            {
+              "text": "他会把事情复杂化，增加很多细节",
+              "correct": false
+            },
+            {
+              "text": "他会把事情简化到最基本的形式",
+              "correct": true
+            },
+            {
+              "text": "他会把事情交给别人处理",
+              "correct": false
+            },
+            {
+              "text": "他会把事情拖延到最后才处理",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 5,
+      "startTime": 10.22,
+      "endTime": 12.69,
+      "sentence": "Words were like his religion",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为语言对这个人来说意味着什么？",
+          "options": [
+            {
+              "text": "像宗教信仰一样重要",
+              "correct": true
+            },
+            {
+              "text": "只是日常交流的工具",
+              "correct": false
+            },
+            {
+              "text": "需要经常修改的东西",
+              "correct": false
+            },
+            {
+              "text": "让他感到困惑的事物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者认为文字对他来说意味着什么？",
+          "options": [
+            {
+              "text": "像宗教一样重要",
+              "correct": true
+            },
+            {
+              "text": "只是日常交流工具",
+              "correct": false
+            },
+            {
+              "text": "需要经常修改",
+              "correct": false
+            },
+            {
+              "text": "用来娱乐消遣",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者如何看待“话语”或“语言”？",
+          "options": [
+            {
+              "text": "他把话语当作一种信仰或精神寄托",
+              "correct": true
+            },
+            {
+              "text": "他认为话语是日常交流的工具",
+              "correct": false
+            },
+            {
+              "text": "他觉得话语应该像宗教一样被禁止",
+              "correct": false
+            },
+            {
+              "text": "他认为话语和宗教没有关系",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 10,
+      "startTime": 20.33,
+      "endTime": 22.09,
+      "sentence": "And how they felt on your tongue",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "这句话主要描述了关于什么的感受？",
+          "options": [
+            {
+              "text": "在口腔中的触觉体验",
+              "correct": true
+            },
+            {
+              "text": "对某种味道的喜好程度",
+              "correct": false
+            },
+            {
+              "text": "说话时的发音感觉",
+              "correct": false
+            },
+            {
+              "text": "听到某句话时的情绪反应",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据句子，说话者可能在讨论什么？",
+          "options": [
+            {
+              "text": "食物在舌头上的感觉",
+              "correct": true
+            },
+            {
+              "text": "如何正确使用舌头",
+              "correct": false
+            },
+            {
+              "text": "舌头的健康问题",
+              "correct": false
+            },
+            {
+              "text": "说话时的舌头位置",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，说话者可能在询问什么？",
+          "options": [
+            {
+              "text": "食物在舌头上的感觉",
+              "correct": true
+            },
+            {
+              "text": "食物的制作方法",
+              "correct": false
+            },
+            {
+              "text": "食物的外观颜色",
+              "correct": false
+            },
+            {
+              "text": "食物的购买地点",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 15,
+      "startTime": 34.23,
+      "endTime": 36.55,
+      "sentence": "And it was all just falling flat",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述的情况是怎样的？",
+          "options": [
+            {
+              "text": "事情进展得非常顺利",
+              "correct": false
+            },
+            {
+              "text": "计划完全失败了",
+              "correct": true
+            },
+            {
+              "text": "物品从高处掉落",
+              "correct": false
+            },
+            {
+              "text": "地面突然塌陷了",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者描述的情况是怎样的？",
+          "options": [
+            {
+              "text": "事情进展得非常顺利",
+              "correct": false
+            },
+            {
+              "text": "计划或努力没有达到预期效果",
+              "correct": true
+            },
+            {
+              "text": "物品从高处掉落下来",
+              "correct": false
+            },
+            {
+              "text": "地面突然变得平坦",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者描述的情况是怎样的？",
+          "options": [
+            {
+              "text": "计划或努力没有达到预期效果",
+              "correct": true
+            },
+            {
+              "text": "物品从高处掉落下来",
+              "correct": false
+            },
+            {
+              "text": "表演获得了观众的热烈掌声",
+              "correct": false
+            },
+            {
+              "text": "天气突然变得非常晴朗",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 20,
+      "startTime": 45.61,
+      "endTime": 50.98,
+      "sentence": "And , um , they were giving us the oral polio vaccine , uh",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到了什么具体行为？",
+          "options": [
+            {
+              "text": "他们正在给说话者注射口服脊髓灰质炎疫苗",
+              "correct": true
+            },
+            {
+              "text": "说话者正在给其他人注射疫苗",
+              "correct": false
+            },
+            {
+              "text": "他们正在讨论疫苗的副作用",
+              "correct": false
+            },
+            {
+              "text": "说话者拒绝接受口服脊髓灰质炎疫苗",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到了什么具体行为？",
+          "options": [
+            {
+              "text": "他们正在分发口服脊髓灰质炎疫苗",
+              "correct": true
+            },
+            {
+              "text": "他们正在讨论疫苗的副作用",
+              "correct": false
+            },
+            {
+              "text": "他们正在拒绝接受任何疫苗",
+              "correct": false
+            },
+            {
+              "text": "他们正在研究新的疫苗配方",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，他们在做什么？",
+          "options": [
+            {
+              "text": "他们正在分发口服脊髓灰质炎疫苗",
+              "correct": true
+            },
+            {
+              "text": "他们正在讨论疫苗的副作用",
+              "correct": false
+            },
+            {
+              "text": "他们正在拒绝接受任何疫苗",
+              "correct": false
+            },
+            {
+              "text": "他们正在研究新的疫苗配方",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 24,
+      "startTime": 56.71,
+      "endTime": 58.95,
+      "sentence": "And then i got home",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述了什么事情？",
+          "options": [
+            {
+              "text": "说话者刚刚到达了家",
+              "correct": true
+            },
+            {
+              "text": "说话者正在离开家",
+              "correct": false
+            },
+            {
+              "text": "说话者计划明天回家",
+              "correct": false
+            },
+            {
+              "text": "说话者在家工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者主要描述了什么事情？",
+          "options": [
+            {
+              "text": "说话者刚刚到达了家",
+              "correct": true
+            },
+            {
+              "text": "说话者正在离开家",
+              "correct": false
+            },
+            {
+              "text": "说话者计划明天回家",
+              "correct": false
+            },
+            {
+              "text": "说话者在家工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话人接下来做了什么？",
+          "options": [
+            {
+              "text": "说话人离开了家",
+              "correct": false
+            },
+            {
+              "text": "说话人回到了家",
+              "correct": true
+            },
+            {
+              "text": "说话人去了朋友家",
+              "correct": false
+            },
+            {
+              "text": "说话人还在外面",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 29,
+      "startTime": 65.04,
+      "endTime": 68.04,
+      "sentence": "We had the , uh , polio vaccine at school today",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，今天在学校发生了什么？",
+          "options": [
+            {
+              "text": "学校今天进行了脊髓灰质炎疫苗接种",
+              "correct": true
+            },
+            {
+              "text": "学校今天讨论了疫苗安全问题",
+              "correct": false
+            },
+            {
+              "text": "学校今天取消了疫苗接种计划",
+              "correct": false
+            },
+            {
+              "text": "学校今天举办了健康知识讲座",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者今天在学校做了什么？",
+          "options": [
+            {
+              "text": "接种了脊髓灰质炎疫苗",
+              "correct": true
+            },
+            {
+              "text": "参加了体育比赛",
+              "correct": false
+            },
+            {
+              "text": "学习了疫苗的历史",
+              "correct": false
+            },
+            {
+              "text": "参观了医院",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，今天在学校发生了什么？",
+          "options": [
+            {
+              "text": "学校今天有脊髓灰质炎疫苗接种",
+              "correct": true
+            },
+            {
+              "text": "学校今天有流感疫苗接种",
+              "correct": false
+            },
+            {
+              "text": "学校今天有新冠疫苗接种",
+              "correct": false
+            },
+            {
+              "text": "学校今天有麻疹疫苗接种",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 33,
+      "startTime": 73.21,
+      "endTime": 75.37,
+      "sentence": "They , they took out this little cup",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述了什么具体行为？",
+          "options": [
+            {
+              "text": "他们拿出一个小杯子",
+              "correct": true
+            },
+            {
+              "text": "他们放回一个小杯子",
+              "correct": false
+            },
+            {
+              "text": "他们打碎了一个小杯子",
+              "correct": false
+            },
+            {
+              "text": "他们买了一个小杯子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者描述了他们的什么行为？",
+          "options": [
+            {
+              "text": "他们拿出一个小杯子",
+              "correct": true
+            },
+            {
+              "text": "他们买了一个小杯子",
+              "correct": false
+            },
+            {
+              "text": "他们打碎了一个小杯子",
+              "correct": false
+            },
+            {
+              "text": "他们清洗了一个小杯子",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，他们做了什么？",
+          "options": [
+            {
+              "text": "他们拿出一个小杯子",
+              "correct": true
+            },
+            {
+              "text": "他们买了一个小杯子",
+              "correct": false
+            },
+            {
+              "text": "他们打碎了一个小杯子",
+              "correct": false
+            },
+            {
+              "text": "他们清洗了一个小杯子",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 37,
+      "startTime": 79.48,
+      "endTime": 82.12,
+      "sentence": "and my dad looked at me and started shaking his head",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，父亲对说话者的行为表达了什么态度？",
+          "options": [
+            {
+              "text": "父亲对说话者的行为表示赞同",
+              "correct": false
+            },
+            {
+              "text": "父亲对说话者的行为表示不赞同",
+              "correct": true
+            },
+            {
+              "text": "父亲对说话者的行为感到困惑",
+              "correct": false
+            },
+            {
+              "text": "父亲对说话者的行为感到兴奋",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话人的父亲当时有什么反应？",
+          "options": [
+            {
+              "text": "他父亲点头表示同意",
+              "correct": false
+            },
+            {
+              "text": "他父亲摇头表示不赞同",
+              "correct": true
+            },
+            {
+              "text": "他父亲挥手打招呼",
+              "correct": false
+            },
+            {
+              "text": "他父亲转身离开",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，爸爸对说话者的态度是什么？",
+          "options": [
+            {
+              "text": "爸爸对说话者表示赞同",
+              "correct": false
+            },
+            {
+              "text": "爸爸对说话者表示不赞同",
+              "correct": true
+            },
+            {
+              "text": "爸爸对说话者感到困惑",
+              "correct": false
+            },
+            {
+              "text": "爸爸对说话者感到高兴",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 41,
+      "startTime": 91.28,
+      "endTime": 92.78,
+      "sentence": "They have this little recording studio",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，关于录音室可以推断出什么？",
+          "options": [
+            {
+              "text": "录音室是大型且设备齐全的",
+              "correct": false
+            },
+            {
+              "text": "录音室是小型且简单的",
+              "correct": true
+            },
+            {
+              "text": "录音室是公共且开放的",
+              "correct": false
+            },
+            {
+              "text": "录音室是临时搭建的",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，关于这个录音室，以下哪项描述是正确的？",
+          "options": [
+            {
+              "text": "它是一个大型的专业录音室",
+              "correct": false
+            },
+            {
+              "text": "它是一个小型的录音室",
+              "correct": true
+            },
+            {
+              "text": "它是一个正在建设中的录音室",
+              "correct": false
+            },
+            {
+              "text": "它是一个已经废弃的录音室",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者提到的录音室有什么特点？",
+          "options": [
+            {
+              "text": "它是一个大型的专业录音室",
+              "correct": false
+            },
+            {
+              "text": "它是一个小型的录音室",
+              "correct": true
+            },
+            {
+              "text": "它是一个临时的录音设备",
+              "correct": false
+            },
+            {
+              "text": "它是一个公共的录音空间",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 45,
+      "startTime": 101.81,
+      "endTime": 103.97,
+      "sentence": "And he played the spoonful of sugar",
+      "wordCount": 7,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，他做了什么？",
+          "options": [
+            {
+              "text": "他演奏了一勺糖",
+              "correct": true
+            },
+            {
+              "text": "他吃了一勺糖",
+              "correct": false
+            },
+            {
+              "text": "他制作了一勺糖",
+              "correct": false
+            },
+            {
+              "text": "他购买了一勺糖",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，他做了什么？",
+          "options": [
+            {
+              "text": "他演奏了一勺糖",
+              "correct": true
+            },
+            {
+              "text": "他吃了一勺糖",
+              "correct": false
+            },
+            {
+              "text": "他制作了一勺糖",
+              "correct": false
+            },
+            {
+              "text": "他购买了一勺糖",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，他做了什么？",
+          "options": [
+            {
+              "text": "他演奏了一勺糖",
+              "correct": true
+            },
+            {
+              "text": "他吃了一勺糖",
+              "correct": false
+            },
+            {
+              "text": "他制作了一勺糖",
+              "correct": false
+            },
+            {
+              "text": "他购买了一勺糖",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 49,
+      "startTime": 113.27,
+      "endTime": 116.25,
+      "sentence": "It was kind of like that was his yarn",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "他可能是在编织毛线",
+              "correct": false
+            },
+            {
+              "text": "这大概就是他的故事或说法",
+              "correct": true
+            },
+            {
+              "text": "他喜欢收集各种纱线",
+              "correct": false
+            },
+            {
+              "text": "那件衣服像是他的风格",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "那是他编织的毛线",
+              "correct": false
+            },
+            {
+              "text": "那是他讲述的故事",
+              "correct": true
+            },
+            {
+              "text": "那是他收藏的布料",
+              "correct": false
+            },
+            {
+              "text": "那是他设计的图案",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "说话者认为那是他的故事或借口",
+              "correct": true
+            },
+            {
+              "text": "说话者在描述一件毛衣或毛线制品",
+              "correct": false
+            },
+            {
+              "text": "说话者表示那是他的责任或工作",
+              "correct": false
+            },
+            {
+              "text": "说话者觉得那像他的娱乐方式",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

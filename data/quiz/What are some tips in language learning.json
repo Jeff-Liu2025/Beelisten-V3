@@ -1,0 +1,458 @@
+{
+  "resourceId": "What are some tips in language learning",
+  "totalSentences": 13,
+  "quizSentences": 6,
+  "generatedAt": "2026-04-23T01:07:40.766619",
+  "questions": [
+    {
+      "sentenceIndex": 2,
+      "startTime": 0.0,
+      "endTime": 4.12,
+      "sentence": "Hi, I'm Özlem. I'm from Turkey and here is my question",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话人Özlem来自哪个国家？",
+          "options": [
+            {
+              "text": "土耳其",
+              "correct": true
+            },
+            {
+              "text": "德国",
+              "correct": false
+            },
+            {
+              "text": "法国",
+              "correct": false
+            },
+            {
+              "text": "英国",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据对话，Özlem来自哪里？",
+          "options": [
+            {
+              "text": "土耳其",
+              "correct": true
+            },
+            {
+              "text": "德国",
+              "correct": false
+            },
+            {
+              "text": "法国",
+              "correct": false
+            },
+            {
+              "text": "英国",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据对话，说话者Özlem来自哪里？",
+          "options": [
+            {
+              "text": "土耳其",
+              "correct": true
+            },
+            {
+              "text": "德国",
+              "correct": false
+            },
+            {
+              "text": "法国",
+              "correct": false
+            },
+            {
+              "text": "英国",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 4,
+      "startTime": 8.22,
+      "endTime": 15.42,
+      "sentence": "I have been an ESL teacher for over 20 years and I would like to say a few things about language learning",
+      "wordCount": 21,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到自己从事ESL教学超过20年，接下来最可能谈论什么？",
+          "options": [
+            {
+              "text": "关于语言学习的一些看法",
+              "correct": true
+            },
+            {
+              "text": "如何成为一名ESL教师",
+              "correct": false
+            },
+            {
+              "text": "20年教学经验的总结",
+              "correct": false
+            },
+            {
+              "text": "英语学习的技巧方法",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者接下来最可能谈论什么？",
+          "options": [
+            {
+              "text": "语言学习的经验分享",
+              "correct": true
+            },
+            {
+              "text": "英语教学的工作经历",
+              "correct": false
+            },
+            {
+              "text": "成为教师的职业规划",
+              "correct": false
+            },
+            {
+              "text": "学习外语的困难挑战",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到自己从事英语教学已经超过20年，接下来想谈论什么话题？",
+          "options": [
+            {
+              "text": "关于语言学习的一些看法",
+              "correct": true
+            },
+            {
+              "text": "英语教学的具体方法",
+              "correct": false
+            },
+            {
+              "text": "自己20年的教学经历",
+              "correct": false
+            },
+            {
+              "text": "学习英语的重要性",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 6,
+      "startTime": 22.62,
+      "endTime": 30.1,
+      "sentence": "Yes, you can have a shortcut in the sense of time, but I don't believe you can have a shortcut in the sense of effort",
+      "wordCount": 26,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为在哪个方面可以有捷径？",
+          "options": [
+            {
+              "text": "在时间方面可以有捷径",
+              "correct": true
+            },
+            {
+              "text": "在努力方面可以有捷径",
+              "correct": false
+            },
+            {
+              "text": "在时间和努力方面都可以有捷径",
+              "correct": false
+            },
+            {
+              "text": "在时间和努力方面都不能有捷径",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为在哪些方面可能存在捷径？",
+          "options": [
+            {
+              "text": "时间和努力都可以有捷径",
+              "correct": false
+            },
+            {
+              "text": "时间上可以有捷径，但努力上不行",
+              "correct": true
+            },
+            {
+              "text": "时间和努力都不能有捷径",
+              "correct": false
+            },
+            {
+              "text": "努力上可以有捷径，但时间上不行",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为在哪些方面可以有捷径？",
+          "options": [
+            {
+              "text": "在时间和努力上都可以有捷径",
+              "correct": false
+            },
+            {
+              "text": "在时间上可以有捷径，但在努力上不能有捷径",
+              "correct": true
+            },
+            {
+              "text": "在努力上可以有捷径，但在时间上不能有捷径",
+              "correct": false
+            },
+            {
+              "text": "在时间和努力上都不能有捷径",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 8,
+      "startTime": 37.74,
+      "endTime": 44.24,
+      "sentence": "For example, if you want to speak fluently, you should focus on speaking and listening activities",
+      "wordCount": 16,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，如果想流利地说英语，应该重点做什么？",
+          "options": [
+            {
+              "text": "专注于阅读和写作练习",
+              "correct": false
+            },
+            {
+              "text": "专注于口语和听力活动",
+              "correct": true
+            },
+            {
+              "text": "专注于语法和词汇学习",
+              "correct": false
+            },
+            {
+              "text": "专注于翻译和背诵课文",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，如果想流利地说话，应该重点关注什么？",
+          "options": [
+            {
+              "text": "阅读和写作练习",
+              "correct": false
+            },
+            {
+              "text": "语法和词汇学习",
+              "correct": false
+            },
+            {
+              "text": "口语和听力活动",
+              "correct": true
+            },
+            {
+              "text": "发音和语调训练",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，如果想要流利地说话，应该重点做什么？",
+          "options": [
+            {
+              "text": "专注于阅读和写作练习",
+              "correct": false
+            },
+            {
+              "text": "专注于口语和听力活动",
+              "correct": true
+            },
+            {
+              "text": "专注于语法和词汇学习",
+              "correct": false
+            },
+            {
+              "text": "专注于翻译和记忆句子",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 10,
+      "startTime": 53.3,
+      "endTime": 62.28,
+      "sentence": "But when we look closer at their studies, we see that they have not spent enough time in that specific skill they want",
+      "wordCount": 23,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，为什么他们的研究存在问题？",
+          "options": [
+            {
+              "text": "他们在特定技能上投入的时间不足",
+              "correct": true
+            },
+            {
+              "text": "他们的研究方法存在根本性错误",
+              "correct": false
+            },
+            {
+              "text": "他们缺乏必要的学术背景知识",
+              "correct": false
+            },
+            {
+              "text": "他们使用的数据样本太小",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，为什么他们的研究存在问题？",
+          "options": [
+            {
+              "text": "他们研究的技能不够具体",
+              "correct": false
+            },
+            {
+              "text": "他们没有足够时间练习特定技能",
+              "correct": true
+            },
+            {
+              "text": "他们的研究方法不够仔细",
+              "correct": false
+            },
+            {
+              "text": "他们想学的技能太多",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，为什么他们的研究存在问题？",
+          "options": [
+            {
+              "text": "他们研究的技能范围太广",
+              "correct": false
+            },
+            {
+              "text": "他们在特定技能上投入时间不足",
+              "correct": true
+            },
+            {
+              "text": "他们缺乏必要的研究设备",
+              "correct": false
+            },
+            {
+              "text": "他们对研究结果过于自信",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 12,
+      "startTime": 67.94,
+      "endTime": 78.52,
+      "sentence": "If you follow a system, if you have a system, and thirdly, if you have fun, this is very important, you will definitely learn the language",
+      "wordCount": 26,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，学习语言的关键因素是什么？",
+          "options": [
+            {
+              "text": "拥有系统、遵循系统并享受乐趣",
+              "correct": true
+            },
+            {
+              "text": "每天坚持练习和记忆单词",
+              "correct": false
+            },
+            {
+              "text": "找一个好的老师和语言环境",
+              "correct": false
+            },
+            {
+              "text": "掌握语法规则和发音技巧",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，要学好一门语言，最重要的是什么？",
+          "options": [
+            {
+              "text": "遵循一个系统并享受学习过程",
+              "correct": true
+            },
+            {
+              "text": "每天坚持练习至少两小时",
+              "correct": false
+            },
+            {
+              "text": "找一个专业的语言老师指导",
+              "correct": false
+            },
+            {
+              "text": "背诵大量的单词和语法规则",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，要学好一门语言，最重要的是什么？",
+          "options": [
+            {
+              "text": "遵循一个系统并享受学习过程",
+              "correct": true
+            },
+            {
+              "text": "每天坚持练习至少两小时",
+              "correct": false
+            },
+            {
+              "text": "找一个专业的语言老师指导",
+              "correct": false
+            },
+            {
+              "text": "背诵大量的单词和语法规则",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

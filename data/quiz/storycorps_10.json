@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_10",
+  "totalSentences": 59,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T01:01:53.446732",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.02,
+      "endTime": 2.0,
+      "sentence": "Do you remember the first time you kissed me",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者询问对方是否记得什么？",
+          "options": [
+            {
+              "text": "第一次亲吻说话者的经历",
+              "correct": true
+            },
+            {
+              "text": "第一次见面的具体时间",
+              "correct": false
+            },
+            {
+              "text": "最近一次约会的细节",
+              "correct": false
+            },
+            {
+              "text": "说话者最喜欢的礼物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者询问对方是否记得什么？",
+          "options": [
+            {
+              "text": "第一次见面的时间",
+              "correct": false
+            },
+            {
+              "text": "第一次接吻的情景",
+              "correct": true
+            },
+            {
+              "text": "第一次约会的细节",
+              "correct": false
+            },
+            {
+              "text": "第一次吵架的原因",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者询问对方是否记得什么？",
+          "options": [
+            {
+              "text": "第一次见面的时间",
+              "correct": false
+            },
+            {
+              "text": "第一次接吻的情景",
+              "correct": true
+            },
+            {
+              "text": "第一次约会的细节",
+              "correct": false
+            },
+            {
+              "text": "第一次吵架的原因",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 5,
+      "startTime": 5.14,
+      "endTime": 6.14,
+      "sentence": "It was still above ground",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述的对象处于什么状态？",
+          "options": [
+            {
+              "text": "它仍然在地面之上",
+              "correct": true
+            },
+            {
+              "text": "它已经被埋在地下",
+              "correct": false
+            },
+            {
+              "text": "它正在向地面移动",
+              "correct": false
+            },
+            {
+              "text": "它刚刚离开地面",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者描述的对象处于什么状态？",
+          "options": [
+            {
+              "text": "它仍然在地面上方",
+              "correct": true
+            },
+            {
+              "text": "它已经被埋在地下",
+              "correct": false
+            },
+            {
+              "text": "它正在向地面移动",
+              "correct": false
+            },
+            {
+              "text": "它刚刚离开地面",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，说话者描述了什么状态？",
+          "options": [
+            {
+              "text": "它仍然在地面之上",
+              "correct": true
+            },
+            {
+              "text": "它已经被埋在地下",
+              "correct": false
+            },
+            {
+              "text": "它正在向地面移动",
+              "correct": false
+            },
+            {
+              "text": "它刚刚离开地面",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 10,
+      "startTime": 14.02,
+      "endTime": 16.08,
+      "sentence": "Well , i told my mother that i kissed you",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者向母亲透露了什么信息？",
+          "options": [
+            {
+              "text": "说话者亲吻了对方",
+              "correct": true
+            },
+            {
+              "text": "说话者被母亲亲吻了",
+              "correct": false
+            },
+            {
+              "text": "说话者想亲吻对方",
+              "correct": false
+            },
+            {
+              "text": "说话者拒绝了亲吻",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者向母亲透露了什么信息？",
+          "options": [
+            {
+              "text": "说话者亲吻了对方",
+              "correct": true
+            },
+            {
+              "text": "说话者被对方亲吻了",
+              "correct": false
+            },
+            {
+              "text": "说话者想亲吻对方",
+              "correct": false
+            },
+            {
+              "text": "说话者拒绝了对方的亲吻",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者向谁透露了亲吻对方的事情？",
+          "options": [
+            {
+              "text": "说话者的父亲",
+              "correct": false
+            },
+            {
+              "text": "说话者的朋友",
+              "correct": false
+            },
+            {
+              "text": "说话者的母亲",
+              "correct": true
+            },
+            {
+              "text": "说话者的老师",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 15,
+      "startTime": 24.29,
+      "endTime": 27.98,
+      "sentence": "But i remember when you gave me that wonderful birthday present",
+      "wordCount": 11,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者回忆起了什么？",
+          "options": [
+            {
+              "text": "对方送给他一份生日礼物",
+              "correct": true
+            },
+            {
+              "text": "他送给对方一份生日礼物",
+              "correct": false
+            },
+            {
+              "text": "对方忘记了他的生日",
+              "correct": false
+            },
+            {
+              "text": "他们一起庆祝了生日",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到了什么特别的事情？",
+          "options": [
+            {
+              "text": "说话者记得对方送过一份生日礼物",
+              "correct": true
+            },
+            {
+              "text": "说话者忘记了自己的生日",
+              "correct": false
+            },
+            {
+              "text": "说话者正在计划一个生日派对",
+              "correct": false
+            },
+            {
+              "text": "说话者不喜欢收到的礼物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到了什么特别的事情？",
+          "options": [
+            {
+              "text": "说话者记得对方送过一个很棒的生日礼物",
+              "correct": true
+            },
+            {
+              "text": "说话者想不起来对方送过什么礼物",
+              "correct": false
+            },
+            {
+              "text": "说话者正在期待一个生日礼物",
+              "correct": false
+            },
+            {
+              "text": "说话者不喜欢对方送的生日礼物",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 19,
+      "startTime": 35.91,
+      "endTime": 39.53,
+      "sentence": "And i unwrapped it carefully and opened the box",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者是如何处理这个物品的？",
+          "options": [
+            {
+              "text": "他小心地拆开包装并打开了盒子",
+              "correct": true
+            },
+            {
+              "text": "他迅速撕开包装并检查了盒子",
+              "correct": false
+            },
+            {
+              "text": "他直接打开盒子而没有拆包装",
+              "correct": false
+            },
+            {
+              "text": "他拆开包装后把盒子扔掉了",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者是如何处理那个物品的？",
+          "options": [
+            {
+              "text": "他小心翼翼地拆开包装，然后打开了盒子",
+              "correct": true
+            },
+            {
+              "text": "他直接撕开包装，没有打开盒子",
+              "correct": false
+            },
+            {
+              "text": "他快速打开盒子，没有拆包装",
+              "correct": false
+            },
+            {
+              "text": "他拆开包装后把盒子扔掉了",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者是如何处理这个物品的？",
+          "options": [
+            {
+              "text": "他快速撕开包装并打开了盒子",
+              "correct": false
+            },
+            {
+              "text": "他小心地拆开包装并打开了盒子",
+              "correct": true
+            },
+            {
+              "text": "他直接打开了盒子没有拆包装",
+              "correct": false
+            },
+            {
+              "text": "他拆开包装但没有打开盒子",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 23,
+      "startTime": 48.38,
+      "endTime": 50.96,
+      "sentence": "Oh , so why not give it to you soon to be girlfriend",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者建议把东西送给谁？",
+          "options": [
+            {
+              "text": "送给说话者自己的女朋友",
+              "correct": false
+            },
+            {
+              "text": "送给听者未来的女朋友",
+              "correct": true
+            },
+            {
+              "text": "送给听者现在的女朋友",
+              "correct": false
+            },
+            {
+              "text": "送给说话者和听者共同的朋友",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者建议把东西给谁？",
+          "options": [
+            {
+              "text": "给说话者自己的女朋友",
+              "correct": false
+            },
+            {
+              "text": "给听者未来的女朋友",
+              "correct": true
+            },
+            {
+              "text": "给听者现在的女朋友",
+              "correct": false
+            },
+            {
+              "text": "给说话者的朋友",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者建议把东西给谁？",
+          "options": [
+            {
+              "text": "给说话者自己的女朋友",
+              "correct": false
+            },
+            {
+              "text": "给听话者未来的女朋友",
+              "correct": true
+            },
+            {
+              "text": "给听话者现在的女朋友",
+              "correct": false
+            },
+            {
+              "text": "给说话者未来的女朋友",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 28,
+      "startTime": 57.88,
+      "endTime": 61.52,
+      "sentence": "And then you took a bunch of eggs and smash them on my head",
+      "wordCount": 14,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述了对方做了什么行为？",
+          "options": [
+            {
+              "text": "把鸡蛋砸在说话者头上",
+              "correct": true
+            },
+            {
+              "text": "把鸡蛋放在说话者头上",
+              "correct": false
+            },
+            {
+              "text": "把鸡蛋扔向说话者",
+              "correct": false
+            },
+            {
+              "text": "把鸡蛋递给说话者",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者描述对方做了什么行为？",
+          "options": [
+            {
+              "text": "把鸡蛋打碎在说话者头上",
+              "correct": true
+            },
+            {
+              "text": "把鸡蛋放在说话者头上",
+              "correct": false
+            },
+            {
+              "text": "把鸡蛋扔向说话者",
+              "correct": false
+            },
+            {
+              "text": "把鸡蛋递给说话者",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，说话者描述对方做了什么行为？",
+          "options": [
+            {
+              "text": "把鸡蛋打碎在说话者头上",
+              "correct": true
+            },
+            {
+              "text": "把鸡蛋放在说话者头上",
+              "correct": false
+            },
+            {
+              "text": "把鸡蛋扔向说话者",
+              "correct": false
+            },
+            {
+              "text": "把鸡蛋递给说话者",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 32,
+      "startTime": 69.7,
+      "endTime": 73.24,
+      "sentence": "I think once i decided that you were gonna be my boyfriend",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者什么时候决定让对方成为自己的男朋友？",
+          "options": [
+            {
+              "text": "在第一次见面的时候",
+              "correct": false
+            },
+            {
+              "text": "在某个特定的时刻",
+              "correct": true
+            },
+            {
+              "text": "经过长时间的考虑后",
+              "correct": false
+            },
+            {
+              "text": "在朋友的劝说下",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者是在什么时候决定让对方成为自己的男朋友的？",
+          "options": [
+            {
+              "text": "在第一次见面的时候",
+              "correct": false
+            },
+            {
+              "text": "在某个特定的时刻",
+              "correct": true
+            },
+            {
+              "text": "在交往了很长时间之后",
+              "correct": false
+            },
+            {
+              "text": "在对方提出要求的时候",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者决定让对方成为自己的男朋友是在什么时候？",
+          "options": [
+            {
+              "text": "在多次约会之后",
+              "correct": false
+            },
+            {
+              "text": "在某个特定的时刻",
+              "correct": true
+            },
+            {
+              "text": "在第一次见面时",
+              "correct": false
+            },
+            {
+              "text": "在朋友的建议下",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 37,
+      "startTime": 82.66,
+      "endTime": 85.56,
+      "sentence": "But a lot of other boys were interested in you",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者暗示了什么？",
+          "options": [
+            {
+              "text": "很多其他男孩对你有兴趣",
+              "correct": true
+            },
+            {
+              "text": "你只对一个男孩感兴趣",
+              "correct": false
+            },
+            {
+              "text": "其他男孩都不喜欢你",
+              "correct": false
+            },
+            {
+              "text": "你对很多男孩感兴趣",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "很多其他男孩对你有兴趣",
+              "correct": true
+            },
+            {
+              "text": "很多其他男孩对你没兴趣",
+              "correct": false
+            },
+            {
+              "text": "只有少数男孩对你有兴趣",
+              "correct": false
+            },
+            {
+              "text": "很多其他男孩对说话者有兴趣",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "很多其他男孩对你有兴趣",
+              "correct": true
+            },
+            {
+              "text": "很多其他男孩对你没兴趣",
+              "correct": false
+            },
+            {
+              "text": "只有少数男孩对你有兴趣",
+              "correct": false
+            },
+            {
+              "text": "很多女孩对你有兴趣",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 41,
+      "startTime": 93.86,
+      "endTime": 98.0,
+      "sentence": "Because despite all the mean things you might have done to me",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者暗示对方可能对他做了什么？",
+          "options": [
+            {
+              "text": "说了一些刻薄的话",
+              "correct": false
+            },
+            {
+              "text": "做了一些刻薄的事情",
+              "correct": true
+            },
+            {
+              "text": "给予了很多帮助",
+              "correct": false
+            },
+            {
+              "text": "表达了真诚的歉意",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者暗示对方可能对他做了什么？",
+          "options": [
+            {
+              "text": "说过一些刻薄的话",
+              "correct": false
+            },
+            {
+              "text": "做过一些不友善的事情",
+              "correct": true
+            },
+            {
+              "text": "给予了很多帮助",
+              "correct": false
+            },
+            {
+              "text": "完全忽视了他",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到对方可能对他做了什么？",
+          "options": [
+            {
+              "text": "一些不友善的事情",
+              "correct": true
+            },
+            {
+              "text": "很多帮助和支持",
+              "correct": false
+            },
+            {
+              "text": "几次意外的惊喜",
+              "correct": false
+            },
+            {
+              "text": "一些重要的建议",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 47,
+      "startTime": 108.52,
+      "endTime": 110.24,
+      "sentence": "The sixties were difficult years",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为六十年代是怎样的？",
+          "options": [
+            {
+              "text": "六十年代是充满挑战的时期",
+              "correct": true
+            },
+            {
+              "text": "六十年代是经济繁荣的年代",
+              "correct": false
+            },
+            {
+              "text": "六十年代是科技进步最快的十年",
+              "correct": false
+            },
+            {
+              "text": "六十年代是和平稳定的年代",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "六十年代是充满挑战的时期",
+              "correct": true
+            },
+            {
+              "text": "说话者六十岁时生活很困难",
+              "correct": false
+            },
+            {
+              "text": "六十年代是轻松愉快的年代",
+              "correct": false
+            },
+            {
+              "text": "说话者正在谈论六十年来的变化",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者认为六十年代是怎样的时期？",
+          "options": [
+            {
+              "text": "六十年代是充满挑战的时期",
+              "correct": true
+            },
+            {
+              "text": "六十年代是经济繁荣的时期",
+              "correct": false
+            },
+            {
+              "text": "六十年代是科技进步的时期",
+              "correct": false
+            },
+            {
+              "text": "六十年代是文化复兴的时期",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 53,
+      "startTime": 124.18,
+      "endTime": 127.0,
+      "sentence": "I think that's why you're so special",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者认为对方特别的原因是什么？",
+          "options": [
+            {
+              "text": "因为对方有独特的才能",
+              "correct": false
+            },
+            {
+              "text": "因为对方做了某件事",
+              "correct": true
+            },
+            {
+              "text": "因为对方的外表与众不同",
+              "correct": false
+            },
+            {
+              "text": "因为对方来自特殊的地方",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为对方为什么很特别？",
+          "options": [
+            {
+              "text": "因为对方有独特的才能",
+              "correct": false
+            },
+            {
+              "text": "因为对方的外表与众不同",
+              "correct": false
+            },
+            {
+              "text": "因为对方做了某件事情",
+              "correct": true
+            },
+            {
+              "text": "因为对方来自特殊的地方",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者认为对方为什么特别？",
+          "options": [
+            {
+              "text": "因为对方有某种独特的原因",
+              "correct": true
+            },
+            {
+              "text": "因为对方做了某件具体的事",
+              "correct": false
+            },
+            {
+              "text": "因为对方来自某个特殊的地方",
+              "correct": false
+            },
+            {
+              "text": "因为对方认识某个重要人物",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

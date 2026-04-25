@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_03",
+  "totalSentences": 44,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:34:45.146893",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.14,
+      "endTime": 1.66,
+      "sentence": "How did you two meet",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者最可能想知道什么？",
+          "options": [
+            {
+              "text": "两人相识的方式",
+              "correct": true
+            },
+            {
+              "text": "两人见面的时间",
+              "correct": false
+            },
+            {
+              "text": "两人见面的地点",
+              "correct": false
+            },
+            {
+              "text": "两人是否认识",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者最可能在询问什么？",
+          "options": [
+            {
+              "text": "两人相识的方式或场合",
+              "correct": true
+            },
+            {
+              "text": "两人见面的具体时间",
+              "correct": false
+            },
+            {
+              "text": "两人是否已经分手",
+              "correct": false
+            },
+            {
+              "text": "两人最近一次见面的地点",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者最可能想了解什么？",
+          "options": [
+            {
+              "text": "他们两人如何相识",
+              "correct": true
+            },
+            {
+              "text": "他们两人何时见面",
+              "correct": false
+            },
+            {
+              "text": "他们两人为何争吵",
+              "correct": false
+            },
+            {
+              "text": "他们两人现在的关系",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 3,
+      "startTime": 4.58,
+      "endTime": 9.68,
+      "sentence": "I went to a vegetball game where he was the star player",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者去观看比赛的主要原因是什么？",
+          "options": [
+            {
+              "text": "因为他是那场比赛的明星球员",
+              "correct": true
+            },
+            {
+              "text": "因为他想学习如何打排球",
+              "correct": false
+            },
+            {
+              "text": "因为他被邀请参加比赛",
+              "correct": false
+            },
+            {
+              "text": "因为他想支持自己的球队",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者去观看比赛的主要原因是什么？",
+          "options": [
+            {
+              "text": "因为他是那场比赛的明星球员",
+              "correct": true
+            },
+            {
+              "text": "因为那是一场重要的篮球比赛",
+              "correct": false
+            },
+            {
+              "text": "因为比赛的门票很便宜",
+              "correct": false
+            },
+            {
+              "text": "因为说话者自己也想参加比赛",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者去观看比赛的主要原因是什么？",
+          "options": [
+            {
+              "text": "因为他是那场比赛的明星球员",
+              "correct": true
+            },
+            {
+              "text": "因为那是一场重要的篮球比赛",
+              "correct": false
+            },
+            {
+              "text": "因为说话者自己也想成为球员",
+              "correct": false
+            },
+            {
+              "text": "因为比赛的门票很便宜",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 6,
+      "startTime": 15.9,
+      "endTime": 19.02,
+      "sentence": "And there was a thing at the time",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "当时发生了一件事",
+              "correct": true
+            },
+            {
+              "text": "现在正在进行一件事",
+              "correct": false
+            },
+            {
+              "text": "将来会有一件事",
+              "correct": false
+            },
+            {
+              "text": "一直都有这件事",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "当时发生了一件事",
+              "correct": true
+            },
+            {
+              "text": "现在正在进行一件事",
+              "correct": false
+            },
+            {
+              "text": "将来会有一件事",
+              "correct": false
+            },
+            {
+              "text": "一直都有这件事",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "当时发生了一件事",
+              "correct": true
+            },
+            {
+              "text": "现在正在发生一件事",
+              "correct": false
+            },
+            {
+              "text": "将来会有一件事",
+              "correct": false
+            },
+            {
+              "text": "一直都有这件事",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 12,
+      "startTime": 30.27,
+      "endTime": 34.67,
+      "sentence": "He was dancing the way they danced and harlem",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，他在模仿谁的舞蹈方式？",
+          "options": [
+            {
+              "text": "哈莱姆地区的人们",
+              "correct": true
+            },
+            {
+              "text": "专业舞蹈演员",
+              "correct": false
+            },
+            {
+              "text": "他的家人",
+              "correct": false
+            },
+            {
+              "text": "流行歌手",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，他在模仿谁的舞蹈方式？",
+          "options": [
+            {
+              "text": "哈莱姆地区的人",
+              "correct": true
+            },
+            {
+              "text": "专业舞蹈演员",
+              "correct": false
+            },
+            {
+              "text": "他的朋友们",
+              "correct": false
+            },
+            {
+              "text": "街舞爱好者",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，他跳舞的方式有什么特点？",
+          "options": [
+            {
+              "text": "模仿了哈莱姆地区人们的舞蹈风格",
+              "correct": true
+            },
+            {
+              "text": "在哈莱姆地区表演舞蹈",
+              "correct": false
+            },
+            {
+              "text": "教哈莱姆的人们如何跳舞",
+              "correct": false
+            },
+            {
+              "text": "批评哈莱姆的舞蹈方式",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 14,
+      "startTime": 36.67,
+      "endTime": 38.29,
+      "sentence": "The lindy oh the lindy",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到了什么？",
+          "options": [
+            {
+              "text": "一种舞蹈",
+              "correct": true
+            },
+            {
+              "text": "一个地名",
+              "correct": false
+            },
+            {
+              "text": "一个人名",
+              "correct": false
+            },
+            {
+              "text": "一种食物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者最可能在谈论什么？",
+          "options": [
+            {
+              "text": "一种舞蹈或音乐风格",
+              "correct": true
+            },
+            {
+              "text": "一个人的名字",
+              "correct": false
+            },
+            {
+              "text": "一个地名",
+              "correct": false
+            },
+            {
+              "text": "一种食物",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到的内容是什么？",
+          "options": [
+            {
+              "text": "一种舞蹈的名称",
+              "correct": true
+            },
+            {
+              "text": "一个人的名字",
+              "correct": false
+            },
+            {
+              "text": "一个地名",
+              "correct": false
+            },
+            {
+              "text": "一种食物",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 20,
+      "startTime": 50.4,
+      "endTime": 52.92,
+      "sentence": "Tell me about your wedding and how did it happen",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者想了解什么信息？",
+          "options": [
+            {
+              "text": "婚礼的举办时间和地点",
+              "correct": false
+            },
+            {
+              "text": "婚礼的详细过程和情况",
+              "correct": true
+            },
+            {
+              "text": "婚礼的预算和花费",
+              "correct": false
+            },
+            {
+              "text": "婚礼的宾客名单和关系",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者想了解什么信息？",
+          "options": [
+            {
+              "text": "对方婚礼的详细情况和过程",
+              "correct": true
+            },
+            {
+              "text": "对方是否打算举办婚礼",
+              "correct": false
+            },
+            {
+              "text": "对方对婚礼的看法和态度",
+              "correct": false
+            },
+            {
+              "text": "对方参加过的其他婚礼",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者想了解什么信息？",
+          "options": [
+            {
+              "text": "对方婚礼的具体细节和过程",
+              "correct": true
+            },
+            {
+              "text": "对方是否打算举办婚礼",
+              "correct": false
+            },
+            {
+              "text": "对方对婚礼的看法和建议",
+              "correct": false
+            },
+            {
+              "text": "对方参加过的其他婚礼",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 22,
+      "startTime": 55.72,
+      "endTime": 58.88,
+      "sentence": "it was nineteen forty one",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据听到的句子，说话者提到了哪个年份？",
+          "options": [
+            {
+              "text": "1941年",
+              "correct": true
+            },
+            {
+              "text": "1914年",
+              "correct": false
+            },
+            {
+              "text": "1940年",
+              "correct": false
+            },
+            {
+              "text": "1942年",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据听到的句子，说话者提到的时间是什么时候？",
+          "options": [
+            {
+              "text": "1941年",
+              "correct": true
+            },
+            {
+              "text": "1914年",
+              "correct": false
+            },
+            {
+              "text": "1940年",
+              "correct": false
+            },
+            {
+              "text": "1942年",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "这句话提到了哪个年份？",
+          "options": [
+            {
+              "text": "1941年",
+              "correct": true
+            },
+            {
+              "text": "1940年",
+              "correct": false
+            },
+            {
+              "text": "1942年",
+              "correct": false
+            },
+            {
+              "text": "1939年",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 24,
+      "startTime": 64.17,
+      "endTime": 66.83,
+      "sentence": "I didn't want to lose this squirrel",
+      "wordCount": 8,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达的主要意图是什么？",
+          "options": [
+            {
+              "text": "他想抓住这只松鼠",
+              "correct": true
+            },
+            {
+              "text": "他讨厌这只松鼠",
+              "correct": false
+            },
+            {
+              "text": "他弄丢了这只松鼠",
+              "correct": false
+            },
+            {
+              "text": "他想赶走这只松鼠",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者为什么说这句话？",
+          "options": [
+            {
+              "text": "他不想让这只松鼠跑掉",
+              "correct": true
+            },
+            {
+              "text": "他准备放弃这只松鼠",
+              "correct": false
+            },
+            {
+              "text": "他打算卖掉这只松鼠",
+              "correct": false
+            },
+            {
+              "text": "他想把松鼠送给别人",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者表达的主要意图是什么？",
+          "options": [
+            {
+              "text": "想抓住一只松鼠",
+              "correct": true
+            },
+            {
+              "text": "已经失去了这只松鼠",
+              "correct": false
+            },
+            {
+              "text": "不喜欢这只松鼠",
+              "correct": false
+            },
+            {
+              "text": "想买一只松鼠",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 29,
+      "startTime": 80.06,
+      "endTime": 85.24,
+      "sentence": "i look upon us as the princes and the pauper",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者如何看待他们之间的关系？",
+          "options": [
+            {
+              "text": "他们像王子和乞丐一样地位悬殊",
+              "correct": true
+            },
+            {
+              "text": "他们像兄弟一样亲密无间",
+              "correct": false
+            },
+            {
+              "text": "他们像师生一样互相学习",
+              "correct": false
+            },
+            {
+              "text": "他们像竞争对手一样互相较量",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者如何看待自己和对方的关系？",
+          "options": [
+            {
+              "text": "他们像王子和乞丐一样地位悬殊",
+              "correct": true
+            },
+            {
+              "text": "他们像国王和臣子一样有上下级关系",
+              "correct": false
+            },
+            {
+              "text": "他们像兄弟一样亲密无间",
+              "correct": false
+            },
+            {
+              "text": "他们像朋友一样平等相处",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者如何描述他们之间的关系？",
+          "options": [
+            {
+              "text": "他们像王子和乞丐一样对比鲜明",
+              "correct": true
+            },
+            {
+              "text": "他们是亲密无间的朋友",
+              "correct": false
+            },
+            {
+              "text": "他们正在扮演戏剧角色",
+              "correct": false
+            },
+            {
+              "text": "他们讨论财富分配问题",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 31,
+      "startTime": 88.7,
+      "endTime": 91.24,
+      "sentence": "So far for a three years",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "到目前为止已经三年了",
+              "correct": true
+            },
+            {
+              "text": "未来还需要三年时间",
+              "correct": false
+            },
+            {
+              "text": "三年前发生的事情",
+              "correct": false
+            },
+            {
+              "text": "计划持续三年时间",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者谈论的是关于什么的时间？",
+          "options": [
+            {
+              "text": "已经持续了三年",
+              "correct": true
+            },
+            {
+              "text": "计划持续三年",
+              "correct": false
+            },
+            {
+              "text": "三年前的事情",
+              "correct": false
+            },
+            {
+              "text": "还有三年时间",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者谈论的是什么时间范围？",
+          "options": [
+            {
+              "text": "过去三年",
+              "correct": true
+            },
+            {
+              "text": "未来三年",
+              "correct": false
+            },
+            {
+              "text": "最近三个月",
+              "correct": false
+            },
+            {
+              "text": "整整三年",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 36,
+      "startTime": 106.59,
+      "endTime": 111.4,
+      "sentence": "You live every day and you become almost one person",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，作者想表达什么核心观点？",
+          "options": [
+            {
+              "text": "每天的生活让你逐渐成为独特的个体",
+              "correct": true
+            },
+            {
+              "text": "人们应该每天改变自己的性格",
+              "correct": false
+            },
+            {
+              "text": "每个人都需要找到生活的伴侣",
+              "correct": false
+            },
+            {
+              "text": "时间会让人们忘记过去的自己",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，作者想表达什么核心观点？",
+          "options": [
+            {
+              "text": "每天的生活经历会让人逐渐形成稳定的性格",
+              "correct": true
+            },
+            {
+              "text": "人们应该每天尝试成为不同的人",
+              "correct": false
+            },
+            {
+              "text": "每个人都需要找到另一个相似的伴侣",
+              "correct": false
+            },
+            {
+              "text": "一天的时间足够让人完成重大转变",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，作者想表达什么核心观点？",
+          "options": [
+            {
+              "text": "每天重复的生活会让人变得单一",
+              "correct": true
+            },
+            {
+              "text": "人们应该每天尝试成为不同的人",
+              "correct": false
+            },
+            {
+              "text": "只有一个人能活好每一天",
+              "correct": false
+            },
+            {
+              "text": "每天的生活需要与他人合作",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 39,
+      "startTime": 118.23,
+      "endTime": 119.77,
+      "sentence": "Well i i accept that",
+      "wordCount": 5,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者表达了什么态度？",
+          "options": [
+            {
+              "text": "表示拒绝",
+              "correct": false
+            },
+            {
+              "text": "表示接受",
+              "correct": true
+            },
+            {
+              "text": "表示犹豫",
+              "correct": false
+            },
+            {
+              "text": "表示反对",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者表达了什么态度？",
+          "options": [
+            {
+              "text": "表示接受或同意",
+              "correct": true
+            },
+            {
+              "text": "表示拒绝或反对",
+              "correct": false
+            },
+            {
+              "text": "表示犹豫不决",
+              "correct": false
+            },
+            {
+              "text": "表示需要更多时间考虑",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者的态度是什么？",
+          "options": [
+            {
+              "text": "表示拒绝",
+              "correct": false
+            },
+            {
+              "text": "表示接受",
+              "correct": true
+            },
+            {
+              "text": "表示犹豫",
+              "correct": false
+            },
+            {
+              "text": "表示反对",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

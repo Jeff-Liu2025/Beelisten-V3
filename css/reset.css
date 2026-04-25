@@ -1,0 +1,94 @@
+/* ========================================
+   CSS重置文件 - 基础样式重置
+   
+   【用途说明】
+   这个文件负责：
+   - 重置浏览器默认样式
+   - 设置全局body样式
+   - 自定义滚动条样式
+   - 禁止文本选择等全局行为
+   
+   【修改指南】
+   - 一般不需要修改此文件
+   - 如需修改全局背景，修改body的background属性
+   - 如需修改全局字体，修改body的font-family
+   
+   【注意事项】
+   - 此文件应该在variables.css之后引入
+   - 此文件影响全局，修改需谨慎
+   ======================================== */
+
+/* ========================================
+   全局重置
+   ======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ========================================
+   Body全局样式
+   ======================================== */
+body {
+    font-family: var(--font-sans);
+    background: linear-gradient(135deg, var(--background-alt) 0%, #fcf3cf 50%, #f9e79f 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+/* ========================================
+   输入框文本选择
+   说明：允许输入框和文本区域选择文本
+   ======================================== */
+input, textarea {
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+/* ========================================
+   自定义滚动条样式
+   ======================================== */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* ========================================
+   拖动和文本选择
+   说明：防止拖动时出现竖线和文本选择背景
+   ======================================== */
+[draggable="true"] {
+    -webkit-user-drag: element;
+}
+
+::selection {
+    background: transparent;
+}
+
+::-moz-selection {
+    background: transparent;
+}

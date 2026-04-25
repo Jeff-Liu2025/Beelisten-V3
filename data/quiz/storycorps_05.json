@@ -1,0 +1,908 @@
+{
+  "resourceId": "storycorps_05",
+  "totalSentences": 52,
+  "quizSentences": 12,
+  "generatedAt": "2026-04-23T00:42:16.723321",
+  "questions": [
+    {
+      "sentenceIndex": 1,
+      "startTime": 0.1,
+      "endTime": 4.06,
+      "sentence": "People said we make christmas and i didn't understand what that was",
+      "wordCount": 13,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者最初对人们关于圣诞节的评论有什么反应？",
+          "options": [
+            {
+              "text": "他完全理解并赞同这个说法",
+              "correct": false
+            },
+            {
+              "text": "他感到困惑，不明白这个说法的意思",
+              "correct": true
+            },
+            {
+              "text": "他立即反驳了这个说法",
+              "correct": false
+            },
+            {
+              "text": "他以为人们在开玩笑",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者对人们所说的“我们制造圣诞节”有什么反应？",
+          "options": [
+            {
+              "text": "他感到困惑，不明白那是什么意思",
+              "correct": true
+            },
+            {
+              "text": "他完全同意这个说法",
+              "correct": false
+            },
+            {
+              "text": "他立即理解了这句话的含义",
+              "correct": false
+            },
+            {
+              "text": "他反对这个说法并提出了质疑",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者最初对什么感到困惑？",
+          "options": [
+            {
+              "text": "人们如何庆祝圣诞节",
+              "correct": false
+            },
+            {
+              "text": "人们说他们创造了圣诞节",
+              "correct": true
+            },
+            {
+              "text": "圣诞节的具体日期",
+              "correct": false
+            },
+            {
+              "text": "人们是否喜欢圣诞节",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 5,
+      "startTime": 16.41,
+      "endTime": 19.81,
+      "sentence": "And i got to a house and his ham",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "他到达了一所房子，并提到了火腿",
+              "correct": true
+            },
+            {
+              "text": "他离开了房子，并带走了火腿",
+              "correct": false
+            },
+            {
+              "text": "他正在寻找房子和火腿",
+              "correct": false
+            },
+            {
+              "text": "他卖掉了房子和火腿",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者到达了一个地方并提到了什么？",
+          "options": [
+            {
+              "text": "到达了一栋房子，并提到了火腿",
+              "correct": true
+            },
+            {
+              "text": "到达了一家商店，并提到了火腿",
+              "correct": false
+            },
+            {
+              "text": "到达了一栋房子，并提到了火腿三明治",
+              "correct": false
+            },
+            {
+              "text": "到达了一家餐厅，并提到了火腿",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者提到了什么？",
+          "options": [
+            {
+              "text": "说话者到达了一所房子",
+              "correct": true
+            },
+            {
+              "text": "说话者正在烹饪火腿",
+              "correct": false
+            },
+            {
+              "text": "说话者购买了一些火腿",
+              "correct": false
+            },
+            {
+              "text": "说话者离开了那所房子",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 10,
+      "startTime": 31.46,
+      "endTime": 35.3,
+      "sentence": "And we went to somebody else's house and they say welcome",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者去了哪里？",
+          "options": [
+            {
+              "text": "去了自己家",
+              "correct": false
+            },
+            {
+              "text": "去了别人家",
+              "correct": true
+            },
+            {
+              "text": "去了商店",
+              "correct": false
+            },
+            {
+              "text": "去了学校",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者去了哪里？",
+          "options": [
+            {
+              "text": "他们去了自己家",
+              "correct": false
+            },
+            {
+              "text": "他们去了别人家",
+              "correct": true
+            },
+            {
+              "text": "他们去了商店",
+              "correct": false
+            },
+            {
+              "text": "他们去了学校",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者去了哪里？",
+          "options": [
+            {
+              "text": "去了自己的家",
+              "correct": false
+            },
+            {
+              "text": "去了别人的家",
+              "correct": true
+            },
+            {
+              "text": "去了商店",
+              "correct": false
+            },
+            {
+              "text": "去了学校",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 14,
+      "startTime": 42.68,
+      "endTime": 45.14,
+      "sentence": "And the man of that house would welcome us",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据句子，那栋房子的主人会如何对待我们？",
+          "options": [
+            {
+              "text": "会欢迎我们",
+              "correct": true
+            },
+            {
+              "text": "会拒绝我们",
+              "correct": false
+            },
+            {
+              "text": "会忽略我们",
+              "correct": false
+            },
+            {
+              "text": "会警告我们",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，那个房子的主人会怎样对待我们？",
+          "options": [
+            {
+              "text": "会热情地招待我们",
+              "correct": true
+            },
+            {
+              "text": "会拒绝我们进入",
+              "correct": false
+            },
+            {
+              "text": "会向我们收费",
+              "correct": false
+            },
+            {
+              "text": "会要求我们离开",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据句子，那所房子的主人会怎样对待我们？",
+          "options": [
+            {
+              "text": "他会拒绝我们进入",
+              "correct": false
+            },
+            {
+              "text": "他会热情地欢迎我们",
+              "correct": true
+            },
+            {
+              "text": "他会要求我们离开",
+              "correct": false
+            },
+            {
+              "text": "他会忽略我们的存在",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 18,
+      "startTime": 51.86,
+      "endTime": 54.81,
+      "sentence": "By the time and we got halfway through today",
+      "wordCount": 9,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者提到的时间点是什么时候？",
+          "options": [
+            {
+              "text": "今天进行到一半的时候",
+              "correct": true
+            },
+            {
+              "text": "昨天晚上的时候",
+              "correct": false
+            },
+            {
+              "text": "明天早上开始的时候",
+              "correct": false
+            },
+            {
+              "text": "上周结束的时候",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "他们今天只完成了一半的任务",
+              "correct": true
+            },
+            {
+              "text": "他们今天很早就完成了所有工作",
+              "correct": false
+            },
+            {
+              "text": "他们今天没有开始任何工作",
+              "correct": false
+            },
+            {
+              "text": "他们今天完成了全部任务",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者想表达什么？",
+          "options": [
+            {
+              "text": "今天他们只完成了一半的工作",
+              "correct": true
+            },
+            {
+              "text": "他们今天提前完成了所有工作",
+              "correct": false
+            },
+            {
+              "text": "他们今天没有开始任何工作",
+              "correct": false
+            },
+            {
+              "text": "他们今天完成了全部工作",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 22,
+      "startTime": 62.67,
+      "endTime": 64.57,
+      "sentence": "We went till late that night",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，他们那天晚上做了什么？",
+          "options": [
+            {
+              "text": "他们一直待到很晚",
+              "correct": true
+            },
+            {
+              "text": "他们很早就离开了",
+              "correct": false
+            },
+            {
+              "text": "他们整晚都在工作",
+              "correct": false
+            },
+            {
+              "text": "他们晚上没有出门",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话人那天晚上做了什么？",
+          "options": [
+            {
+              "text": "他们很早就结束了活动",
+              "correct": false
+            },
+            {
+              "text": "他们一直待到深夜",
+              "correct": true
+            },
+            {
+              "text": "他们那天晚上没有外出",
+              "correct": false
+            },
+            {
+              "text": "他们只在白天活动",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话人那天晚上做了什么？",
+          "options": [
+            {
+              "text": "他们很早就结束了活动",
+              "correct": false
+            },
+            {
+              "text": "他们一直待到深夜",
+              "correct": true
+            },
+            {
+              "text": "他们整晚都在睡觉",
+              "correct": false
+            },
+            {
+              "text": "他们晚上没有出门",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 26,
+      "startTime": 72.12,
+      "endTime": 75.94,
+      "sentence": "Oh and you had to walk across this plane . ha ha ha",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "说话者提到对方必须做什么？",
+          "options": [
+            {
+              "text": "驾驶这架飞机",
+              "correct": false
+            },
+            {
+              "text": "步行穿过这架飞机",
+              "correct": true
+            },
+            {
+              "text": "修理这架飞机",
+              "correct": false
+            },
+            {
+              "text": "购买这架飞机",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者提到对方必须做什么？",
+          "options": [
+            {
+              "text": "步行穿过这架飞机",
+              "correct": true
+            },
+            {
+              "text": "驾驶这架飞机",
+              "correct": false
+            },
+            {
+              "text": "修理这架飞机",
+              "correct": false
+            },
+            {
+              "text": "登上这架飞机",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者对什么情况感到好笑？",
+          "options": [
+            {
+              "text": "对方不得不步行穿过飞机",
+              "correct": true
+            },
+            {
+              "text": "对方在飞机上跑步",
+              "correct": false
+            },
+            {
+              "text": "对方错过了航班",
+              "correct": false
+            },
+            {
+              "text": "对方在飞机上睡觉",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 30,
+      "startTime": 85.81,
+      "endTime": 87.45,
+      "sentence": "And got up on the hill",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者描述了什么行为？",
+          "options": [
+            {
+              "text": "在山下休息",
+              "correct": false
+            },
+            {
+              "text": "爬上了山丘",
+              "correct": true
+            },
+            {
+              "text": "从山上下来",
+              "correct": false
+            },
+            {
+              "text": "在山丘旁散步",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者描述了什么动作？",
+          "options": [
+            {
+              "text": "爬到了山上",
+              "correct": true
+            },
+            {
+              "text": "从山上下来",
+              "correct": false
+            },
+            {
+              "text": "在山下休息",
+              "correct": false
+            },
+            {
+              "text": "绕着山散步",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者描述了什么行为？",
+          "options": [
+            {
+              "text": "在山下休息",
+              "correct": false
+            },
+            {
+              "text": "爬上了山",
+              "correct": true
+            },
+            {
+              "text": "从山上下来",
+              "correct": false
+            },
+            {
+              "text": "在山顶观望",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 35,
+      "startTime": 97.66,
+      "endTime": 99.38,
+      "sentence": "Now get the bone that hill",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者想让对方做什么？",
+          "options": [
+            {
+              "text": "去山上拿骨头",
+              "correct": true
+            },
+            {
+              "text": "把骨头放在山上",
+              "correct": false
+            },
+            {
+              "text": "在山下找骨头",
+              "correct": false
+            },
+            {
+              "text": "把山上的骨头扔掉",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者想让对方做什么？",
+          "options": [
+            {
+              "text": "去山上拿骨头",
+              "correct": true
+            },
+            {
+              "text": "把骨头放在山上",
+              "correct": false
+            },
+            {
+              "text": "在山下找骨头",
+              "correct": false
+            },
+            {
+              "text": "把山上的骨头扔掉",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者想让对方做什么？",
+          "options": [
+            {
+              "text": "去山上拿骨头",
+              "correct": true
+            },
+            {
+              "text": "把骨头扔到山上",
+              "correct": false
+            },
+            {
+              "text": "在山上找骨头",
+              "correct": false
+            },
+            {
+              "text": "把山上的骨头藏起来",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 40,
+      "startTime": 109.71,
+      "endTime": 112.67,
+      "sentence": "Ain't any no use me to be mad with one another",
+      "wordCount": 12,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者认为什么没有意义？",
+          "options": [
+            {
+              "text": "互相生气",
+              "correct": true
+            },
+            {
+              "text": "独自旅行",
+              "correct": false
+            },
+            {
+              "text": "帮助他人",
+              "correct": false
+            },
+            {
+              "text": "努力工作",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "说话者认为彼此之间应该保持怎样的态度？",
+          "options": [
+            {
+              "text": "互相生气是没有用的",
+              "correct": true
+            },
+            {
+              "text": "应该经常表达愤怒",
+              "correct": false
+            },
+            {
+              "text": "需要互相指责对方",
+              "correct": false
+            },
+            {
+              "text": "保持距离避免冲突",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，说话者认为什么没有意义？",
+          "options": [
+            {
+              "text": "互相生气",
+              "correct": true
+            },
+            {
+              "text": "独自旅行",
+              "correct": false
+            },
+            {
+              "text": "帮助他人",
+              "correct": false
+            },
+            {
+              "text": "保持沉默",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 44,
+      "startTime": 126.2,
+      "endTime": 130.81,
+      "sentence": "And planning for the next year to begin in harmony",
+      "wordCount": 10,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，明年的规划将以什么方式开始？",
+          "options": [
+            {
+              "text": "在和谐的氛围中开始",
+              "correct": true
+            },
+            {
+              "text": "立即开始执行",
+              "correct": false
+            },
+            {
+              "text": "在争议中开始",
+              "correct": false
+            },
+            {
+              "text": "推迟到后年开始",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，明年的规划将以什么方式开始？",
+          "options": [
+            {
+              "text": "在和谐的氛围中开始",
+              "correct": true
+            },
+            {
+              "text": "在激烈的竞争中开始",
+              "correct": false
+            },
+            {
+              "text": "在匆忙的准备中开始",
+              "correct": false
+            },
+            {
+              "text": "在不确定的情况下开始",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "根据这句话，明年的规划将在什么状态下开始？",
+          "options": [
+            {
+              "text": "在和谐的氛围中开始",
+              "correct": true
+            },
+            {
+              "text": "在匆忙的情况下开始",
+              "correct": false
+            },
+            {
+              "text": "在争议中开始",
+              "correct": false
+            },
+            {
+              "text": "在延迟后开始",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentenceIndex": 50,
+      "startTime": 155.62,
+      "endTime": 160.22,
+      "sentence": "Crossf my army my army army",
+      "wordCount": 6,
+      "sets": [
+        {
+          "setId": 1,
+          "question": "根据这句话，说话者最可能在表达什么？",
+          "options": [
+            {
+              "text": "说话者在重复强调自己的军队",
+              "correct": true
+            },
+            {
+              "text": "说话者在询问军队的位置",
+              "correct": false
+            },
+            {
+              "text": "说话者在批评军队的表现",
+              "correct": false
+            },
+            {
+              "text": "说话者在描述军队的规模",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 2,
+          "question": "根据这句话，说话者最可能在做什么？",
+          "options": [
+            {
+              "text": "在重复强调自己的军队",
+              "correct": true
+            },
+            {
+              "text": "在询问对方军队的情况",
+              "correct": false
+            },
+            {
+              "text": "在命令军队开始行动",
+              "correct": false
+            },
+            {
+              "text": "在描述军队的规模",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "setId": 3,
+          "question": "说话者提到了什么？",
+          "options": [
+            {
+              "text": "说话者提到了自己的军队",
+              "correct": true
+            },
+            {
+              "text": "说话者提到了自己的家庭",
+              "correct": false
+            },
+            {
+              "text": "说话者提到了自己的朋友",
+              "correct": false
+            },
+            {
+              "text": "说话者提到了自己的学校",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

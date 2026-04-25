@@ -1,0 +1,27 @@
+# 大文件 - 听力音频和字幕（GitHub 单文件限制100MB）
+听力资源/*.mp3
+听力资源/*.srt
+
+# 敏感信息 - API Key
+js/config.js
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 依赖（如果有的话）
+node_modules/
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.temp

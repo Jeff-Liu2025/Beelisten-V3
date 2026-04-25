@@ -1,0 +1,380 @@
+{
+  "resourceId": "cet4-2025-12-1",
+  "title": "CET-4 2025年12月听力真题 (第1套)",
+  "passages": [
+    {
+      "passageId": "news-report-1",
+      "passageName": "News Report 1",
+      "section": "A",
+      "passageStartTime": 41.7,
+      "passageEndTime": 100.8,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "Where was the black cat found?",
+          "questionTextZh": "黑猫是在哪里被发现的？",
+          "options": [
+            { "label": "A", "text": "At the gate of a grade school in Kent.", "correct": false },
+            { "label": "B", "text": "Under the engine cover of a man's car.", "correct": true },
+            { "label": "C", "text": "Inside the car of David King's neighbour.", "correct": false },
+            { "label": "D", "text": "Outside the office of a charity foundation.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "What do we learn about the cat at the end of the news report?",
+          "questionTextZh": "新闻报道最后我们了解到关于这只猫的什么信息？",
+          "options": [
+            { "label": "A", "text": "It got reunited with its owner.", "correct": true },
+            { "label": "B", "text": "It was injured during the rescue.", "correct": false },
+            { "label": "C", "text": "It was placed in the care of a UK charity.", "correct": false },
+            { "label": "D", "text": "It became a pet of Mr. King's grandson.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-2",
+      "passageName": "News Report 2",
+      "section": "A",
+      "passageStartTime": 147.7,
+      "passageEndTime": 206.8,
+      "questions": [
+        {
+          "questionNumber": 3,
+          "questionText": "What will Fayetteville witness in less than a month?",
+          "questionTextZh": "不到一个月后费耶特维尔将见证什么？",
+          "options": [
+            { "label": "A", "text": "The reunion of this year's Olympic gold medalists.", "correct": false },
+            { "label": "B", "text": "The opening of the Special Olympics Spring Games.", "correct": true },
+            { "label": "C", "text": "The first important political event in the next five years.", "correct": false },
+            { "label": "D", "text": "The 100th anniversary celebration of Methodist University.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What did Benjamin Koalzac say is rewarding to see?",
+          "questionTextZh": "Benjamin Koalzac说什么是有回报的？",
+          "options": [
+            { "label": "A", "text": "Volunteers visit the Games' website to sign up.", "correct": false },
+            { "label": "B", "text": "Children play in a fun tent and enjoy themselves fully.", "correct": false },
+            { "label": "C", "text": "Organizers devote their time and energy to the Games.", "correct": false },
+            { "label": "D", "text": "Athletes with special needs triumph in the Games.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "news-report-3",
+      "passageName": "News Report 3",
+      "section": "A",
+      "passageStartTime": 253.9,
+      "passageEndTime": 328.7,
+      "questions": [
+        {
+          "questionNumber": 5,
+          "questionText": "What has the German supermarket been ordered to do?",
+          "questionTextZh": "德国超市被命令做什么？",
+          "options": [
+            { "label": "A", "text": "Compensate for the Swiss manufacturer's loss.", "correct": false },
+            { "label": "B", "text": "Change the wrapping of its commodities.", "correct": false },
+            { "label": "C", "text": "Destroy its imitation chocolate rabbits.", "correct": true },
+            { "label": "D", "text": "Defend itself in the country's commercial court.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "What did Switzerland's highest court suggest about the chocolate in question?",
+          "questionTextZh": "瑞士最高法院对涉案巧克力有什么建议？",
+          "options": [
+            { "label": "A", "text": "It could be reused in other products.", "correct": true },
+            { "label": "B", "text": "It could be resold cheaper to avoid waste.", "correct": false },
+            { "label": "C", "text": "It could be reshaped into animals other than rabbits.", "correct": false },
+            { "label": "D", "text": "It could be rewrapped and sold by the budget supermarket.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "Why did Switzerland's highest court overturn the commercial court's ruling?",
+          "questionTextZh": "为什么瑞士最高法院推翻了商业法院的裁决？",
+          "options": [
+            { "label": "A", "text": "To be fair to the German supermarkets.", "correct": false },
+            { "label": "B", "text": "To protect chocolate retailers' interests.", "correct": false },
+            { "label": "C", "text": "To prevent consumers' possible confusion.", "correct": true },
+            { "label": "D", "text": "To boost the growth of the chocolate industry.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-1",
+      "passageName": "Conversation 1",
+      "section": "B",
+      "passageStartTime": 428.1,
+      "passageEndTime": 516.2,
+      "questions": [
+        {
+          "questionNumber": 8,
+          "questionText": "What does the man request the woman to do?",
+          "questionTextZh": "男士请求女士做什么？",
+          "options": [
+            { "label": "A", "text": "Pass a book to him.", "correct": true },
+            { "label": "B", "text": "Make a vegetable dish.", "correct": false },
+            { "label": "C", "text": "Return the handbook to him.", "correct": false },
+            { "label": "D", "text": "Meet his sister's boyfriend.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "What does the woman say about eating vegetables only?",
+          "questionTextZh": "女士对只吃蔬菜有什么看法？",
+          "options": [
+            { "label": "A", "text": "It doesn't sound practical for her.", "correct": false },
+            { "label": "B", "text": "It would do harm to one's muscles.", "correct": false },
+            { "label": "C", "text": "It would reduce one's protein intake.", "correct": false },
+            { "label": "D", "text": "It doesn't seem to be a balanced diet.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "Why does the boyfriend of the man's sister choose to be a vegetarian?",
+          "questionTextZh": "男士姐姐的男朋友为什么选择成为素食主义者？",
+          "options": [
+            { "label": "A", "text": "To improve his health.", "correct": false },
+            { "label": "B", "text": "To protect animal rights.", "correct": true },
+            { "label": "C", "text": "To stick to his religious belief.", "correct": false },
+            { "label": "D", "text": "To follow a trendy lifestyle.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "On what point does the man agree with the woman at the end of the conversation?",
+          "questionTextZh": "对话结束时男士在什么观点上同意女士？",
+          "options": [
+            { "label": "A", "text": "The torture and distress dolphins suffer in parks.", "correct": false },
+            { "label": "B", "text": "The urgency of joining an animal rights group.", "correct": false },
+            { "label": "C", "text": "The gloomy environments animals are kept in.", "correct": false },
+            { "label": "D", "text": "The necessity of having zoos and eating meat.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "conversation-2",
+      "passageName": "Conversation 2",
+      "section": "B",
+      "passageStartTime": 603.9,
+      "passageEndTime": 700.9,
+      "questions": [
+        {
+          "questionNumber": 12,
+          "questionText": "What part of the TV program does the man say was interesting?",
+          "questionTextZh": "男士说电视节目的哪部分很有趣？",
+          "options": [
+            { "label": "A", "text": "The part about not eating on board the plane.", "correct": false },
+            { "label": "B", "text": "The part about air travel in the past.", "correct": false },
+            { "label": "C", "text": "The part about getting over jetlag.", "correct": true },
+            { "label": "D", "text": "The part about avoiding sleeping on the plane.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "What does the man say he will do next time he flies a long distance?",
+          "questionTextZh": "男士说他下次长途飞行时会做什么？",
+          "options": [
+            { "label": "A", "text": "Try following the advice given by the expert on the show.", "correct": true },
+            { "label": "B", "text": "Concentrate on reading articles recommended by experts.", "correct": false },
+            { "label": "C", "text": "Have meals as usual to stay away from hunger.", "correct": false },
+            { "label": "D", "text": "Take a nap to adjust to a new time zone.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "Why does the woman think she is lucky?",
+          "questionTextZh": "女士为什么觉得自己很幸运？",
+          "options": [
+            { "label": "A", "text": "She has been well treated when traveling.", "correct": false },
+            { "label": "B", "text": "She does not have to worry about jetlag.", "correct": true },
+            { "label": "C", "text": "She can spend a lot of time vacationing.", "correct": false },
+            { "label": "D", "text": "She does not have any problem flying.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "Why does the woman think the problem of being afraid to fly deserves attention?",
+          "questionTextZh": "女士为什么认为害怕飞行的问题值得关注？",
+          "options": [
+            { "label": "A", "text": "It affects twenty-five percent of people.", "correct": true },
+            { "label": "B", "text": "It has long been ignored by many experts.", "correct": false },
+            { "label": "C", "text": "It impacts female travelers more seriously.", "correct": false },
+            { "label": "D", "text": "It has caused heavy losses to many airlines.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-1",
+      "passageName": "Passage 1",
+      "section": "C",
+      "passageStartTime": 818.4,
+      "passageEndTime": 918.7,
+      "questions": [
+        {
+          "questionNumber": 16,
+          "questionText": "What does the speaker think is the best way to get started in user experience design?",
+          "questionTextZh": "演讲者认为进入用户体验设计领域最好的方式是什么？",
+          "options": [
+            { "label": "A", "text": "Learning from skilled designers.", "correct": false },
+            { "label": "B", "text": "Joining a 6-month training camp.", "correct": false },
+            { "label": "C", "text": "Obtaining real-world experience.", "correct": true },
+            { "label": "D", "text": "Anticipating actual challenges.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 17,
+          "questionText": "What does the speaker say being effective requires?",
+          "questionTextZh": "演讲者说有效工作需要什么？",
+          "options": [
+            { "label": "A", "text": "Core skills.", "correct": false },
+            { "label": "B", "text": "Higher education.", "correct": false },
+            { "label": "C", "text": "Capability.", "correct": false },
+            { "label": "D", "text": "Adaptability.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 18,
+          "questionText": "What can people do as long as they know their end goal and strive for it?",
+          "questionTextZh": "只要人们知道自己的最终目标并为之努力，他们可以做什么？",
+          "options": [
+            { "label": "A", "text": "Face challenges.", "correct": false },
+            { "label": "B", "text": "Start anywhere.", "correct": true },
+            { "label": "C", "text": "Pursue roles in teams.", "correct": false },
+            { "label": "D", "text": "Follow their own path.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "passageName": "Passage 2",
+      "section": "C",
+      "passageStartTime": 1009.8,
+      "passageEndTime": 1102.4,
+      "questions": [
+        {
+          "questionNumber": 19,
+          "questionText": "Why did the school principal ask what needed to change?",
+          "questionTextZh": "校长为什么问需要改变什么？",
+          "options": [
+            { "label": "A", "text": "To allow students more freedom in their academic work.", "correct": false },
+            { "label": "B", "text": "To enable teachers to interact more with their students.", "correct": false },
+            { "label": "C", "text": "To engage students more in their learning.", "correct": true },
+            { "label": "D", "text": "To respond actively to students' requests.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 20,
+          "questionText": "What has flexible seating meant at the speaker's school?",
+          "questionTextZh": "灵活座位在演讲者的学校意味着什么？",
+          "options": [
+            { "label": "A", "text": "Rearranging most traditional chairs and desks.", "correct": false },
+            { "label": "B", "text": "Adopting a variety of different seating options.", "correct": true },
+            { "label": "C", "text": "Shifting from traditional teaching to task-based learning.", "correct": false },
+            { "label": "D", "text": "Using new furniture to create a comfortable environment.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "questionNumber": 21,
+          "questionText": "What has flexible seating brought about at the speaker's school?",
+          "questionTextZh": "灵活座位给演讲者的学校带来了什么？",
+          "options": [
+            { "label": "A", "text": "A change to teachers' opinion of their students.", "correct": false },
+            { "label": "B", "text": "A harmonious relationship among its students.", "correct": false },
+            { "label": "C", "text": "A strengthened effect of its discipline.", "correct": false },
+            { "label": "D", "text": "A win for all people involved.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "passageName": "Passage 3",
+      "section": "C",
+      "passageStartTime": 1170.2,
+      "passageEndTime": 1276.7,
+      "questions": [
+        {
+          "questionNumber": 22,
+          "questionText": "Why were dozens of British students sent home on Tuesday?",
+          "questionTextZh": "为什么周二几十名英国学生被送回家？",
+          "options": [
+            { "label": "A", "text": "They arrived late for their first day of school.", "correct": false },
+            { "label": "B", "text": "They weren't informed of the school's updated rules.", "correct": false },
+            { "label": "C", "text": "They answered their headteacher's email in an impolite way.", "correct": false },
+            { "label": "D", "text": "They didn't wear the shoes required by the school's new policy.", "correct": true }
+          ],
+          "correctAnswer": "D"
+        },
+        {
+          "questionNumber": 23,
+          "questionText": "What can the price of school uniforms spark among families in financial difficulty?",
+          "questionTextZh": "校服价格会在经济困难的家庭中引发什么？",
+          "options": [
+            { "label": "A", "text": "Panic.", "correct": true },
+            { "label": "B", "text": "Anger.", "correct": false },
+            { "label": "C", "text": "Disputes.", "correct": false },
+            { "label": "D", "text": "Riots.", "correct": false }
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "questionNumber": 24,
+          "questionText": "What did the head teacher think of the school's new uniform rules?",
+          "questionTextZh": "校长对学校的新校服规定有什么看法？",
+          "options": [
+            { "label": "A", "text": "They rendered the school unique in the district.", "correct": false },
+            { "label": "B", "text": "They enhanced the positive image of the school.", "correct": false },
+            { "label": "C", "text": "They improved student behavior and performance.", "correct": true },
+            { "label": "D", "text": "They strengthened the school's discipline and order.", "correct": false }
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "questionNumber": 25,
+          "questionText": "What did Lucinda May have to do to buy her child the correct pair of shoes?",
+          "questionTextZh": "Lucinda May为了给孩子买正确的鞋子不得不做什么？",
+          "options": [
+            { "label": "A", "text": "Tighten her monthly budget.", "correct": false },
+            { "label": "B", "text": "Turn to her parents for help.", "correct": true },
+            { "label": "C", "text": "Borrow £65 from her friend.", "correct": false },
+            { "label": "D", "text": "Postpone paying her other bills.", "correct": false }
+          ],
+          "correctAnswer": "B"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 25,
+  "generatedAt": "2025-04-24"
+}
