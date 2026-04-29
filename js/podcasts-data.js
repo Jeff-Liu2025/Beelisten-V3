@@ -181,24 +181,11 @@ export const podcastsData = {
             audioFile: "cet4_2025_12_1.mp3",
             subtitleFile: "cet4_2025_12_1.srt",
             subtitleFileZh: "cet4_2025_12_1_中文.srt",
-            duration: "23:00",
-            wordCount: 850,
+            duration: "25:00",
+            wordCount: 800,
             difficulty: "medium",
             description: "2025年12月大学英语四级听力真题第一套",
             questionsFile: "data/quiz/cet4-2025-12-1_questions.json"
-        },
-        {
-            id: "cet4-2024-12-1",
-            title: "CET-4 2024年12月听力真题 (第1套)",
-            category: "exam",
-            audioFile: "cet4_2024_12_1.mp3",
-            subtitleFile: "cet4_2024_12_1.srt",
-            subtitleFileZh: "cet4_2024_12_1_中文.srt",
-            duration: "24:00",
-            wordCount: 820,
-            difficulty: "medium",
-            description: "2024年12月大学英语四级听力真题第一套",
-            questionsFile: "data/quiz/cet4-2024-12-1_questions.json"
         },
         {
             id: "cet4-2024-06-1",
@@ -207,24 +194,24 @@ export const podcastsData = {
             audioFile: "cet4_2024_06_1.mp3",
             subtitleFile: "cet4_2024_06_1.srt",
             subtitleFileZh: "cet4_2024_06_1_中文.srt",
-            duration: "24:00",
+            duration: "25:00",
             wordCount: 800,
             difficulty: "medium",
             description: "2024年6月大学英语四级听力真题第一套",
             questionsFile: "data/quiz/cet4-2024-06-1_questions.json"
         },
         {
-            id: "cet4-2023-12-1",
-            title: "CET-4 2023年12月听力真题 (第1套)",
+            id: "cet4-2024-12-1",
+            title: "CET-4 2024年12月听力真题 (第1套)",
             category: "exam",
-            audioFile: "cet4_2023_12_1.mp3",
-            subtitleFile: "cet4_2023_12_1.srt",
-            subtitleFileZh: "cet4_2023_12_1_中文.srt",
-            duration: "24:00",
+            audioFile: "cet4_2024_12_1.mp3",
+            subtitleFile: "cet4_2024_12_1.srt",
+            subtitleFileZh: "cet4_2024_12_1_中文.srt",
+            duration: "25:00",
             wordCount: 800,
             difficulty: "medium",
-            description: "2023年12月大学英语四级听力真题第一套",
-            questionsFile: "data/quiz/cet4-2023-12-1_questions.json"
+            description: "2024年12月大学英语四级听力真题第一套",
+            questionsFile: "data/quiz/cet4-2024-12-1_questions.json"
         },
         {
             id: "cet4-2023-06-1",
@@ -233,11 +220,24 @@ export const podcastsData = {
             audioFile: "cet4_2023_06_1.mp3",
             subtitleFile: "cet4_2023_06_1.srt",
             subtitleFileZh: "cet4_2023_06_1_中文.srt",
-            duration: "24:00",
+            duration: "25:00",
             wordCount: 800,
             difficulty: "medium",
             description: "2023年6月大学英语四级听力真题第一套",
             questionsFile: "data/quiz/cet4-2023-06-1_questions.json"
+        },
+        {
+            id: "cet4-2023-12-1",
+            title: "CET-4 2023年12月听力真题 (第1套)",
+            category: "exam",
+            audioFile: "cet4_2023_12_1.mp3",
+            subtitleFile: "cet4_2023_12_1.srt",
+            subtitleFileZh: "cet4_2023_12_1_中文.srt",
+            duration: "25:00",
+            wordCount: 800,
+            difficulty: "medium",
+            description: "2023年12月大学英语四级听力真题第一套",
+            questionsFile: "data/quiz/cet4-2023-12-1_questions.json"
         }
     ],
     categories: [

@@ -9,6 +9,7 @@ import { smartSegment, formatSegmentDuration } from './utils/audio-segment.js';
 import { generateOptions, loadExamQuestions, generateExplanation, generatePassageAnalysis } from './quiz-generator.js';
 import Store from './store/index.js';
 import { saveProgress, loadProgress, clearProgress, hasUnfinishedTraining } from './store/training-progress.js';
+import { CONFIG } from './cdn-config.js';
 
 class QuizTraining {
     constructor() {
@@ -69,7 +70,7 @@ class QuizTraining {
     
     async loadSubtitles() {
         try {
-            const enResponse = await fetch(`../听力资源/${this.resource.subtitleFile}`);
+            const enResponse = await fetch(`${CONFIG.SUBTITLE_BASE_URL}${this.resource.subtitleFile}`);
             const enSrtContent = await enResponse.text();
             this.allSubtitles = parseSRT(enSrtContent);
             console.log('[QuizTraining] 英文字幕加载完成:', this.allSubtitles.length, '条');
@@ -93,7 +94,7 @@ class QuizTraining {
     loadAudio() {
         if (!this.audio || !this.resource) return;
         
-        this.audio.src = `../听力资源/${this.resource.audioFile}`;
+        this.audio.src = `${CONFIG.AUDIO_BASE_URL}${this.resource.audioFile}`;
         this.audio.load();
         
         this.audio.addEventListener('timeupdate', () => this.onTimeUpdate());
@@ -154,8 +155,32 @@ class QuizTraining {
     }
     
     startNonExamMode() {
-        console.log('[QuizTraining] 非考试资源模式');
-        this.showFinalResult();
+        console.log('[QuizTraining] 非考试资源模式 - 不支持');
+        
+        const optionsContainer = document.getElementById('quizOptionsContainer');
+        if (optionsContainer) {
+            optionsContainer.innerHTML = `
+                <div class="passage-complete-card">
+                    <div class="passage-complete-hero">
+                        <div class="hero-icon">⚠️</div>
+                        <h3 class="hero-title">暂不支持</h3>
+                        <p class="hero-subtitle">该资源暂不支持精听测验模式</p>
+                    </div>
+                    <div class="passage-actions">
+                        <button class="passage-return-btn" onclick="window.location.href='quiz-select.html'">
+                            <span class="btn-icon">←</span>
+                            <span class="btn-text">返回选择</span>
+                        </button>
+                    </div>
+                </div>
+            `;
+            optionsContainer.classList.remove('hidden');
+        }
+        
+        const playerSection = document.querySelector('.training-player-section');
+        if (playerSection) {
+            playerSection.classList.add('hidden');
+        }
     }
     
     startContinuousPlay() {
@@ -652,6 +677,51 @@ class QuizTraining {
                 }
             });
         });
+        
+        const volumeSlider = document.getElementById('volumeSlider');
+        if (volumeSlider) {
+            volumeSlider.addEventListener('input', (e) => {
+                const volume = e.target.value / 100;
+                this.audio.volume = volume;
+                this.updateVolumeIcon(volume);
+            });
+        }
+        
+        const volumeBtn = document.getElementById('volumeBtn');
+        if (volumeBtn) {
+            volumeBtn.addEventListener('click', () => this.toggleMute());
+        }
+    }
+    
+    updateVolumeIcon(volume) {
+        const volumeBtn = document.getElementById('volumeBtn');
+        if (!volumeBtn) return;
+        
+        const icon = volumeBtn.querySelector('i');
+        if (!icon) return;
+        
+        if (volume === 0) {
+            icon.className = 'ph ph-speaker-x';
+        } else if (volume < 0.5) {
+            icon.className = 'ph ph-speaker-low';
+        } else {
+            icon.className = 'ph ph-speaker-high';
+        }
+    }
+    
+    toggleMute() {
+        const volumeSlider = document.getElementById('volumeSlider');
+        if (!volumeSlider) return;
+        
+        if (this.audio.volume > 0) {
+            this.previousVolume = this.audio.volume;
+            this.audio.volume = 0;
+            volumeSlider.value = 0;
+        } else {
+            this.audio.volume = this.previousVolume || 1;
+            volumeSlider.value = (this.previousVolume || 1) * 100;
+        }
+        this.updateVolumeIcon(this.audio.volume);
     }
     
     togglePlay() {
@@ -759,8 +829,8 @@ class QuizTraining {
     playSound(type) {
         try {
             const sound = new Audio(type === 'correct' ? 
-                '../按键提示音效/答对提示音.mp3' : 
-                '../按键提示音效/打错提示音.mp3'
+                `${CONFIG.SOUND_EFFECTS_BASE_URL}按键提示音效/答对提示音.mp3` : 
+                `${CONFIG.SOUND_EFFECTS_BASE_URL}按键提示音效/打错提示音.mp3`
             );
             sound.volume = 0.5;
             sound.play().catch(() => {});

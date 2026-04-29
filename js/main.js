@@ -29,29 +29,8 @@ class BeelistenApp {
         this.bindNavigation();
         this.bindPageEvents();
         this.renderPodcastList();
-        this.updateCategoryCounts();
         
         console.log('✅ Beelisten v2 初始化完成');
-    }
-    
-    updateCategoryCounts() {
-        const categoryCards = document.querySelectorAll('.category-card');
-        
-        categoryCards.forEach(card => {
-            const category = card.dataset.category;
-            const countEl = card.querySelector('.category-count');
-            
-            if (!countEl) return;
-            
-            let count = 0;
-            if (category === 'all') {
-                count = podcastsData.podcasts.length;
-            } else {
-                count = podcastsData.podcasts.filter(p => p.category === category).length;
-            }
-            
-            countEl.textContent = `${count}个资源`;
-        });
     }
     
     initModules() {

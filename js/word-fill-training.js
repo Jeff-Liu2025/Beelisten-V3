@@ -8,6 +8,7 @@ import { formatTime } from './utils/time.js';
 import { smartSegment, formatSegmentDuration } from './utils/audio-segment.js';
 import { saveProgress, loadProgress, clearProgress, hasUnfinishedTraining } from './store/training-progress.js';
 import Store from './store/index.js';
+import { CONFIG } from './cdn-config.js';
 
 class WordFillTraining {
     constructor() {
@@ -83,7 +84,7 @@ class WordFillTraining {
      */
     async loadSubtitles() {
         try {
-            const enResponse = await fetch(`../听力资源/${this.resource.subtitleFile}`);
+            const enResponse = await fetch(`${CONFIG.SUBTITLE_BASE_URL}${this.resource.subtitleFile}`);
             const enSrtContent = await enResponse.text();
             this.allSubtitles = parseSRT(enSrtContent);
             console.log('[WordFillTraining] 英文字幕加载完成:', this.allSubtitles.length, '条');
@@ -94,7 +95,7 @@ class WordFillTraining {
         
         if (this.resource.subtitleFileZh) {
             try {
-                const zhResponse = await fetch(`../听力资源/${this.resource.subtitleFileZh}`);
+                const zhResponse = await fetch(`${CONFIG.SUBTITLE_BASE_URL}${this.resource.subtitleFileZh}`);
                 const zhSrtContent = await zhResponse.text();
                 this.zhSubtitles = parseSRT(zhSrtContent);
                 console.log('[WordFillTraining] 中文字幕加载完成:', this.zhSubtitles.length, '条');
@@ -209,7 +210,7 @@ class WordFillTraining {
     loadAudio() {
         if (!this.audio || !this.resource) return;
         
-        this.audio.src = `../听力资源/${this.resource.audioFile}`;
+        this.audio.src = `${CONFIG.AUDIO_BASE_URL}${this.resource.audioFile}`;
         this.audio.load();
         
         this.audio.addEventListener('timeupdate', () => this.onTimeUpdate());
@@ -264,6 +265,51 @@ class WordFillTraining {
                 }
             });
         });
+        
+        const volumeSlider = document.getElementById('volumeSlider');
+        if (volumeSlider) {
+            volumeSlider.addEventListener('input', (e) => {
+                const volume = e.target.value / 100;
+                this.audio.volume = volume;
+                this.updateVolumeIcon(volume);
+            });
+        }
+        
+        const volumeBtn = document.getElementById('volumeBtn');
+        if (volumeBtn) {
+            volumeBtn.addEventListener('click', () => this.toggleMute());
+        }
+    }
+    
+    updateVolumeIcon(volume) {
+        const volumeBtn = document.getElementById('volumeBtn');
+        if (!volumeBtn) return;
+        
+        const icon = volumeBtn.querySelector('i');
+        if (!icon) return;
+        
+        if (volume === 0) {
+            icon.className = 'ph ph-speaker-x';
+        } else if (volume < 0.5) {
+            icon.className = 'ph ph-speaker-low';
+        } else {
+            icon.className = 'ph ph-speaker-high';
+        }
+    }
+    
+    toggleMute() {
+        const volumeSlider = document.getElementById('volumeSlider');
+        if (!volumeSlider) return;
+        
+        if (this.audio.volume > 0) {
+            this.previousVolume = this.audio.volume;
+            this.audio.volume = 0;
+            volumeSlider.value = 0;
+        } else {
+            this.audio.volume = this.previousVolume || 1;
+            volumeSlider.value = (this.previousVolume || 1) * 100;
+        }
+        this.updateVolumeIcon(this.audio.volume);
     }
     
     /**
@@ -902,8 +948,8 @@ class WordFillTraining {
     playSound(type) {
         try {
             const sound = new Audio(type === 'correct' ? 
-                '../按键提示音效/答对提示音.mp3' : 
-                '../按键提示音效/打错提示音.mp3'
+                `${CONFIG.SOUND_EFFECTS_BASE_URL}按键提示音效/答对提示音.mp3` : 
+                `${CONFIG.SOUND_EFFECTS_BASE_URL}按键提示音效/打错提示音.mp3`
             );
             sound.volume = 0.5;
             sound.play().catch(() => {});

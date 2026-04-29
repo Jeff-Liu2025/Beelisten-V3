@@ -23,13 +23,14 @@ class QuizSelect {
     renderResourceList() {
         if (!this.resourceList) return;
         
-        const resources = podcastsData.podcasts;
+        const resources = podcastsData.podcasts.filter(r => r.category === 'exam' && r.questionsFile);
         
         if (resources.length === 0) {
             this.resourceList.innerHTML = `
                 <div class="empty-state">
                     <div class="empty-icon">📭</div>
-                    <div class="empty-text">暂无可用资源</div>
+                    <div class="empty-text">暂无精听测验资源</div>
+                    <div class="empty-hint">精听测验需要配置题目文件</div>
                 </div>
             `;
             return;
@@ -38,7 +39,7 @@ class QuizSelect {
         this.resourceList.innerHTML = resources.map(resource => `
             <div class="resource-card" data-resource-id="${resource.id}" data-category="${resource.category || 'podcast'}">
                 <div class="resource-card-header">
-                    <div class="resource-icon">${resource.category === 'exam' ? '📋' : '🎧'}</div>
+                    <div class="resource-icon">📋</div>
                     <div class="resource-info">
                         <div class="resource-title">${resource.title}</div>
                         <div class="resource-meta">
@@ -82,37 +83,93 @@ class QuizSelect {
         const resource = podcastsData.podcasts.find(r => r.id === resourceId);
         if (!resource) return;
         
-        try {
-            const response = await fetch(`../听力资源/${resource.subtitleFile}`);
-            const srtContent = await response.text();
-            const subtitles = parseSRT(srtContent);
-            
-            const segments = smartSegment(subtitles);
-            
-            segmentsEl.innerHTML = this.renderSegmentList(segments, resourceId, resource);
-            segmentsEl.classList.remove('hidden');
-            
-            segmentsEl.querySelectorAll('.segment-item').forEach(item => {
-                item.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    const segmentIndex = parseInt(item.dataset.segmentIndex);
-                    console.log('[QuizSelect] 点击分段, segmentIndex:', segmentIndex);
-                    this.selectResource(resourceId, segmentIndex);
+        if (resource.category === 'exam' && resource.questionsFile) {
+            try {
+                const response = await fetch(`../${resource.questionsFile}`);
+                const data = await response.json();
+                const passages = data.passages || [];
+                
+                segmentsEl.innerHTML = this.renderPassageList(passages, resourceId, resource);
+                segmentsEl.classList.remove('hidden');
+                
+                segmentsEl.querySelectorAll('.segment-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const passageIndex = parseInt(item.dataset.segmentIndex);
+                        console.log('[QuizSelect] 点击段落, passageIndex:', passageIndex);
+                        this.selectResource(resourceId, passageIndex);
+                    });
                 });
-            });
-            
-            segmentsEl.querySelectorAll('.train-all-btn').forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    this.selectResource(resourceId, null);
+                
+                segmentsEl.querySelectorAll('.train-all-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        this.selectResource(resourceId, 0);
+                    });
                 });
-            });
-            
-        } catch (err) {
-            console.error('[QuizSelect] 加载分段失败:', err);
-            segmentsEl.innerHTML = `<div class="segments-error">加载失败</div>`;
-            segmentsEl.classList.remove('hidden');
+                
+            } catch (err) {
+                console.error('[QuizSelect] 加载题目文件失败:', err);
+                segmentsEl.innerHTML = `<div class="segments-error">加载失败</div>`;
+                segmentsEl.classList.remove('hidden');
+            }
+        } else {
+            try {
+                const response = await fetch(`../听力资源/${resource.subtitleFile}`);
+                const srtContent = await response.text();
+                const subtitles = parseSRT(srtContent);
+                
+                const segments = smartSegment(subtitles);
+                
+                segmentsEl.innerHTML = this.renderSegmentList(segments, resourceId, resource);
+                segmentsEl.classList.remove('hidden');
+                
+                segmentsEl.querySelectorAll('.segment-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const segmentIndex = parseInt(item.dataset.segmentIndex);
+                        console.log('[QuizSelect] 点击分段, segmentIndex:', segmentIndex);
+                        this.selectResource(resourceId, segmentIndex);
+                    });
+                });
+                
+                segmentsEl.querySelectorAll('.train-all-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        this.selectResource(resourceId, null);
+                    });
+                });
+                
+            } catch (err) {
+                console.error('[QuizSelect] 加载分段失败:', err);
+                segmentsEl.innerHTML = `<div class="segments-error">加载失败</div>`;
+                segmentsEl.classList.remove('hidden');
+            }
         }
+    }
+    
+    renderPassageList(passages, resourceId, resource) {
+        const progress = loadProgress(resourceId, 'quiz-listen');
+        const currentPassageIndex = progress?.segmentIndex || 0;
+        
+        return `
+            <div class="segments-header">
+                <span>共 ${passages.length} 个段落</span>
+                <button class="train-all-btn" data-resource-id="${resourceId}">开始测验</button>
+            </div>
+            <div class="segments-list">
+                ${passages.map((passage, index) => `
+                    <div class="segment-item ${index < currentPassageIndex ? 'completed' : ''} ${index === currentPassageIndex ? 'current' : ''}" 
+                         data-segment-index="${index}">
+                        <div class="segment-name">${passage.passageName}</div>
+                        <div class="segment-info">
+                            <span>${passage.questions?.length || 0} 题</span>
+                        </div>
+                        ${index < currentPassageIndex ? '<span class="segment-check">✓</span>' : ''}
+                    </div>
+                `).join('')}
+            </div>
+        `;
     }
     
     renderSegmentList(segments, resourceId, resource) {
