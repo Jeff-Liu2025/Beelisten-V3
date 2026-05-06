@@ -6,7 +6,7 @@
 import Player from './player/index.js';
 import SubtitleManager from './subtitle/index.js';
 import Dictionary from './dictionary/index.js';
-import WordFillTraining from './training/word-fill.js';
+import WordFillComponent from './training/word-fill.js';
 import Shop from './shop/index.js';
 import Store from './store/index.js';
 import { podcastsData } from './podcasts-data.js';
@@ -59,7 +59,7 @@ class BeelistenApp {
             closeId: 'dictClose'
         });
         
-        this.wordFillTraining = new WordFillTraining({
+        this.wordFillTraining = new WordFillComponent({
             sectionId: 'wordTrainSection',
             sentenceId: 'fillSentence',
             candidatesId: 'fillCandidates',
@@ -565,7 +565,7 @@ window.Beelisten = {
     Player,
     SubtitleManager,
     Dictionary,
-    WordFillTraining,
+    WordFillComponent,
     Store,
     podcastsData
 };

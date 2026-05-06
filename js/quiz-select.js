@@ -85,7 +85,7 @@ class QuizSelect {
         
         if (resource.category === 'exam' && resource.questionsFile) {
             try {
-                const response = await fetch(`../${resource.questionsFile}`);
+                const response = await fetch(`${resource.questionsFile}`);
                 const data = await response.json();
                 const passages = data.passages || [];
                 

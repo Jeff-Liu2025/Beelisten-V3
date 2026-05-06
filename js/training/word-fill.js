@@ -1,11 +1,12 @@
 /**
- * 单词训练模块 - 拖拽填空练习 - Beelisten v2
+ * 单词训练模块 - 拖拽填空练习组件 - Beelisten v2
  * 支持从字幕生成填空题，拖拽单词填入空白处
  */
 
+import { WordFillEngine } from './word-fill-core.js';
 import Store from '../store/index.js';
 
-class WordFillTraining {
+class WordFillComponent {
     constructor(options = {}) {
         this.options = {
             sectionId: 'wordTrainSection',
@@ -33,19 +34,10 @@ class WordFillTraining {
         this.correctSound = null;
         this.wrongSound = null;
         
-        this.excludeWords = [
-            'the', 'a', 'an', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
-            'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could',
-            'should', 'may', 'might', 'must', 'shall', 'can', 'to', 'of', 'in',
-            'for', 'on', 'with', 'at', 'by', 'from', 'as', 'into', 'through',
-            'during', 'before', 'after', 'above', 'below', 'between', 'under',
-            'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where',
-            'why', 'how', 'all', 'each', 'few', 'more', 'most', 'other', 'some',
-            'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than',
-            'too', 'very', 'just', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours',
-            'you', 'your', 'yours', 'he', 'him', 'his', 'she', 'her', 'hers',
-            'it', 'its', 'they', 'them', 'their', 'this', 'that', 'these', 'those'
-        ];
+        this.fillEngine = new WordFillEngine({
+            defaultBlankCount: this.getBlankCount(),
+            minWordLength: 3
+        });
         
         this.init();
     }
@@ -113,6 +105,7 @@ class WordFillTraining {
                 this.difficulty = btn.dataset.difficulty;
                 difficultyBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
+                this.fillEngine.options.defaultBlankCount = this.getBlankCount();
             });
         });
         
@@ -148,7 +141,7 @@ class WordFillTraining {
     
     generateQuestion() {
         const validSubtitles = this.subtitles.filter(sub => {
-            const words = this.extractValidWords(sub.content);
+            const words = this.fillEngine.extractValidWords(sub.content);
             return words.length >= this.getMinWords();
         });
         
@@ -186,48 +179,25 @@ class WordFillTraining {
         }
     }
     
-    extractValidWords(sentence) {
-        return sentence.split(/\s+/).filter(word => {
-            const cleanWord = word.toLowerCase().replace(/[^a-z]/g, '');
-            return cleanWord.length >= 3 && !this.excludeWords.includes(cleanWord);
-        });
-    }
-    
     createBlanks(sentence) {
         const words = sentence.split(/\s+/);
-        const validWords = this.extractValidWords(sentence);
-        const blankCount = Math.min(this.getBlankCount(), validWords.length);
+        const blankCount = this.getBlankCount();
         
-        const shuffled = [...validWords].sort(() => Math.random() - 0.5);
-        const wordsToBlank = shuffled.slice(0, blankCount);
-        
-        this.blanks = [];
+        this.blanks = this.fillEngine.generateBlanks(sentence, blankCount);
         this.answers = {};
         
         let html = '';
-        let blankIndex = 0;
         
         words.forEach((word, index) => {
             const cleanWord = word.toLowerCase().replace(/[^a-z]/g, '');
-            const isBlank = wordsToBlank.some(w => 
-                w.toLowerCase().replace(/[^a-z]/g, '') === cleanWord
-            );
+            const blankConfig = this.blanks.find(b => b.cleanWord === cleanWord);
             
-            if (isBlank && blankIndex < blankCount) {
-                const blankId = `blank-${blankIndex}`;
-                this.blanks.push({
-                    id: blankId,
-                    answer: cleanWord,
-                    originalWord: word
-                });
-                this.answers[blankId] = '';
-                
+            if (blankConfig) {
                 html += `<span class="${this.options.blankClass}" 
-                              data-blank-id="${blankId}" 
-                              data-answer="${cleanWord}">
+                              data-blank-id="${blankConfig.id}" 
+                              data-answer="${blankConfig.cleanWord}">
                             _____
                          </span> `;
-                blankIndex++;
             } else {
                 html += word + ' ';
             }
@@ -238,14 +208,14 @@ class WordFillTraining {
             sentenceEl.innerHTML = html;
         }
         
-        this.createCandidates(wordsToBlank);
+        this.createCandidates(this.blanks);
         this.clearResult();
     }
     
-    createCandidates(words) {
-        const candidates = [...words];
+    createCandidates(blanks) {
+        const candidates = blanks.map(b => b.cleanWord);
         
-        while (candidates.length < this.blanks.length + 2) {
+        while (candidates.length < blanks.length + 2) {
             const randomWord = this.getRandomWord();
             if (randomWord && !candidates.includes(randomWord)) {
                 candidates.push(randomWord);
@@ -271,7 +241,7 @@ class WordFillTraining {
     
     getRandomWord() {
         const allWords = this.subtitles
-            .flatMap(sub => this.extractValidWords(sub.content));
+            .flatMap(sub => this.fillEngine.extractValidWords(sub.content));
         
         if (allWords.length === 0) return null;
         
@@ -364,35 +334,34 @@ class WordFillTraining {
     }
     
     checkAnswers() {
-        let correct = 0;
-        let total = this.blanks.length;
-        
         const sentenceEl = document.getElementById(this.options.sentenceId);
         if (!sentenceEl) return;
         
         const blanks = sentenceEl.querySelectorAll(`.${this.options.blankClass}`);
+        const blankConfigs = Array.from(blanks).map(blank => ({
+            id: blank.dataset.blankId,
+            cleanWord: blank.dataset.answer
+        }));
+        
+        const result = this.fillEngine.checkAnswers(blankConfigs, this.answers);
         
         blanks.forEach(blank => {
-            const answer = blank.dataset.answer;
-            const filled = blank.dataset.filled;
-            
-            blank.classList.remove(this.options.correctClass, this.options.wrongClass);
-            
-            if (filled && filled.toLowerCase() === answer.toLowerCase()) {
-                blank.classList.add(this.options.correctClass);
-                correct++;
-            } else if (filled) {
-                blank.classList.add(this.options.wrongClass);
+            const blankResult = result.results.find(r => r.blankId === blank.dataset.blankId);
+            if (blankResult) {
+                blank.classList.remove(this.options.correctClass, this.options.wrongClass);
+                if (blankResult.userAnswer) {
+                    blank.classList.add(blankResult.isCorrect ? this.options.correctClass : this.options.wrongClass);
+                }
             }
         });
         
         const resultEl = document.getElementById(this.options.resultId);
         if (resultEl) {
-            if (correct === total) {
-                resultEl.innerHTML = `<span class="success">🎉 全部正确！${correct}/${total}</span>`;
+            if (result.isAllCorrect) {
+                resultEl.innerHTML = `<span class="success">🎉 全部正确！${result.correctCount}/${result.totalCount}</span>`;
                 this.playSound('correct');
             } else {
-                resultEl.innerHTML = `<span class="error">正确 ${correct}/${total}，继续加油！</span>`;
+                resultEl.innerHTML = `<span class="error">正确 ${result.correctCount}/${result.totalCount}，继续加油！</span>`;
                 this.playSound('wrong');
             }
         }
@@ -439,7 +408,7 @@ class WordFillTraining {
 }
 
 export function createWordFillTraining(options) {
-    return new WordFillTraining(options);
+    return new WordFillComponent(options);
 }
 
-export default WordFillTraining;
+export default WordFillComponent;

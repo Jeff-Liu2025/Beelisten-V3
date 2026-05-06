@@ -141,7 +141,7 @@ export async function loadExamQuestions(questionsFile) {
         return examQuestionsCache[questionsFile];
     }
     
-    const response = await fetch(`../${questionsFile}`);
+    const response = await fetch(`${questionsFile}`);
     const data = await response.json();
     examQuestionsCache[questionsFile] = data;
     return data;

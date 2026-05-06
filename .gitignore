@@ -1,7 +1,3 @@
-# 大文件 - 听力音频和字幕（GitHub 单文件限制100MB）
-听力资源/*.mp3
-听力资源/*.srt
-
 # 敏感信息 - API Key
 js/config.js
 
@@ -25,3 +21,5 @@ node_modules/
 # 临时文件
 *.tmp
 *.temp
+
+.iga/

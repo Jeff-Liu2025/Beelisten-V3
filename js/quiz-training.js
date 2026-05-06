@@ -9,7 +9,6 @@ import { smartSegment, formatSegmentDuration } from './utils/audio-segment.js';
 import { generateOptions, loadExamQuestions, generateExplanation, generatePassageAnalysis } from './quiz-generator.js';
 import Store from './store/index.js';
 import { saveProgress, loadProgress, clearProgress, hasUnfinishedTraining } from './store/training-progress.js';
-import { CONFIG } from './cdn-config.js';
 
 class QuizTraining {
     constructor() {
@@ -70,7 +69,7 @@ class QuizTraining {
     
     async loadSubtitles() {
         try {
-            const enResponse = await fetch(`${CONFIG.SUBTITLE_BASE_URL}${this.resource.subtitleFile}`);
+            const enResponse = await fetch(`../听力资源/${this.resource.subtitleFile}`);
             const enSrtContent = await enResponse.text();
             this.allSubtitles = parseSRT(enSrtContent);
             console.log('[QuizTraining] 英文字幕加载完成:', this.allSubtitles.length, '条');
@@ -82,9 +81,13 @@ class QuizTraining {
     
     async loadExamQuestionsData() {
         try {
+            console.log('[QuizTraining] 加载题目文件:', this.resource.questionsFile);
             const questionsData = await loadExamQuestions(this.resource.questionsFile);
             this.passages = questionsData.passages || [];
             console.log('[QuizTraining] 考试段落加载完成:', this.passages.length, '个段落');
+            if (this.passages.length > 0) {
+                console.log('[QuizTraining] 第一个段落:', this.passages[0].passageName);
+            }
         } catch (error) {
             console.error('[QuizTraining] 考试题目加载失败:', error);
             this.passages = [];
@@ -94,16 +97,42 @@ class QuizTraining {
     loadAudio() {
         if (!this.audio || !this.resource) return;
         
-        this.audio.src = `${CONFIG.AUDIO_BASE_URL}${this.resource.audioFile}`;
+        const audioSrc = `../听力资源/${this.resource.audioFile}`;
+        console.log('[QuizTraining] 加载音频:', audioSrc);
+        
+        this.audio.src = audioSrc;
         this.audio.load();
         
         this.audio.addEventListener('timeupdate', () => this.onTimeUpdate());
         this.audio.addEventListener('ended', () => this.onAudioEnded());
-        this.audio.addEventListener('loadedmetadata', () => this.updateTimeDisplay());
+        this.audio.addEventListener('loadedmetadata', () => {
+            console.log('[QuizTraining] 音频元数据加载完成');
+            this.updateTimeDisplay();
+        });
+        this.audio.addEventListener('error', (e) => {
+            console.error('[QuizTraining] 音频加载错误:', e);
+        });
     }
     
     startPassage(passageIndex) {
-        console.log('[QuizTraining] startPassage called with index:', passageIndex);
+        console.log('[QuizTraining] startPassage called with index:', passageIndex, 'passages count:', this.passages.length);
+        
+        if (this.isExamResource && this.passages.length === 0) {
+            console.error('[QuizTraining] 没有段落数据！题目可能加载失败');
+            const container = document.getElementById('quizOptionsContainer');
+            if (container) {
+                container.innerHTML = `
+                    <div class="error-message">
+                        <div class="error-icon">⚠️</div>
+                        <h3>题目加载失败</h3>
+                        <p>请检查网络连接后刷新页面重试</p>
+                        <button class="training-action-btn" onclick="window.location.reload()">刷新页面</button>
+                    </div>
+                `;
+                container.classList.remove('hidden');
+            }
+            return;
+        }
         
         const playerSection = document.querySelector('.training-player-section');
         if (playerSection) {
@@ -184,12 +213,21 @@ class QuizTraining {
     }
     
     startContinuousPlay() {
-        if (!this.audio || !this.currentPassage) return;
+        console.log('[QuizTraining] startContinuousPlay called');
+        console.log('[QuizTraining] audio:', this.audio ? 'exists' : 'null');
+        console.log('[QuizTraining] currentPassage:', this.currentPassage ? this.currentPassage.passageName : 'null');
+        console.log('[QuizTraining] audio src:', this.audio?.src);
+        
+        if (!this.audio || !this.currentPassage) {
+            console.error('[QuizTraining] startContinuousPlay: audio or currentPassage is null');
+            return;
+        }
         
         this.showingQuestions = false;
         this.hasAnswered = false;
         
         const startTime = this.currentPassage.passageStartTime || 0;
+        console.log('[QuizTraining] startTime:', startTime);
         
         const playWhenReady = () => {
             this.audio.currentTime = startTime;
@@ -197,6 +235,7 @@ class QuizTraining {
             const playPromise = this.audio.play();
             if (playPromise !== undefined) {
                 playPromise.then(() => {
+                    console.log('[QuizTraining] 播放成功');
                     this.isPlaying = true;
                     this.updatePlayButton();
                     this.hideQuestionUI();
@@ -829,8 +868,8 @@ class QuizTraining {
     playSound(type) {
         try {
             const sound = new Audio(type === 'correct' ? 
-                `${CONFIG.SOUND_EFFECTS_BASE_URL}按键提示音效/答对提示音.mp3` : 
-                `${CONFIG.SOUND_EFFECTS_BASE_URL}按键提示音效/打错提示音.mp3`
+                '../按键提示音效/答对提示音.mp3' : 
+                '../按键提示音效/打错提示音.mp3'
             );
             sound.volume = 0.5;
             sound.play().catch(() => {});
