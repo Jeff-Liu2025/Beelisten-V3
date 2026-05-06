@@ -3,6 +3,7 @@
  * 负责初始化所有模块、页面导航、播客列表渲染等
  */
 
+import './env-config.js';
 import Player from './player/index.js';
 import SubtitleManager from './subtitle/index.js';
 import Dictionary from './dictionary/index.js';
@@ -449,14 +450,14 @@ class BeelistenApp {
             titleEl.textContent = podcast.title;
         }
         
-        const audioSrc = `/Beelisten-V3/听力资源/${podcast.audioFile}`;
+        const audioSrc = ENV.getAudioPath(podcast.audioFile);
         if (this.player) {
             this.player.load(audioSrc);
         }
         
         // 加载双语字幕
-        const subtitleSrc = `/Beelisten-V3/听力资源/${podcast.subtitleFile}`;
-        const subtitleSrcZh = podcast.subtitleFileZh ? `/Beelisten-V3/听力资源/${podcast.subtitleFileZh}` : null;
+        const subtitleSrc = ENV.getSubtitlePath(podcast.subtitleFile);
+        const subtitleSrcZh = podcast.subtitleFileZh ? ENV.getSubtitlePath(podcast.subtitleFileZh) : null;
         
         if (this.subtitleManager) {
             try {

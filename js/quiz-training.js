@@ -3,6 +3,7 @@
  * 模拟真实听力考试：先播放完整段落，再显示该段落所有题目
  */
 
+import './env-config.js';
 import { parseSRT } from './utils/srtParser.js';
 import { formatTime } from './utils/time.js';
 import { smartSegment, formatSegmentDuration } from './utils/audio-segment.js';
@@ -69,7 +70,7 @@ class QuizTraining {
     
     async loadSubtitles() {
         try {
-            const enResponse = await fetch(`/Beelisten-V3/听力资源/${this.resource.subtitleFile}`);
+            const enResponse = await fetch(ENV.getSubtitlePath(this.resource.subtitleFile));
             const enSrtContent = await enResponse.text();
             this.allSubtitles = parseSRT(enSrtContent);
             console.log('[QuizTraining] 英文字幕加载完成:', this.allSubtitles.length, '条');
@@ -97,7 +98,7 @@ class QuizTraining {
     loadAudio() {
         if (!this.audio || !this.resource) return;
         
-        const audioSrc = `/Beelisten-V3/听力资源/${this.resource.audioFile}`;
+        const audioSrc = ENV.getAudioPath(this.resource.audioFile);
         console.log('[QuizTraining] 加载音频:', audioSrc);
         
         this.audio.src = audioSrc;
@@ -868,8 +869,8 @@ class QuizTraining {
     playSound(type) {
         try {
             const sound = new Audio(type === 'correct' ? 
-                '/Beelisten-V3/按键提示音效/答对提示音.mp3' : 
-                '/Beelisten-V3/按键提示音效/打错提示音.mp3'
+                ENV.getSoundPath('答对提示音.mp3') : 
+                ENV.getSoundPath('打错提示音.mp3')
             );
             sound.volume = 0.5;
             sound.play().catch(() => {});

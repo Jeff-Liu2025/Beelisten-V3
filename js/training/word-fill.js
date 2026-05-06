@@ -57,8 +57,8 @@ class WordFillComponent {
     
     loadSounds() {
         try {
-            this.correctSound = new Audio('/Beelisten-V3/按键提示音效/答对提示音.mp3');
-            this.wrongSound = new Audio('/Beelisten-V3/按键提示音效/打错提示音.mp3');
+            this.correctSound = new Audio(ENV.getSoundPath('答对提示音.mp3'));
+            this.wrongSound = new Audio(ENV.getSoundPath('打错提示音.mp3'));
         } catch (err) {
             console.warn('[WordFill] 音效加载失败:', err);
         }

@@ -3,6 +3,7 @@
  * 负责训练页面的整体流程协调
  */
 
+import './env-config.js';
 import { parseSRT } from './utils/srtParser.js';
 import { formatTime } from './utils/time.js';
 import { formatSegmentDuration } from './utils/audio-segment.js';
@@ -75,7 +76,7 @@ class TrainingPage {
     
     async loadSubtitles() {
         try {
-            const enResponse = await fetch(`/Beelisten-V3/听力资源/${this.resource.subtitleFile}`);
+            const enResponse = await fetch(ENV.getSubtitlePath(this.resource.subtitleFile));
             const enSrtContent = await enResponse.text();
             this.allSubtitles = parseSRT(enSrtContent);
             console.log('[WordFillTraining] 英文字幕加载完成:', this.allSubtitles.length, '条');
@@ -86,7 +87,7 @@ class TrainingPage {
         
         if (this.resource.subtitleFileZh) {
             try {
-                const zhResponse = await fetch(`/Beelisten-V3/听力资源/${this.resource.subtitleFileZh}`);
+                const zhResponse = await fetch(ENV.getSubtitlePath(this.resource.subtitleFileZh));
                 const zhSrtContent = await zhResponse.text();
                 this.zhSubtitles = parseSRT(zhSrtContent);
                 console.log('[WordFillTraining] 中文字幕加载完成:', this.zhSubtitles.length, '条');
@@ -166,7 +167,7 @@ class TrainingPage {
     loadAudio() {
         if (!this.audioElement || !this.resource) return;
         
-        this.audioElement.src = `/Beelisten-V3/听力资源/${this.resource.audioFile}`;
+        this.audioElement.src = ENV.getAudioPath(this.resource.audioFile);
         this.audioElement.load();
         
         this.audioManager.onTimeUpdate((currentTime) => {
@@ -707,8 +708,8 @@ class TrainingPage {
     playSound(type) {
         try {
             const sound = new Audio(type === 'correct' ? 
-                '/Beelisten-V3/按键提示音效/答对提示音.mp3' : 
-                '/Beelisten-V3/按键提示音效/打错提示音.mp3'
+                ENV.getSoundPath('答对提示音.mp3') : 
+                ENV.getSoundPath('打错提示音.mp3')
             );
             sound.volume = 0.5;
             sound.play().catch(() => {});
