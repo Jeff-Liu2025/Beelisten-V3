@@ -449,14 +449,14 @@ class BeelistenApp {
             titleEl.textContent = podcast.title;
         }
         
-        const audioSrc = `../听力资源/${podcast.audioFile}`;
+        const audioSrc = `/Beelisten-V3/听力资源/${podcast.audioFile}`;
         if (this.player) {
             this.player.load(audioSrc);
         }
         
         // 加载双语字幕
-        const subtitleSrc = `../听力资源/${podcast.subtitleFile}`;
-        const subtitleSrcZh = podcast.subtitleFileZh ? `../听力资源/${podcast.subtitleFileZh}` : null;
+        const subtitleSrc = `/Beelisten-V3/听力资源/${podcast.subtitleFile}`;
+        const subtitleSrcZh = podcast.subtitleFileZh ? `/Beelisten-V3/听力资源/${podcast.subtitleFileZh}` : null;
         
         if (this.subtitleManager) {
             try {

@@ -75,7 +75,7 @@ class TrainingPage {
     
     async loadSubtitles() {
         try {
-            const enResponse = await fetch(`../%E5%90%AC%E5%8A%9B%E8%B5%84%E6%BA%90/${encodeURIComponent(this.resource.subtitleFile)}`);
+            const enResponse = await fetch(`/Beelisten-V3/听力资源/${this.resource.subtitleFile}`);
             const enSrtContent = await enResponse.text();
             this.allSubtitles = parseSRT(enSrtContent);
             console.log('[WordFillTraining] 英文字幕加载完成:', this.allSubtitles.length, '条');
@@ -86,7 +86,7 @@ class TrainingPage {
         
         if (this.resource.subtitleFileZh) {
             try {
-                const zhResponse = await fetch(`../%E5%90%AC%E5%8A%9B%E8%B5%84%E6%BA%90/${encodeURIComponent(this.resource.subtitleFileZh)}`);
+                const zhResponse = await fetch(`/Beelisten-V3/听力资源/${this.resource.subtitleFileZh}`);
                 const zhSrtContent = await zhResponse.text();
                 this.zhSubtitles = parseSRT(zhSrtContent);
                 console.log('[WordFillTraining] 中文字幕加载完成:', this.zhSubtitles.length, '条');
@@ -166,7 +166,7 @@ class TrainingPage {
     loadAudio() {
         if (!this.audioElement || !this.resource) return;
         
-        this.audioElement.src = `../%E5%90%AC%E5%8A%9B%E8%B5%84%E6%BA%90/${encodeURIComponent(this.resource.audioFile)}`;
+        this.audioElement.src = `/Beelisten-V3/听力资源/${this.resource.audioFile}`;
         this.audioElement.load();
         
         this.audioManager.onTimeUpdate((currentTime) => {
@@ -707,8 +707,8 @@ class TrainingPage {
     playSound(type) {
         try {
             const sound = new Audio(type === 'correct' ? 
-                '../按键提示音效/答对提示音.mp3' : 
-                '../按键提示音效/打错提示音.mp3'
+                '/Beelisten-V3/按键提示音效/答对提示音.mp3' : 
+                '/Beelisten-V3/按键提示音效/打错提示音.mp3'
             );
             sound.volume = 0.5;
             sound.play().catch(() => {});
